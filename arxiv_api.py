@@ -7,7 +7,7 @@ start_date = datetime(2024, 7, 16)
 end_date = datetime(2024, 7, 23)
 
 # 카테고리 및 날짜 범위 설정
-category = "cs.IT OR cs.NI OR eess.SP OR eess.IV OR eess.SY"
+category = "cs.IT OR cs.NI OR eess.SP OR eess.NT OR eess.SY OR math.IT"
 query = f"cat:{category} AND submittedDate:[20240716 TO 20240723]"
 
 # API 클라이언트 생성
