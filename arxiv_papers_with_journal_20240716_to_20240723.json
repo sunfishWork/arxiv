@@ -1,0 +1,13 @@
+[
+    {
+        "title": "Reconfigurable Intelligent Surface for Sensing, Communication, and Computation: Perspectives, Challenges, and Opportunities",
+        "authors": [
+            "Bin Li",
+            "Wancheng Xie",
+            "Zesong Fei"
+        ],
+        "published": "2024-07-16",
+        "summary": "Forthcoming 6G networks have two predominant features of wide coverage and\nsufficient computation capability. To support the promising applications,\nIntegrated Sensing, Communication, and Computation (ISCC) has been considered\nas a vital enabler by completing the computation of raw data to achieve\naccurate environmental sensing. To help the ISCC networks better support the\ncomprehensive services of radar detection, data transmission and edge\ncomputing, Reconfigurable Intelligent Surface (RIS) can be employed to boost\nthe transmission rate and the wireless coverage by smartly tuning the\nelectromagnetic characteristics of the environment. In this article, we propose\nan RIS-assisted ISCC framework and exploit the RIS benefits for improving radar\nsensing, communication and computing functionalities via cross-layer design,\nwhile discussing the key challenges. Then, two generic application scenarios\nare presented, i.e., unmanned aerial vehicles and Internet of vehicles.\nFinally, numerical results demonstrate a superiority of RIS-assisted ISCC,\nfollowed by a range of future research directions.",
+        "journal_ref": "vol. 7, no. 4, pp. 36-42, Jul. 2024"
+    }
+]
