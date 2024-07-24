@@ -1,0 +1,1012 @@
+[
+    {
+        "title": "Online Reduced-Order Data-Enabled Predictive Control",
+        "authors": [
+            "Amin Vahidi-Moghaddam",
+            "Kaixiang Zhang",
+            "Xunyuan Yin",
+            "Vaibhav Srivastava",
+            "Zhaojian Li"
+        ],
+        "published": "2024-07-22",
+        "summary": "Data-enabled predictive control (DeePC) has garnered significant attention\nfor its ability to achieve safe, data-driven optimal control without relying on\nexplicit system models. Traditional DeePC methods use pre-collected\ninput/output (I/O) data to construct Hankel matrices for online predictive\ncontrol. However, in systems with evolving dynamics or insufficient\npre-collected data, incorporating real-time data into the DeePC framework\nbecomes crucial to enhance control performance. This paper proposes an online\nDeePC framework for time-varying systems (i.e., systems with evolving\ndynamics), enabling the algorithm to update the Hankel matrix online by adding\nreal-time informative signals. By exploiting the minimum non-zero singular\nvalue of the Hankel matrix, the developed online DeePC selectively integrates\ninformative data and effectively captures evolving system dynamics.\nAdditionally, a numerical singular value decomposition technique is introduced\nto reduce the computational complexity for updating a reduced-order Hankel\nmatrix. Simulation results on two cases, a linear time-varying system and the\nvehicle anti-rollover control, demonstrate the effectiveness of the proposed\nonline reduced-order DeePC framework.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Efficient Replay Memory Architectures in Multi-Agent Reinforcement Learning for Traffic Congestion Control",
+        "authors": [
+            "Mukul Chodhary",
+            "Kevin Octavian",
+            "SooJean Han"
+        ],
+        "published": "2024-07-22",
+        "summary": "Episodic control, inspired by the role of episodic memory in the human brain,\nhas been shown to improve the sample inefficiency of model-free reinforcement\nlearning by reusing high-return past experiences. However, the memory growth of\nepisodic control is undesirable in large-scale multi-agent problems such as\nvehicle traffic management. This paper proposes a novel replay memory\narchitecture called Dual-Memory Integrated Learning, to augment to multi-agent\nreinforcement learning methods for congestion control via adaptive light signal\nscheduling. Our dual-memory architecture mimics two core capabilities of human\ndecision-making. First, it relies on diverse types of memory--semantic and\nepisodic, short-term and long-term--in order to remember high-return states\nthat occur often in the network and filter out states that don't. Second, it\nemploys equivalence classes to group together similar state-action pairs and\nthat can be controlled using the same action (i.e., light signal sequence).\nTheoretical analyses establish memory growth bounds, and simulation experiments\non several intersection networks showcase improved congestion performance\n(e.g., vehicle throughput) from our method.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "An RF-Domain Leakage Cancellation Scheme for FMCW Radars",
+        "authors": [
+            "Yikuan Chen",
+            "Ali Niknejad"
+        ],
+        "published": "2024-07-22",
+        "summary": "This paper proposes a novel solution to address the leakage from the\ntransmitter (TX) to the receiver (RX) in frequency-modulated continuous-wave\n(FMCW) radars. The proposed scheme replicates the leakage using an in-phase and\nquadrature mixer (IQ-mixer) and performs leakage cancellation in the\nradio-frequency (RF) domain. This approach utilizes a Wilkinson power combiner\nafter the RX antenna to subtract the replicated leakage signal from the\nreceived signal, ensuring that only the true target signal reaches the\nlow-noise amplifier (LNA). This scheme enhances the dynamic range and the\nreceiver's ability to discern proximate targets from previously\nindistinguishable low beat-frequency clutter. In addition, the proposed\ntechnique incorporates a second IQ-mixer based complex modulator in the\ntransmitter to tune the leakage beat frequency. This allows for accurate\nestimation of the leakage amplitude and phase without additional hardware.\nSimulation results show more than 20 dB of leakage cancellation.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Diffusion Model Based Resource Allocation Strategy in Ultra-Reliable Wireless Networked Control Systems",
+        "authors": [
+            "Amirhassan Babazadeh Darabi",
+            "Sinem Coleri"
+        ],
+        "published": "2024-07-22",
+        "summary": "Diffusion models are vastly used in generative AI, leveraging their\ncapability to capture complex data distributions. However, their potential\nremains largely unexplored in the field of resource allocation in wireless\nnetworks. This paper introduces a novel diffusion model-based resource\nallocation strategy for Wireless Networked Control Systems (WNCSs) with the\nobjective of minimizing total power consumption through the optimization of the\nsampling period in the control system, and blocklength and packet error\nprobability in the finite blocklength regime of the communication system. The\nproblem is first reduced to the optimization of blocklength only based on the\nderivation of the optimality conditions. Then, the optimization theory solution\ncollects a dataset of channel gains and corresponding optimal blocklengths.\nFinally, the Denoising Diffusion Probabilistic Model (DDPM) uses this collected\ndataset to train the resource allocation algorithm that generates optimal\nblocklength values conditioned on the channel state information (CSI). Via\nextensive simulations, the proposed approach is shown to outperform previously\nproposed Deep Reinforcement Learning (DRL) based approaches with close to\noptimal performance regarding total power consumption. Moreover, an improvement\nof up to eighteen-fold in the reduction of critical constraint violations is\nobserved, further underscoring the accuracy of the solution.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "How to Shrink Confidence Sets for Many Equivalent Discrete Distributions?",
+        "authors": [
+            "Odalric-Ambrym Maillard",
+            "Mohammad Sadegh Talebi"
+        ],
+        "published": "2024-07-22",
+        "summary": "We consider the situation when a learner faces a set of unknown discrete\ndistributions $(p_k)_{k\\in \\mathcal K}$ defined over a common alphabet\n$\\mathcal X$, and can build for each distribution $p_k$ an individual\nhigh-probability confidence set thanks to $n_k$ observations sampled from\n$p_k$. The set $(p_k)_{k\\in \\mathcal K}$ is structured: each distribution $p_k$\nis obtained from the same common, but unknown, distribution q via applying an\nunknown permutation to $\\mathcal X$. We call this\n\\emph{permutation-equivalence}. The goal is to build refined confidence sets\n\\emph{exploiting} this structural property. Like other popular notions of\nstructure (Lipschitz smoothness, Linearity, etc.) permutation-equivalence\nnaturally appears in machine learning problems, and to benefit from its\npotential gain calls for a specific approach. We present a strategy to\neffectively exploit permutation-equivalence, and provide a finite-time\nhigh-probability bound on the size of the refined confidence sets output by the\nstrategy. Since a refinement is not possible for too few observations in\ngeneral, under mild technical assumptions, our finite-time analysis establish\nwhen the number of observations $(n_k)_{k\\in \\mathcal K}$ are large enough so\nthat the output confidence sets improve over initial individual sets. We\ncarefully characterize this event and the corresponding improvement. Further,\nour result implies that the size of confidence sets shrink at asymptotic rates\nof $O(1/\\sqrt{\\sum_{k\\in \\mathcal K} n_k})$ and $O(1/\\max_{k\\in K} n_{k})$,\nrespectively for elements inside and outside the support of q, when the size of\neach individual confidence set shrinks at respective rates of $O(1/\\sqrt{n_k})$\nand $O(1/n_k)$. We illustrate the practical benefit of exploiting permutation\nequivalence on a reinforcement learning task.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Vehicle-to-Everything: Looking into the Future of Flexibility Services",
+        "authors": [
+            "Omid Homaee",
+            "Chaimaa Essayeh",
+            "Vahid Vahidinasab",
+            "Ville Tikka",
+            "Goncalo Mendes",
+            "Jim Fawcett"
+        ],
+        "published": "2024-07-22",
+        "summary": "The primary aim of this paper is to illuminate potential\nVehicle-to-Everything (V2X) flexibility services that can be activated at the\nthree levels of home, community, and grid. To do this, the potential practical\nservices that can be provided by EVs, flexibility requesters, and the required\nexchange mechanisms at these three levels are identified. At the home level,\nthe two main services that EVs can provide to households are explored. The\ninitial service focuses on cost reduction for homes by employing smart charging\nand discharging methods, and the second service underscores the capability of\nan EV equipped with bidirectional chargers to function as a backup resource\nduring grid outages. At the community level, three flexibility services are\nintroduced and outlined: community cost reduction, energy sharing, and backup\nresources. There is more than one flexibility requester, including the\ncommunity manager, EV owners, and other end users. Accordingly, at this level,\nhaving a fair and transparent market mechanism can optimise the activation of\ndifferent V2X flexibility services. At the grid level, flexibility providers\ncan offer two main flexibility services, namely load profile adjustment and\nreal-time voltage and frequency control, to a wide range of flexibility\nrequesters, including distribution network/systems operators (DNOs/DSOs) to\novercome technical challenges of the distribution network, energy suppliers to\nmanage their energy portfolio, and TSOs to support transmission network. In\naddition, a review of trial V2X projects and V2X supporting regulations is\npresented to contextualize the feasibility and regulatory framework for\nimplementing these services. This analysis offers insights into the challenges\nand opportunities that need to be addressed for the effective integration of\nV2X flexibility services across the three identified levels.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Experimenting with Adaptive Bitrate Algorithms for Virtual Reality Streaming over Wi-Fi",
+        "authors": [
+            "Ferran Maura",
+            "Miguel Casasnovas",
+            "Boris Bellalta"
+        ],
+        "published": "2024-07-22",
+        "summary": "Interactive Virtual Reality (VR) streaming over Wi-Fi networks encounters\nsignificant challenges due to bandwidth fluctuations caused by channel\ncontention and user mobility. Adaptive BitRate (ABR) algorithms dynamically\nadjust the video encoding bitrate based on the available network capacity,\naiming to maximize image quality while mitigating congestion and preserving the\nuser's Quality of Experience (QoE). In this paper, we experiment with ABR\nalgorithms for VR streaming using Air Light VR (ALVR), an open-source VR\nstreaming solution. We extend ALVR with a comprehensive set of metrics that\nprovide a robust characterization of the network's state, enabling more\ninformed bitrate adjustments. To demonstrate the utility of these performance\nindicators, we develop and test the Network-aware Step-wise ABR algorithm for\nVR streaming (NeSt-VR). Results validate the accuracy of the newly implemented\nnetwork performance metrics and demonstrate NeSt-VR's video bitrate adaptation\ncapabilities.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "A Methodology for Power Dispatch Based on Traction Station Clusters in the Flexible Traction Power Supply System",
+        "authors": [
+            "Ruofan Li",
+            "Qianhao Sun",
+            "Qifang Chen",
+            "Mingchao Xia"
+        ],
+        "published": "2024-07-22",
+        "summary": "The flexible traction power supply system (FTPSS) eliminates the neutral zone\nbut leads to increased complexity in power flow coordinated control and power\nmismatch. To address these challenges, the methodology for power dispatch (PD)\nbased on traction station clusters (TSCs) in FTPSS is proposed, in which each\nTSC with a consistent structure performs independent local phase angle control.\nFirst, to simplify the PD problem of TSCs, the system is transformed into an\nequivalent model with constant topology, resulting in it can be solved by\nunivariate numerical optimization with higher computational performance. Next,\nthe calculation method of the feasible phase angle domain under strict and\nrelaxed power circulation constraints are described, respectively, which\nensures that power circulation can be either eliminated or precisely\ncontrolled. Finally, the PD method with three unique modes for uncertain train\nloads is introduced to enhance power flow flexibility: specified power\ndistribution coefficients between traction substations (TSs), constant output\npower of TSs, and maximum consumption of renewable resources within TSs. In the\nexperimental section, the performance of the TSC methodology for PD is verified\nthrough detailed train operation scenarios.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Cooperative Salvo Guidance over Leader-Follower Network with Free-Will Arbitrary Time Convergence",
+        "authors": [
+            "Rajib Shekhar Pal",
+            "Shashi Ranjan Kumar",
+            "Dwaipayan Mukherjee"
+        ],
+        "published": "2024-07-22",
+        "summary": "A cooperative salvo strategy is proposed in this paper which achieves\nconsensus among the interceptors within a pre-defined arbitrary settling time.\nConsidering non-linear engagement kinematics and a system lag to capture the\neffect of interceptor autopilot as present in realistic interception scenarios,\nthe guidance schemes use the time-to-go estimates of the interceptors in order\nto achieve simultaneous interception of a stationary target at a pre-determined\nimpact time. The guidance scheme ensures that consensus among the time-to-go\nestimates of the interceptors is achieved within a settling time whose upper\nbound can be pre-specified arbitrarily independent of the initial conditions or\ndesign parameters. The efficacy of the proposed guidance strategy is\ndemonstrated using numerical simulations with varied conditions of initial\nposition, velocities and heading angle errors of the interceptors as well as\ndifferent desired impact times.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Should we use model-free or model-based control? A case study of battery management systems",
+        "authors": [
+            "Mohamad Fares El Hajj Chehade",
+            "Young-ho Cho",
+            "Sandeep Chinchali",
+            "Hao Zhu"
+        ],
+        "published": "2024-07-22",
+        "summary": "Reinforcement learning (RL) and model predictive control (MPC) each offer\ndistinct advantages and limitations when applied to control problems in power\nand energy systems. Despite various studies on these methods, benchmarks remain\nlacking and the preference for RL over traditional controls is not well\nunderstood. In this work, we put forth a comparative analysis using RL- and\nMPC-based controllers for optimizing a battery management system (BMS). The BMS\nproblem aims to minimize costs while adhering to operational limits. by\nadjusting the battery (dis)charging in response to fluctuating electricity\nprices over a time horizon. The MPC controller uses a learningbased forecast of\nfuture demand and price changes to formulate a multi-period linear program,\nthat can be solved using off-the-shelf solvers. Meanwhile, the RL controller\nrequires no timeseries modeling but instead is trained from the sample\ntrajectories using the proximal policy optimization (PPO) algorithm. Numerical\ntests compare these controllers across optimality, training time, testing time,\nand robustness, providing a comprehensive evaluation of their efficacy. RL not\nonly yields optimal solutions quickly but also ensures robustness to shifts in\ncustomer behavior, such as changes in demand distribution. However, as\nexpected, training the RL agent is more time-consuming than MPC.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Weyl Calculus and Exactly Solvable Schrödinger Bridges with Quadratic State Cost",
+        "authors": [
+            "Alexis M. H. Teter",
+            "Wenqing Wang",
+            "Abhishek Halder"
+        ],
+        "published": "2024-07-21",
+        "summary": "Schr\\\"{o}dinger bridge--a stochastic dynamical generalization of optimal mass\ntransport--exhibits a learning-control duality. Viewed as a stochastic control\nproblem, the Schr\\\"{o}dinger bridge finds an optimal control policy that steers\na given joint state statistics to another while minimizing the total control\neffort subject to controlled diffusion and deadline constraints. Viewed as a\nstochastic learning problem, the Schr\\\"{o}dinger bridge finds the most-likely\ndistribution-valued trajectory connecting endpoint distributional observations,\ni.e., solves the two point boundary-constrained maximum likelihood problem over\nthe manifold of probability distributions. Recent works have shown that solving\nthe Schr\\\"{o}dinger bridge problem with state cost requires finding the Markov\nkernel associated with a reaction-diffusion PDE where the state cost appears as\na state-dependent reaction rate. We explain how ideas from Weyl calculus in\nquantum mechanics, specifically the Weyl operator and the Weyl symbol, can help\ndetermine such Markov kernels. We illustrate these ideas by explicitly finding\nthe Markov kernel for the case of quadratic state cost via Weyl calculus,\nrecovering our earlier results but avoiding tedious computation with Hermite\npolynomials.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Variation Bayesian Interference for Multiple Extended Targets or Unresolved Group Targets Tracking",
+        "authors": [
+            "Yuanhao Cheng",
+            "Yunhe Cao",
+            "Tat-Soon Yeo",
+            "Yulin Zhang",
+            "Fu Jie"
+        ],
+        "published": "2024-07-21",
+        "summary": "In this work, we propose a tracking method for multiple extended targets or\nunresolvable group targets based on the Variational Bayesian Inference (VBI).\nFirstly, based on the most commonly used Random Matrix Model (RMM), the joint\nstates of a single target are modeled as a Gamma Gaussian Inverse Wishart\n(GGIW) distribution, and the multi-target joint association variables are\ninvolved in the estimation together as unknown information with a prior\ndistribution. A shape evolution model and VBI are employed to address the\nshortcomings of the RMM. Through the VBI, we can derive the approximate\nvariational posterior for the exact multi-target posterior. Furthermore, to\ndemonstrate the applicability of the method in real-world tracking scenarios,\nwe present two potential lightweight schemes. The first is based on clustering,\nwhich effectively prunes the joint association events. The second is a\nsimplification of the variational posterior through marginal association\nprobabilities. We demonstrate the effectiveness of the proposed method using\nsimulation experiments, and the proposed method outperforms current\nstate-of-the-art methods in terms of accuracy and adaptability. This manuscript\nis only a preprint version, a completer and more official version will be\nuploaded as soon as possible",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "More-than-Moore Microacoustics: A Scalable Fabrication Process for Suspended Lamb Wave Resonators",
+        "authors": [
+            "Marco Liffredo",
+            "Federico Peretti",
+            "Nan Xu",
+            "Silvan Stettler",
+            "Luis Guillermo Villanueva"
+        ],
+        "published": "2024-07-21",
+        "summary": "Deep Ultraviolet (DUV) Photolithography is currently used to fabricate\nmass-scale integrated circuits (ICs). Its high throughput and resolution could\nbenefit large-scale RF MEMS production for the telecommunication market. We\npresent a process flow to fabricate suspended acoustic resonators using DUV\nPhotolithography. This method allows for scalable production of resonators with\ncritical dimensions of 250 nm and alignment accuracy of less than 100 nm. We\nshow how photoresists and anti-reflective coatings integrate with the process,\nhelp with deposition quality and resolution, and how Ion Beam Etching allows\nfor vertical sidewalls of the resonators. We measure resonance frequencies (fr)\nup to 7.5 GHz and electromechanical couplings up to 8%, and we investigate the\nuniformity of this process by analyzing the deviation of fs over the wafer\nsurface for four main resonance modes. We show that the deviation of the S0\nmode can be kept below 1%. These results indicate the suitability of this\nprocess for quick scale-up of Lamb wave resonator technology, bridging the gap\nfrom research to industry.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Measurements of the Safety Function Response Time on a Private 5G and IO-Link Wireless Testbed",
+        "authors": [
+            "Henry Beuster",
+            "Kevin Tebbe",
+            "Thomas Doebbert",
+            "Gerd Scholl"
+        ],
+        "published": "2024-07-21",
+        "summary": "In the past few years, there has been a growing significance of interactions\nbetween human workers and automated systems throughout the factory floor.\nWherever static or mobile robots, such as automated guided vehicles, operate\nautonomously, a protected environment for personnel and machines must be\nprovided by, e.g., safe, deterministic and low-latency technologies. Another\ntrend in this area is the increased use of wireless communication, offering a\nhigh flexibility, modularity, and reduced installation and maintenance efforts.\nThis work presents a testbed implementation that integrates a wireless\nframework, employing IO-Link Wireless (IOLW) and a private 5G cellular network,\nto orchestrate a complete example process from sensors and actuators up into\nthe edge, represented by a programmable logic controller (PLC). Latency\nassessments identify the systems cycle time as well as opportunities for\nimprovement. A worst-case estimation shows the attainable safety function\nresponse time for practical applications in the context of functional safety.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Reinforcement Learning Optimizes Power Dispatch in Decentralized Power Grid",
+        "authors": [
+            "Yongsun Lee",
+            "Hoyun Choi",
+            "Laurent Pagnier",
+            "Cook Hyun Kim",
+            "Jongshin Lee",
+            "Bukyoung Jhun",
+            "Heetae Kim",
+            "Juergen Kurths",
+            "B. Kahng"
+        ],
+        "published": "2024-07-21",
+        "summary": "Effective frequency control in power grids has become increasingly important\nwith the increasing demand for renewable energy sources. Here, we propose a\nnovel strategy for resolving this challenge using graph convolutional proximal\npolicy optimization (GC-PPO). The GC-PPO method can optimally determine how\nmuch power individual buses dispatch to reduce frequency fluctuations across a\npower grid. We demonstrate its efficacy in controlling disturbances by applying\nthe GC-PPO to the power grid of the UK. The performance of GC-PPO is\noutstanding compared to the classical methods. This result highlights the\npromising role of GC-PPO in enhancing the stability and reliability of power\nsystems by switching lines or decentralizing grid topology.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "An Interface Method for Co-simulation of EMT Model and Shifted Frequency EMT Model Based on Rotational Invariance Techniques",
+        "authors": [
+            "Shilin Gao",
+            "Ying Chen",
+            "Zhitong Yu",
+            "Yankan Song",
+            "Wensheng Chen",
+            "Yuhong Wang"
+        ],
+        "published": "2024-07-21",
+        "summary": "The shifted frequency-based electromagnetic transient (SFEMT) simulation has\ngreatly improved the computational efficiency of traditional electromagnetic\ntransient (EMT) simulation for the ac grid. This letter proposes a novel\ninterface for the co-simulation of the SFEMT model and the traditional EMT\nmodel. The general form of SFEMT modeling and the principle of analytical\nsignal construction are first derived. Then, an interface for the co-simulation\nof EMT and SFEMT simulation is proposed based on rotational invariance\ntechniques. Theoretical analyses and test results demonstrate the effectiveness\nof the proposed method.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "UAV Active Perception and Motion Control for Improving Navigation Using Low-Cost Sensors",
+        "authors": [
+            "Konstantinos Gounis",
+            "Nikolaos Passalis",
+            "Anastasios Tefas"
+        ],
+        "published": "2024-07-21",
+        "summary": "In this study a model pipeline is proposed that combines computer vision with\ncontrol-theoretic methods and utilizes low cost sensors. The proposed work\nenables perception-aware motion control for a quadrotor UAV to detect and\nnavigate to objects of interest such as wind turbines and electric towers. The\ndistance to the object of interest was estimated utilizing RGB as the primary\nsensory input. For the needs of the study, the Microsoft AirSim simulator was\nused. As a first step, a YOLOv8 model was integrated providing the basic\nposition setpoints towards the detection. From the YOLOv8 inference, a target\nyaw angle was derived. The subsequent algorithms, combining performant in\ncomputational terms computer vision methods and YOLOv8, actively drove the\ndrone to measure the height of the detection. Based on the height, an estimate\nof the depth was retrieved. In addition to this step, a convolutional neural\nnetwork was developed, namely ActvePerceptionNet aiming at active YOLOv8\ninference. The latter was validated for wind turbines where the rotational\nmotion of the propeller was found to affect object confidence in a near\nperiodical fashion. The results of the simulation experiments conducted in this\nstudy showed efficient object height and distance estimation and effective\nlocalization.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "The statistical spread of transmission outages on a fast protection time scale based on utility data",
+        "authors": [
+            "Ian Dobson",
+            "D. Adrian Maldonado",
+            "Mihai Anitescu"
+        ],
+        "published": "2024-07-21",
+        "summary": "When there is a fault, the protection system automatically removes one or\nmore transmission lines on a fast time scale of less than one minute. The\noutaged lines form a pattern in the transmission network. We extract these\npatterns from utility outage data, determine some key statistics of these\npatterns, and then show how to generate new patterns consistent with these\nstatistics. The generated patterns provide a new and easily feasible way to\nmodel the overall effect of the protection system at the scale of a large\ntransmission system. This new generative modeling of protection is expected to\ncontribute to simulations of disturbances in large grids so that they can\nbetter quantify the risk of blackouts. Analysis of the pattern sizes suggests\nan index that describes how much outages spread in the transmission network at\nthe fast timescale.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Efficient Sampling for Data-Driven Frequency Stability Constraint via Forward-Mode Automatic Differentiation",
+        "authors": [
+            "Wangkun Xu",
+            "Qian Chen",
+            "Pudong Ge",
+            "Zhongda Chu",
+            "Fei Teng"
+        ],
+        "published": "2024-07-21",
+        "summary": "Encoding frequency stability constraints in the operation problem is\nchallenging due to its complex dynamics. Recently, data-driven approaches have\nbeen proposed to learn the stability criteria offline with the trained model\nembedded as a constraint of online optimization. However, random sampling of\nstationary operation points is less efficient in generating balanced stable and\nunstable samples. Meanwhile, the performance of such a model is strongly\ndependent on the quality of the training dataset. Observing this research gap,\nwe propose a gradient-based data generation method via forward-mode automatic\ndifferentiation. In this method, the original dynamic system is augmented with\nnew states that represent the dynamic of sensitivities of the original states,\nwhich can be solved by invoking any ODE solver for a single time. To compensate\nfor the contradiction between the gradient of various frequency stability\ncriteria, gradient surgery is proposed by projecting the gradient on the normal\nplane of the other. In the end, we demonstrate the superior performance of the\nproposed sampling algorithm, compared with the unrolling differentiation and\nfinite difference. All codes are available at\nhttps://github.com/xuwkk/frequency_sample_ad.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Structured Input-Output Modeling and Robust Stability Analysis of Compressible Flows",
+        "authors": [
+            "Diganta Bhattacharjee",
+            "Talha Mushtaq",
+            "Peter Seiler",
+            "Maziar S. Hemati"
+        ],
+        "published": "2024-07-20",
+        "summary": "The recently introduced structured input-output analysis is a powerful method\nfor capturing nonlinear phenomena associated with incompressible flows, and\nthis paper extends that method to the compressible regime. The proposed method\nrelies upon a reformulation of the compressible Navier-Stokes equations, which\nallows for an exact quadratic formulation of the dynamics of perturbations\nabout a steady base flow. To facilitate the structured input-output analysis, a\npseudo-linear model for the quadratic nonlinearity is proposed and the\nstructural information of the nonlinearity is embedded into a structured\nuncertainty comprising unknown `perturbations'. The structured singular value\nframework is employed to compute the input-output gain, which provides an\nestimate of the robust stability margin of the flow perturbations, as well as\nthe forcing and response modes that are consistent with the nonlinearity\nstructure. The analysis is then carried out on a plane, laminar compressible\nCouette flow over a range of Mach numbers. The structured input-output gains\nidentify an instability mechanism, characterized by a spanwise elongated\nstructure in the streamwise-spanwise wavenumber space at a subsonic Mach\nnumber, that evolves into an oblique structure at sonic and supersonic Mach\nnumbers. In addition, the structured input-output forcing and response modes\nprovide insight into the thermodynamic and momentum characteristics associated\nwith a source of instability. Comparisons with a resolvent/unstructured\nanalysis reveal discrepancies in the distribution of input-output gains over\nthe wavenumber space as well as in the modal behavior of an instability, thus\nhighlighting the strong correlation between the structural information of the\nnonlinearity and the underlying flow physics.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Enhancing Microgrid Performance Prediction with Attention-based Deep Learning Models",
+        "authors": [
+            "Vinod Kumar Maddineni",
+            "Naga Babu Koganti",
+            "Praveen Damacharla"
+        ],
+        "published": "2024-07-20",
+        "summary": "In this research, an effort is made to address microgrid systems' operational\nchallenges, characterized by power oscillations that eventually contribute to\ngrid instability. An integrated strategy is proposed, leveraging the strengths\nof convolutional and Gated Recurrent Unit (GRU) layers. This approach is aimed\nat effectively extracting temporal data from energy datasets to improve the\nprecision of microgrid behavior forecasts. Additionally, an attention layer is\nemployed to underscore significant features within the time-series data,\noptimizing the forecasting process. The framework is anchored by a Multi-Layer\nPerceptron (MLP) model, which is tasked with comprehensive load forecasting and\nthe identification of abnormal grid behaviors. Our methodology underwent\nrigorous evaluation using the Micro-grid Tariff Assessment Tool dataset, with\nRoot Mean Square Error (RMSE), Mean Absolute Error (MAE), and the coefficient\nof determination (r2-score) serving as the primary metrics. The approach\ndemonstrated exemplary performance, evidenced by a MAE of 0.39, RMSE of 0.28,\nand an r2-score of 98.89\\% in load forecasting, along with near-perfect zero\nstate prediction accuracy (approximately 99.9\\%). Significantly outperforming\nconventional machine learning models such as support vector regression and\nrandom forest regression, our model's streamlined architecture is particularly\nsuitable for real-time applications, thereby facilitating more effective and\nreliable microgrid management.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "A Distributionally Robust Optimization Framework for Stochastic Assessment of Power System Flexibility in Economic Dispatch",
+        "authors": [
+            "Xinyi Zhao",
+            "Lei Fan",
+            "Fei Ding",
+            "Weijia Liu",
+            "Chaoyue Zhao"
+        ],
+        "published": "2024-07-20",
+        "summary": "Given the complexity of power systems, particularly the high-dimensional\nvariability of net loads, accurately depicting the entire operational range of\nnet loads poses a challenge. To address this, recent methodologies have sought\nto gauge the maximum range of net load uncertainty across all buses. In this\npaper, we consider the stochastic nature of the net load and introduce a\ndistributionally robust optimization framework that assesses system flexibility\nstochastically, accommodating a minimal extent of system violations. We verify\nthe proposed method by solving the flexibility of the real-time economic\ndispatch problem on four IEEE standard test systems. Compared to traditional\ndeterministic flexibility evaluations, our approach consistently yields less\nconservative flexibility outcomes.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "A Holistic Optimization Framework for Energy Efficient UAV-assisted Fog Computing: Attitude Control, Trajectory Planning and Task Assignment",
+        "authors": [
+            "Shuaijun Liu",
+            "Jinqiu Du",
+            "Yaxin Zheng",
+            "Jiaying Yin",
+            "Yuhui Deng",
+            "Jingjin Wu"
+        ],
+        "published": "2024-07-20",
+        "summary": "Unmanned Aerial Vehicles (UAVs) have significantly enhanced fog computing by\nacting as both flexible computation platforms and communication mobile relays.\nIn this paper, we propose a holistic framework that jointly optimizes the total\nlatency and energy consumption for UAV-assisted fog computing in a\nthree-dimensional spatial domain with varying terrain elevations and dynamic\ntask generations. Our proposed framework considers three important and\ninterdependent modules: attitude control, trajectory planning, and task\nassignment. We first establish a fuzzy proportional-integral-derivative control\nmodel to determine the UAV's attitude. Then, we propose an enhanced Ant Colony\nSystem (ACS) based algorithm, that includes a safety value and a decoupling\nmechanism to overcome the convergence issue in classical ACS, to compute the\noptimal UAV trajectory. Finally, we design an algorithm based on the Particle\nSwarm Optimization technique, to determine where each offloaded task should be\nexecuted. Under our proposed framework, the outcome of one module would affect\nthe decision-making in one other, providing a holistic perspective of the\nsystem and thus leading to improved solutions. We demonstrate by extensive\nsimulation results that our proposed framework can significantly improve the\noverall performance, measured by latency and energy consumption, compared to\nexisting baseline approaches.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Inferring Ingrained Remote Information in AC Power Flows Using Neuromorphic Modality Regime",
+        "authors": [
+            "Xiaoguang Diao",
+            "Yubo Song",
+            "Subham Sahoo"
+        ],
+        "published": "2024-07-20",
+        "summary": "In this paper, we infer ingrained remote information in AC power flows using\nspiking neural network (SNN) as edge processors for efficient coordination of\npower electronic converters. This work unifies power and information as a means\nof data normalization using a multi-modal regime in the form of spikes using\nenergy-efficient neuromorphic processing and semantics theory. Firstly, we\norganize the synchronous realvalued measurements at each edge and translate\nthem into asynchronous spike-based events to collect sparse data for training\nof SNN at each edge. Instead of relying on error-dependent supervised\ndata-driven learning theory, we exploit the latency-driven unsupervised Hebbian\nlearning rule to obtain modulation pulses for switching of power electronic\nconverters that can now communicate among each other. Not only does this\nphilosophy block exogenous path arrival for cyber attackers by dismissing the\ncyber layer, it also entails converter adaptation to system reconfiguration and\nparameter mismatch issues. We conclude this work by validating its\nenergy-efficient and effective online learning performance under various\nscenarios in modified IEEE 14-bus system and under experimental conditions.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "QoS Aware Mixed-Criticality Task Scheduling in Vehicular Edge Cloud System",
+        "authors": [
+            "Suvarthi Sarkar",
+            "Aditya Trivedi",
+            "Ritish Bansal",
+            "Aryabartta Sahu"
+        ],
+        "published": "2024-07-20",
+        "summary": "Modern-day cars are equipped with numerous cameras and sensors, typically\nintegrated with advanced decision-control systems that enable the vehicle to\nperceive its surroundings and navigate autonomously. Efficient processing of\ndata from sensors, lidars, radars and cameras is quite computationally\nintensive and can not be done with good accuracy using less capable onboard\nresources. In order to deal with this problem, some computation requirements\n(also referred as tasks) are offloaded to infrastructure or executed in\nparallel in both autonomous vehicle (AV) and infrastructure to enhance\naccuracy. The infrastructure comprises base stations, a centralized cloud, and\na CS. Base stations (BSs) execute tasks in collaboration with a significantly\nmore powerful centralized cloud, while the centralised scheduler (CS) centrally\nschedules all the tasks. The base station receives tasks from multiple AVs,\neach with varying deadlines, criticality, and locations. Our main goal is to\nmaximize the profit of the infrastructure by (a) minimizing the number of drop\ntasks, (b) minimizing the distance cost for task offloading, and (c) minimizing\nthe energy usage of BSs.\n  In this work, we proposed efficient approaches to schedule the collection of\ntasks to the BSs, by employing a hybrid scheduling approach where tasks from\nAVs get allocated to nearby base stations if the nearby BSs are lightly loaded,\notherwise AVs send the task to CS for allocation. The CS maximizes the profit\nby following strategies: (a) selection of BS considering distance and energy\nconsumption, (b) when task load is moderate or low, highly critical tasks run\nat favourable utilisation, and (c) low-critical tasks are dropped to free up\nresources for executing high-critical tasks. Based on our experiments, proposed\napproaches improved the QoS provided by up to 25% compared to the\nstate-of-the-art approach in real-life datasets.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Phase Re-service in Reinforcement Learning Traffic Signal Control",
+        "authors": [
+            "Zhiyao Zhang",
+            "George Gunter",
+            "Marcos Quinones-Grueiro",
+            "Yuhang Zhang",
+            "William Barbour",
+            "Gautam Biswas",
+            "Daniel Work"
+        ],
+        "published": "2024-07-20",
+        "summary": "This article proposes a novel approach to traffic signal control that\ncombines phase re-service with reinforcement learning (RL). The RL agent\ndirectly determines the duration of the next phase in a pre-defined sequence.\nBefore the RL agent's decision is executed, we use the shock wave theory to\nestimate queue expansion at the designated movement allowed for re-service and\ndecide if phase re-service is necessary. If necessary, a temporary phase\nre-service is inserted before the next regular phase. We formulate the RL\nproblem as a semi-Markov decision process (SMDP) and solve it with proximal\npolicy optimization (PPO). We conducted a series of experiments that showed\nsignificant improvements thanks to the introduction of phase re-service.\nVehicle delays are reduced by up to 29.95% of the average and up to 59.21% of\nthe standard deviation. The number of stops is reduced by 26.05% on average\nwith 45.77% less standard deviation.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Efficient Design of a Pixelated Rectenna for WPT Applications",
+        "authors": [
+            "Rasool Keshavarz",
+            "Md. Amanath Ullah",
+            "Ali Raza",
+            "Negin Shariati"
+        ],
+        "published": "2024-07-20",
+        "summary": "This paper introduces a highly efficient rectenna (rectifying antenna) using\na binary optimization algorithm. A novel pixelated receiving antenna has been\ndeveloped to match the diode impedance of a rectifier, eliminating the need for\na separate matching circuit in the rectenna's rectifier. The receiving antenna\nconfiguration is fine-tuned via a binary optimization algorithm. A rectenna is\ndesigned using optimization algorithm at 2.5 GHz with 38% RF-DC conversion\nefficiency when subjected to 0 dBm incident power, with an output voltage of\n815mV. The proposed rectenna demonstrates versatility across various low-power\nWPT (wireless power transfer) applications.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Multidirectional Pixelated Cubic Antenna with Enhanced Isolation for Vehicular Applications",
+        "authors": [
+            "Md. Amanath Ullah",
+            "Rasool Keshavarz",
+            "Justin Lipman",
+            "Mehran Abolhasan",
+            "Negin Shariati"
+        ],
+        "published": "2024-07-20",
+        "summary": "This paper presents a pixelated cubic antenna design with enhanced isolation\nand diverse radiation pattern for vehicular applications. The design consists\nof four radiating patches to take advantage of a nearly omnidirectional\nradiation pattern with enhanced isolation and high gain. The antenna system\nwith four patches has been pixelated and optimized simultaneously to achieve\ndesired performance and high isolation at 5.4 GHz band. The antenna achieved\nmeasured isolation of more than -34 dB between antenna elements. The overall\nisolation improvement obtained by the antenna is about 18 dB compared to a\nconfiguration using standard patch antennas. Moreover, isolation improvement is\nachieved through patch pixelization without additional resonators or elements.\nThe antenna achieved up to 6.9 dB realized gain in each direction.\nAdditionally, the cubic antenna system is equipped with an E-shaped GPS antenna\nto facilitate connectivity with GPS satellite. Finally, the antenna performance\nhas been investigated using a simulation model of the vehicle roof and roof\nrack. The reflection coefficient, isolation and radiation patterns of the\nantenna remains unaffected. The antenna prototype has been fabricated on Rogers\nsubstrate and measured to verify the simulation results. The measured results\ncorrelate well with the simulation results. The proposed antenna features\nlow-profile, simple design for ease of manufacture, good radiation\ncharacteristics with multidirectional property and high isolation, which are\nwell-suited to vehicular applications in different environments.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Autonomous Nonlinear Passive Transmit-Receive Switch for Compact IoT Devices: A Three-Port Agile Network",
+        "authors": [
+            "Rasool Keshavarz",
+            "Amber Abdullah",
+            "Negin Shariati"
+        ],
+        "published": "2024-07-20",
+        "summary": "Recent advancements in RF technologies, especially Internet of Things (IoT)\ndevices, require compact and integrated RF circulators or transmit-receive (TR)\nswitches for efficient resource use. Although conventional techniques are\ncrucial in managing signal flow to prevent signal interference to sensitive\nreceiver components, they have some drawbacks, such as limited isolation, low\nswitching speed, complex circuitry, bulkiness, and high cost. This work\npresents a smart, miniaturized, nonlinear TR switch capable of operating over a\nwide frequency range (0.8 - 1.3 GHz), making it suitable for IoT frequency\nbands. The switch achieves high isolation, low insertion loss, and intelligent\ntransitions between transmitter and receiver without requiring external control\nor bias pins.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Metasurface Energy Harvesters: State-of-the-Art Designs and Their Potential for Energy Sustainable Reconfigurable Intelligent Surfaces",
+        "authors": [
+            "Alireza Ghaneizadeh",
+            "Panagiotis Gavriilidis",
+            "Mojtaba Joodaki",
+            "George C. Alexandropoulos"
+        ],
+        "published": "2024-07-19",
+        "summary": "Metasurface Energy Harvesters (MEHs) have emerged as a prominent enabler of\nhighly efficient Radio Frequency (RF) energy harvesters. This survey delves\ninto the fundamentals of the MEH technology, providing a comprehensive overview\nof their working principle, unit cell designs and prototypes over various\nfrequency bands, as well as state-of-the art modes of operation. Inspired by\nthe recent academic and industrial interest on Reconfigurable Intelligent\nSurfaces (RISs)for the upcoming sixth-Generation (6G) of wireless networks, we\nstudy the interplay between this technology and MEHs aiming for energy\nsustainable RISs power by metasurface-based RF energy harvesting. We present a\nnovel hybrid unit cell design capable of simultaneous energy harvesting and\n1-bit tunable reflection whose dual-functional response is validated via\nfull-wave simulations. Then, we conduct a comparative collection of real-world\nmeasurements for ambient RF power levels and power consumption budgets of\nreflective RISs to unveil the potential for a self-sustainable RIS via ambient\nRF energy harvesting. The paper is concluded with an elaborative discussion on\nopen design challenges and future research directions for MEHs and energy\nsustainable hybrid RISs.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Adaptive Uncertainty Quantification for Scenario-based Control Using Meta-learning of Bayesian Neural Networks",
+        "authors": [
+            "Yajie Bao",
+            "Javad Mohammadpour Velni"
+        ],
+        "published": "2024-07-19",
+        "summary": "Scenario-based optimization and control has proven to be an efficient\napproach to account for system uncertainty. In particular, the performance of\nscenario-based model predictive control (MPC) schemes depends on the accuracy\nof uncertainty quantification. However, current learning- and scenario-based\nMPC (sMPC) approaches employ a single timeinvariant probabilistic model\n(learned offline), which may not accurately describe time-varying\nuncertainties. Instead, this paper presents a model-agnostic meta-learning\n(MAML) of Bayesian neural networks (BNN) for adaptive uncertainty\nquantification that would be subsequently used for adaptive-scenario-tree model\npredictive control design of nonlinear systems with unknown dynamics to enhance\ncontrol performance. In particular, the proposed approach learns both a global\nBNN model and an updating law to refine the BNN model. At each time step, the\nupdating law transforms the global BNN model into more precise local BNN models\nin real time. The adapted local model is then used to generate scenarios for\nsMPC design at each time step. A probabilistic safety certificate is\nincorporated in the scenario generation to ensure that the trajectories of the\ngenerated scenarios contain the real trajectory of the system and that all the\nscenarios adhere to the constraints with a high probability. Experiments using\nclosed-loop simulations of a numerical example demonstrate that the proposed\napproach can improve the performance of scenario-based MPC compared to using\nonly one BNN model learned offline for all time steps.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "TTT: A Temporal Refinement Heuristic for Tenuously Tractable Discrete Time Reachability Problems",
+        "authors": [
+            "Chelsea Sidrane",
+            "Jana Tumova"
+        ],
+        "published": "2024-07-19",
+        "summary": "Reachable set computation is an important tool for analyzing control systems.\nSimulating a control system can show that the system is generally functioning\nas desired, but a formal tool like reachability analysis can provide a\nguarantee of correctness. For linear systems, reachability analysis is\nstraightforward and fast, but as more complex components are added to the\ncontrol system such as nonlinear dynamics or a neural network controller,\nreachability analysis may slow down or become overly conservative. To address\nthese challenges, much literature has focused on spatial refinement, e.g.,\ntuning the discretization of the input sets and intermediate reachable sets.\nHowever, this paper addresses a different dimension: temporal refinement. The\nbasic idea of temporal refinement is to automatically choose when along the\nhorizon of the reachability problem to execute slow symbolic queries which\nincur less approximation error versus fast concrete queries which incur more\napproximation error. Temporal refinement can be combined with other refinement\napproaches and offers an additional ``tuning knob'' with which to trade off\ntractability and tightness in approximate reachable set computation. Here, we\nintroduce an automatic framework for performing temporal refinement and we\ndemonstrate the effectiveness of this technique on computing approximate\nreachable sets for nonlinear systems with neural network control policies. We\ndemonstrate the calculation of reachable sets of varying approximation error\nunder varying computational budget and show that our algorithm is able to\ngenerate approximate reachable sets with a similar amount of error to the\nbaseline approach in 20-70% less time.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Adaptive State Observers of Linear Time-varying Descriptor Systems: A Parameter Estimation-Based Approach",
+        "authors": [
+            "Romeo Ortega",
+            "Alexey Bobtsov",
+            "Fernando Castanos",
+            "Nikolay Nikolaev"
+        ],
+        "published": "2024-07-19",
+        "summary": "In this paper, we apply the recently developed generalized parameter\nestimation-based observer design technique for state-affine systems to the\npractically important case of linear time-varying descriptor systems with\nuncertain parameters. We give simulation results of benchmark examples that\nillustrate the performance of the proposed adaptive observer.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Equivariant Symmetries for Aided Inertial Navigation",
+        "authors": [
+            "Alessandro Fornasier"
+        ],
+        "published": "2024-07-19",
+        "summary": "Respecting the geometry of the underlying system and exploiting its symmetry\nhave been driving concepts in deriving modern geometric filters for inertial\nnavigation systems (INSs). Despite their success, the explicit treatment of\ninertial measurement unit (IMU) biases remains challenging, unveiling a gap in\nthe current theory of filter design. In response to this gap, this dissertation\nbuilds upon the recent theory of equivariant systems to address and overcome\nthe limitations in existing methodologies. The goal is to identify new\nsymmetries of inertial navigation systems that include a geometric treatment of\nIMU biases and exploit them to design filtering algorithms that outperform\nstate-of-the-art solutions in terms of accuracy, convergence rate, robustness,\nand consistency. This dissertation leverages the semi-direct product rule and\nintroduces the tangent group for inertial navigation systems as the first\nequivariant symmetry that properly accounts for IMU biases. Based on that, we\nshow that it is possible to derive an equivariant filter (EqF) algorithm with\nautonomous navigation error dynamics. The resulting filter demonstrates\nsuperior to state-of-the-art solutions. Through a comprehensive analysis of\nvarious symmetries of inertial navigation systems, we formalized the concept\nthat every filter can be derived as an EqF with a specific choice of symmetry.\nThis underlines the fundamental role of symmetry in determining filter\nperformance. This dissertation advances the understanding of equivariant\nsymmetries in the context of inertial navigation systems and serves as a basis\nfor the next generation of equivariant estimators, marking a significant leap\ntoward more reliable navigation solutions.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "An Optimal Control Framework for Airborne Wind Energy Systems with a Flexible Tether",
+        "authors": [
+            "Omid Heydarnia",
+            "Jolan Wauters",
+            "Tom Lefebvre",
+            "Guillaume Crevecoeur"
+        ],
+        "published": "2024-07-19",
+        "summary": "In this work, we establish an optimal control framework for airborne wind\nenergy systems (AWESs) with flexible tethers. The AWES configuration,\nconsisting of a six-degree-of-freedom aircraft, a flexible tether, and a winch,\nis formulated as an index-1 differential-algebraic system of equations (DAE).\nWe achieve this by adopting a minimal coordinate representation that uses Euler\nangles to characterize the aircraft's attitude and employing a quasi-static\napproach for the tether. The presented method contrasts with other recent\noptimization studies that use an index-3 DAE approach. By doing so, our\napproach avoids related inconsistency condition problems. We use a homotopy\nstrategy to solve the optimal control problem that ultimately generates optimal\ntrajectories of the AWES with a flexible tether. We furthermore compare with a\nrigid tether model by investigating the resulting mechanical powers and tether\nforces. Simulation results demonstrate the efficacy of the presented\nmethodology and the necessity to incorporate the flexibility of the tether when\nsolving the optimal control problem.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Stochastic Model Predictive Control with Optimal Linear Feedback for Mobile Robots in Dynamic Environments",
+        "authors": [
+            "Yunfan Gao",
+            "Florian Messerer",
+            "Niels van Duijkeren",
+            "Moritz Diehl"
+        ],
+        "published": "2024-07-19",
+        "summary": "Robot navigation around humans can be a challenging problem since human\nmovements are hard to predict. Stochastic model predictive control (MPC) can\naccount for such uncertainties and approximately bound the probability of a\ncollision to take place. In this paper, to counteract the rapidly growing human\nmotion uncertainty over time, we incorporate state feedback in the stochastic\nMPC. This allows the robot to more closely track reference trajectories. To\nthis end the feedback policy is left as a degree of freedom in the optimal\ncontrol problem. The stochastic MPC with feedback is validated in simulation\nexperiments and is compared against nominal MPC and stochastic MPC without\nfeedback. The added computation time can be limited by reducing the number of\nadditional variables for the feedback law with a small compromise in control\nperformance.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "A trustworthy blockchain-based energy trading scheme for V2G operations in distributed power grids via integrated scheduling and trading framework",
+        "authors": [
+            "Yunwang Chen",
+            "Xiang Lei",
+            "Songyan Niu",
+            "Linni Jian"
+        ],
+        "published": "2024-07-19",
+        "summary": "The rapid growth of electric vehicles (EVs) and the deployment of\nvehicle-to-grid (V2G) technology pose significant challenges for distributed\npower grids, particularly in fostering trust and ensuring effective\ncoordination among stakeholders. In this paper, we developed an integrated\nscheduling and trading framework to conduct transparent and efficacious\ncoordination in V2G operations. In blockchain implementation, we propose a\ncyber-physical blockchain architecture that enhances transaction efficiency and\nscalability by leveraging smart charging points (SCPs) for rapid transaction\nvalidation through a fast-path practical byzantine fault tolerance (fast-path\nPBFT) consensus mechanism. From the energy dispatching perspective, a\ngame-theoretical pricing strategy is employed and smart contracts are utilized\nfor autonomous decision-making between EVs and operators, aiming to optimize\nthe trading process and maximize economic benefits. Numerical evaluation of\nblockchain consensus shows the effect of the fast-path PBFT consensus in\nimproving systems scalability with a balanced trade-off in robustness. A case\nstudy, utilizing real-world data from the Southern University of Science and\nTechnology (SUSTech), demonstrates significant reductions in EV charging costs\nand the framework potential to support auxiliary grid services.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Online learning of Koopman operator using streaming data from different dynamical regimes",
+        "authors": [
+            "Kartik Loya",
+            "Phanindra Tallapragada"
+        ],
+        "published": "2024-07-18",
+        "summary": "The paper presents a framework for online learning of the Koopman operator\nusing streaming data. Many complex systems for which data-driven modeling and\ncontrol are sought provide streaming sensor data, the abundance of which can\npresent computational challenges but cannot be ignored. Streaming data can\nintermittently sample dynamically different regimes or rare events which could\nbe critical to model and control. Using ideas from subspace identification, we\npresent a method where the Grassmannian distance between the subspace of an\nextended observability matrix and the streaming segment of data is used to\nassess the `novelty' of the data. If this distance is above a threshold, it is\nadded to an archive and the Koopman operator is updated if not it is discarded.\nTherefore, our method identifies data from segments of trajectories of a\ndynamical system that are from different dynamical regimes, prioritizes\nminimizing the amount of data needed in updating the Koopman model and\nfurthermore reduces the number of basis functions by learning them adaptively.\nTherefore, by dynamically adjusting the amount of data used and learning basis\nfunctions, our method optimizes the model's accuracy and the system order.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Optimization-Based Outlier Accommodation for Tightly Coupled RTK-Aided Inertial Navigation Systems in Urban Environments",
+        "authors": [
+            "Wang Hu",
+            "Yingjie Hu",
+            "Mike Stas",
+            "Jay A. Farrell"
+        ],
+        "published": "2024-07-18",
+        "summary": "Global Navigation Satellite Systems (GNSS) aided Inertial Navigation System\n(INS) is a fundamental approach for attaining continuously available absolute\nvehicle position and full state estimates at high bandwidth. For transportation\napplications, stated accuracy specifications must be achieved, unless the\nnavigation system can detect when it is violated. In urban environments, GNSS\nmeasurements are susceptible to outliers, which motivates the important problem\nof accommodating outliers while either achieving a performance specification or\ncommunicating that it is not feasible. Risk-Averse Performance-Specified (RAPS)\nis designed to optimally select measurements to address this problem. Existing\nRAPS approaches lack a method applicable to carrier phase measurements, which\nhave the benefit of measurement errors at the centimeter level along with the\nchallenge of being biased by integer ambiguities. This paper proposes a RAPS\nframework that combines Real-time Kinematic (RTK) GNSS in a tightly coupled INS\nfor urban navigation applications. Experimental results demonstrate the\neffectiveness of this RAPS-INS-RTK framework, achieving 84.05% and 89.84% of\nhorizontal and vertical errors less than 1.5 meters and 3 meters, respectively,\nusing a deep-urban dataset. This performance not only surpasses the Society of\nAutomotive Engineers (SAE) requirements, but also shows a 10% improvement\ncompared to traditional methods.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Privacy-preserving gradient-based fair federated learning",
+        "authors": [
+            "Janis Adamek",
+            "Moritz Schulze Darup"
+        ],
+        "published": "2024-07-18",
+        "summary": "Federated learning (FL) schemes allow multiple participants to\ncollaboratively train neural networks without the need to directly share the\nunderlying data.However, in early schemes, all participants eventually obtain\nthe same model. Moreover, the aggregation is typically carried out by a third\nparty, who obtains combined gradients or weights, which may reveal the model.\nThese downsides underscore the demand for fair and privacy-preserving FL\nschemes. Here, collaborative fairness asks for individual model quality\ndepending on the individual data contribution. Privacy is demanded with respect\nto any kind of data outsourced to the third party. Now, there already exist\nsome approaches aiming for either fair or privacy-preserving FL and a few works\neven address both features. In our paper, we build upon these seminal works and\npresent a novel, fair and privacy-preserving FL scheme. Our approach, which\nmainly relies on homomorphic encryption, stands out for exclusively using local\ngradients. This increases the usability in comparison to state-of-the-art\napproaches and thereby opens the door to applications in control.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Real-time Estimation of Bound Water Concentration during Lyophilization with Temperature-based State Observers",
+        "authors": [
+            "Prakitr Srisuma",
+            "George Barbastathis",
+            "Richard Braatz"
+        ],
+        "published": "2024-07-18",
+        "summary": "Lyophilization (aka freeze drying) has been shown to provide long-term\nstability for many crucial biotherapeutics, e.g., mRNA vaccines for COVID-19,\nallowing for higher storage temperature. The final stage of lyophilization,\nnamely secondary drying, entails bound water removal via desorption, in which\naccurate prediction of bound water concentration is vital to ensuring the\nquality of the lyophilized product. This article proposes a novel technique for\nreal-time estimation of the residual moisture during secondary drying in\nlyophilization. A state observer is employed, which combines temperature\nmeasurement and mechanistic understanding of heat transfer and desorption\nkinetics, without requiring any online concentration measurement. Results from\nboth simulations and experimental data show that the observer can accurately\nestimate the concentration of bound water in real time for all possible\nconcentration levels, operating conditions, and measurement noise. This\nframework can also be applied for monitoring and control of the residual\nmoisture in other desorption-related processes.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Neural Network Tire Force Modeling for Automated Drifting",
+        "authors": [
+            "Nicholas Drake Broadbent",
+            "Trey Weber",
+            "Daiki Mori",
+            "J. Christian Gerdes"
+        ],
+        "published": "2024-07-18",
+        "summary": "Automated drifting presents a challenge problem for vehicle control,\nrequiring models and control algorithms that can precisely handle nonlinear,\ncoupled tire forces at the friction limits. We present a neural network\narchitecture for predicting front tire lateral force as a drop-in replacement\nfor physics-based approaches. With a full-scale automated vehicle purpose-built\nfor the drifting application, we deploy these models in a nonlinear model\npredictive controller tuned for tracking a reference drifting trajectory, for\ndirect comparisons of model performance. The neural network tire model exhibits\nsignificantly improved path tracking performance over the brush tire model in\ncases where front-axle braking force is applied, suggesting the neural\nnetwork's ability to express previously unmodeled, latent dynamics in the\ndrifting condition.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Model Predictive Path Integral Methods with Reach-Avoid Tasks and Control Barrier Functions",
+        "authors": [
+            "Hardik Parwana",
+            "Mitchell Black",
+            "Georgios Fainekos",
+            "Bardh Hoxha",
+            "Hideki Okamoto",
+            "Danil Prokhorov"
+        ],
+        "published": "2024-07-18",
+        "summary": "The rapid advancement of robotics necessitates robust tools for developing\nand testing safe control architectures in dynamic and uncertain environments.\nEnsuring safety and reliability in robotics, especially in safety-critical\napplications, is crucial, driving substantial industrial and academic efforts.\nIn this context, we extend CBFkit, a Python/ROS2 toolbox, which now\nincorporates a planner using reach-avoid specifications as a cost function.\nThis integration with the Model Predictive Path Integral (MPPI) controllers\nenables the toolbox to satisfy complex tasks while ensuring formal safety\nguarantees under various sources of uncertainty using Control Barrier Functions\n(CBFs). CBFkit is optimized for speed using JAX for automatic differentiation\nand jaxopt for quadratic program solving. The toolbox supports various robotic\napplications, including autonomous navigation, human-robot interaction, and\nmulti-robot coordination. The toolbox also offers a comprehensive library of\nplanner, controller, sensor, and estimator implementations. Through a series of\nexamples, we demonstrate the enhanced capabilities of CBFkit in different\nrobotic scenarios.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Conformal Wide-Angle Scanning Leaky-Wave Antenna for V-Band On-Body Applications",
+        "authors": [
+            "Pratik Vadher",
+            "Zvonimir Sipus",
+            "Anja K. Skrivervik",
+            "Qihang Zeng",
+            "Ronan Sauleau",
+            "John S. Ho",
+            "Giulia Sacco",
+            "Denys Nikolayev"
+        ],
+        "published": "2024-07-18",
+        "summary": "Wearable on-body millimeter-wave (mmWave) radars can provide obstacle\ndetection and guidance for visually impaired people. However, their everyday\nperformance is hindered by the rigid form factor and limited scanning range. In\nthis article, we propose a low-profile, fast-scanning leaky-wave antenna (LWA)\noperating in the unlicensed V-band (57-64 GHz) to be integrated for on-body\napplications such as lightweight portable frequency-modulated continuous wave\n(FMCW) radars. The proposed LWA consists of meandering microstrips that can\nconform to the human body curvatures while maintaining beam-forming and\nbeam-scanning properties. Experimental results demonstrate that the planar LWA\nachieves a realized gain above 10 dB with a fan-beam steering range in the\nH-plane from -40{\\deg} to 43{\\deg} over the operating frequency band while the\nhalf power beam-width (HPBW) is within 20{\\deg}. Since for the foreseen\napplication the antenna is supposed to conform to the user's body, the\nperformance is also analyzed for a bent condition. The beam steering range\nchanges to -32{\\deg} to 50{\\deg} when placed on the knee (corresponding to 80\nmm radius). Under bending conditions, the LWA exhibits a maximum degradation of\n1.75 dB, while the HPBW increases to 25{\\deg}. This shows that due to the small\nsize of the antenna, the impact of bending is low and the beam-forming and\nbeam-scanning property of the designed LWA remain intact. Furthermore, we\nenable 2-D spatial scanning by employing an array of twelve LWAs with phased\nexcitation, extending the scanning range in the E-plane from -40{\\deg} to\n40{\\deg}, while the HPBW remains below 20{\\deg} across the operational\nfrequency range.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Managing Risk using Rolling Forecasts in Energy-Limited and Stochastic Energy Systems",
+        "authors": [
+            "Thomas Mortimer",
+            "Robert Mieth"
+        ],
+        "published": "2024-07-18",
+        "summary": "We study risk-aware linear policy approximations for the optimal operation of\nan energy system with stochastic wind power, storage, and limited fuel. The\nresulting problem is a sequential decision-making problem with rolling\nforecasts. In addition to a risk-neutral objective, this paper formulates two\nrisk-aware objectives that control the conditional value-at-risk of system cost\nand the buffered probability of exceeding a predefined threshold of unserved\nload. The resulting policy uses a parameter-modified cost function\napproximation that reduces the computational load compared to the direct\ninclusion of those risk measures in the problem objective. We demonstrate our\nmethod on a numerical case study.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Decentralised Governance for Autonomous Cyber-Physical Systems",
+        "authors": [
+            "Kelsie Nabben",
+            "Hongyang Wang",
+            "Michael Zargham"
+        ],
+        "published": "2024-07-18",
+        "summary": "This paper examines the potential for Cyber-Physical Systems (CPS) to be\ngoverned in a decentralised manner, whereby blockchain-based infrastructure\nfacilitates the communication between digital and physical domains through\nself-governing and self-organising principles. Decentralised governance\nparadigms that integrate computation in physical domains (such as\n'Decentralised Autonomous Organisations' (DAOs)) represent a novel approach to\nautono-mous governance and operations. These have been described as akin to\ncybernetic systems. Through the lens of a case study of an autonomous cabin\ncalled \"no1s1\" which demonstrates self-ownership via blockchain-based control\nand feedback loops, this research explores the potential for blockchain\ninfrastructure to be utilised in the management of physical systems. By\nhighlighting the considerations and challenges of decentralised governance in\nmanaging autonomous physical spaces, the study reveals that autonomy in the\ngovernance of autonomous CPS is not merely a technological feat but also\ninvolves a complex mesh of functional and social dynamics. These findings\nunderscore the importance of developing continuous feedback loops and adaptive\ngovernance frameworks within decentralised CPS to address both expected and\nemergent challenges. This investigation contributes to the fields of\ninfra-structure studies and Cyber-Physical Systems engineering. It also\ncontributes to the discourse on decentralised governance and autonomous\nmanagement of physical spaces by offering both practical insights and providing\na framework for future research.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Convergence result for the gradient-push algorithm and its application to boost up the Push-DIging algorithm",
+        "authors": [
+            "Hyogi Choi",
+            "Woocheol Choi",
+            "Gwangil Kim"
+        ],
+        "published": "2024-07-18",
+        "summary": "The gradient-push algorithm is a fundamental algorithm for the distributed\noptimization problem \\begin{equation} \\min_{x \\in \\mathbb{R}^d} f(x) =\n\\sum_{j=1}^n f_j (x), \\end{equation} where each local cost $f_j$ is only known\nto agent $a_i$ for $1 \\leq i \\leq n$ and the agents are connected by a directed\ngraph. In this paper, we obtain convergence results for the gradient-push\nalgorithm with constant stepsize whose range is sharp in terms the order of the\nsmoothness constant $L>0$. Precisely, under the two settings: 1) Each local\ncost $f_i$ is strongly convex and $L$-smooth, 2) Each local cost $f_i$ is\nconvex quadratic and $L$-smooth while the aggregate cost $f$ is strongly\nconvex, we show that the gradient-push algorithm with stepsize $\\alpha>0$\nconverges to an $O(\\alpha)$-neighborhood of the minimizer of $f$ for a range\n$\\alpha \\in (0, c/L]$ with a value $c>0$ independent of $L>0$. As a benefit of\nthe result, we suggest a hybrid algorithm that performs the gradient-push\nalgorithm with a relatively large stepsize $\\alpha>0$ for a number of\niterations and then go over to perform the Push-DIGing algorithm. It is\nverified by a numerical test that the hybrid algorithm enhances the performance\nof the Push-DIGing algorithm significantly. The convergence results of the\ngradient-push algorithm are also supported by numerical tests.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Scalar Field Mapping with Adaptive High-Intensity Region Avoidance",
+        "authors": [
+            "Muzaffar Qureshi",
+            "Tochukwu Elijah Ogri",
+            "Zachary I. Bell",
+            "Rushikesh Kamalapurkar"
+        ],
+        "published": "2024-07-18",
+        "summary": "This research is motivated by a scenario where a group of UAVs is assigned to\nmap an unknown scalar field, with the imperative of maintaining a safe distance\nfrom the sources of the field to evade detection or damage. The location of the\nsources is unknown a priori, so the UAVs rely on measurements of the field\nintensity to gauge safety. The UAVs estimate the unknown scalar field using\nGaussian process (GP) regression and use the estimate to generate a map of\nhigh-intensity regions using Hough transform (HT), updated online based on the\nfield measurements. A convergence analysis shows the boundedness of the error\nbetween the actual scalar field and the learned scalar field. The effectiveness\nof the method is evaluated through simulations, showcasing its ability to\naccurately learn scalar fields with multiple high-intensity regions while\nreducing the number of measurements taken inside the high-intensity regions.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "EnergyDiff: Universal Time-Series Energy Data Generation using Diffusion Models",
+        "authors": [
+            "Nan Lin",
+            "Peter Palensky",
+            "Pedro P. Vergara"
+        ],
+        "published": "2024-07-18",
+        "summary": "High-resolution time series data are crucial for operation and planning in\nenergy systems such as electrical power systems and heating systems. However,\ndue to data collection costs and privacy concerns, such data is often\nunavailable or insufficient for downstream tasks. Data synthesis is a potential\nsolution for this data scarcity. With the recent development of generative AI,\nwe propose EnergyDiff, a universal data generation framework for energy time\nseries data. EnergyDiff builds on state-of-the-art denoising diffusion\nprobabilistic models, utilizing a proposed denoising network dedicated to\nhigh-resolution time series data and introducing a novel Marginal Calibration\ntechnique. Our extensive experimental results demonstrate that EnergyDiff\nachieves significant improvement in capturing temporal dependencies and\nmarginal distributions compared to baselines, particularly at the 1-minute\nresolution. Additionally, EnergyDiff consistently generates high-quality time\nseries data across diverse energy domains, time resolutions, and at both\ncustomer and transformer levels with reduced computational need.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "The Construction of a Soft Gripper Based on Magnetorheological Elastomer with Permanent Magnet",
+        "authors": [
+            "Jakub Bernat",
+            "Pawel Czopek",
+            "Paulina Superczynska",
+            "Piotr Gajewski",
+            "Agnieszka Marcinkowska"
+        ],
+        "published": "2024-07-18",
+        "summary": "Recently, magnetorheological elastomers have become an interesting smart\nmaterial with many new designs for robotics. A variety of applications have\nbeen built with magnetorheological elastomers, such as vibration absorbers,\nactuators, or grippers, showing that this material is promising for soft\nrobotics. In this work, the novel concept of a gripper is proposed, exploring\nthe features of a magnetorheological elastomer and permanent magnet. The\ngripper uses the energy of a permanent magnet to provide a self-closing\ngripping mechanism. The usage of flexible material enables one to hold delicate\nobjects of various shapes. This paper presents the rolling effect of\nmagnetorheological elastomer and permanent magnet, the design process, and the\nfeatures of the soft gripper. The effectiveness of the soft gripper was\nvalidated in a series of experiments that involved lifting different objects.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Exploring Robot Trajectory Planning -- A Comparative Analysis of Algorithms And Software Implementations in Dynamic Environments",
+        "authors": [
+            "Arunabh Bora"
+        ],
+        "published": "2024-07-18",
+        "summary": "Trajectory Planning is a crucial word in Modern & Advanced Robotics. It's a\nway of generating a smooth and feasible path for the robot to follow over time.\nThe process primarily takes several factors to generate the path, such as\nvelocity, acceleration and jerk. The process deals with how the robot can\nfollow a desired motion path in a suitable environment. This trajectory\nplanning is extensively used in Automobile Industrial Robot, Manipulators, and\nMobile Robots. Trajectory planning is a fundamental component of motion control\nsystems. To perform tasks like pick and place operations, assembly, welding,\npainting, path following, and obstacle avoidance. This paper introduces a\ncomparative analysis of trajectory planning algorithms and their key software\nelements working strategy in complex and dynamic environments. Adaptability and\nreal-time analysis are the most common problems in trajectory planning. The\npaper primarily focuses on getting a better understanding of these\nunpredictable environments.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Deep Reinforcement Learning for Multi-Objective Optimization: Enhancing Wind Turbine Energy Generation while Mitigating Noise Emissions",
+        "authors": [
+            "Martín de Frutos",
+            "Oscar A. Marino",
+            "David Huergo",
+            "Esteban Ferrer"
+        ],
+        "published": "2024-07-18",
+        "summary": "We develop a torque-pitch control framework using deep reinforcement learning\nfor wind turbines to optimize the generation of wind turbine energy while\nminimizing operational noise. We employ a double deep Q-learning, coupled to a\nblade element momentum solver, to enable precise control over wind turbine\nparameters. In addition to the blade element momentum, we use the wind turbine\nacoustic model of Brooks Pope and Marcolini. Through training with simple\nwinds, the agent learns optimal control policies that allow efficient control\nfor complex turbulent winds. Our experiments demonstrate that the reinforcement\nlearning is able to find optima at the Pareto front, when maximizing energy\nwhile minimizing noise. In addition, the adaptability of the reinforcement\nlearning agent to changing turbulent wind conditions, underscores its efficacy\nfor real-world applications. We validate the methodology using a SWT2.3-93 wind\nturbine with a rated power of 2.3 MW. We compare the reinforcement learning\ncontrol to classic controls to show that they are comparable when not taking\ninto account noise emissions. When including a maximum limit of 45 dB to the\nnoise produced (100 meters downwind of the turbine), the extracted yearly\nenergy decreases by 22%. The methodology is flexible and allows for easy tuning\nof the objectives and constraints through the reward definitions, resulting in\na flexible multi-objective optimization framework for wind turbine control.\nOverall, our findings highlight the potential of RL-based control strategies to\nimprove wind turbine efficiency while mitigating noise pollution, thus\nadvancing sustainable energy generation technologies",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Deterministic Trajectory Optimization through Probabilistic Optimal Control",
+        "authors": [
+            "Mohammad Mahmoudi Filabadi",
+            "Tom Lefebvre",
+            "Guillaume Crevecoeur"
+        ],
+        "published": "2024-07-18",
+        "summary": "This article proposes two new algorithms tailored to discrete-time\ndeterministic finite-horizon nonlinear optimal control problems or so-called\ntrajectory optimization problems. Both algorithms are inspired by a novel\ntheoretical paradigm known as probabilistic optimal control, that reformulates\noptimal control as an equivalent probabilistic inference problem. This\nperspective allows to address the problem using the Expectation-Maximization\nalgorithm. We show that the application of this algorithm results in a fixed\npoint iteration of probabilistic policies that converge to the deterministic\noptimal policy. Two strategies for policy evaluation are discussed, using\nstate-of-the-art uncertainty quantification methods resulting into two distinct\nalgorithms. The algorithms are structurally closest related to the differential\ndynamic programming algorithm and related methods that use sigma-point methods\nto avoid direct gradient evaluations. The main advantage of our work is an\nimproved balance between exploration and exploitation over the iterations,\nleading to improved numerical stability and accelerated convergence. These\nproperties are demonstrated on different nonlinear systems.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Evaluating the Impact of Data Availability on Machine Learning-augmented MPC for a Building Energy Management System",
+        "authors": [
+            "Jens Engel",
+            "Thomas Schmitt",
+            "Tobias Rodemann",
+            "Jürgen Adamy"
+        ],
+        "published": "2024-07-18",
+        "summary": "A major challenge in the development of Model Predictive Control (MPC)-based\nenergy management systems (EMSs) for buildings is the availability of an\naccurate model. One approach to address this is to augment an existing gray-box\nmodel with data-driven residual estimators. The efficacy of such estimators,\nand hence the performance of the EMS, relies on the availability of sufficient\nand suitable training data. In this work, we evaluate how different data\navailability scenarios affect estimator and controller performance. To do this,\nwe perform software-in-the-loop (SiL) simulation with a physics-based digital\ntwin using real measurement data. Simulation results show that acceptable\nestimation and control performance can already be achieved with limited\navailable data, and we confirm that leveraging historical data for pretraining\nboosts efficacy.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Predictive control for nonlinear stochastic systems: Closed-loop guarantees with unbounded noise",
+        "authors": [
+            "Johannes Köhler",
+            "Melanie N. Zeilinger"
+        ],
+        "published": "2024-07-18",
+        "summary": "We present a stochastic predictive control framework for nonlinear systems\nsubject to unbounded process noise with closed-loop guarantees. First, we first\nprovide a conceptual shrinking-horizon framework that utilizes general\nprobabilistic reachable sets and minimizes the expected cost. Then, we provide\na tractable receding-horizon formulation that uses a nominal state and a simple\nconstraint tightening. Both formulations ensure recursive feasibility,\nsatisfaction of chance constraints, and bounds on the expected cost for the\nresulting closed-loop system. We provide a constructive design for\nprobabilistic reachable sets of nonlinear systems using stochastic contraction\nmetrics. We demonstrate the practicality of the proposed method through a\nsimulation of a chain of mass-spring-dampers with nonlinear Coulomb friction.\nOverall, this paper provides a framework for computationally tractable\nstochastic predictive control approaches with closed-loop guaranteed for\nnonlinear systems with unbounded noise.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Disturbance Observer for Estimating Coupled Disturbances",
+        "authors": [
+            "Jindou Jia",
+            "Yuhang Liu",
+            "Kexin Guo",
+            "Xiang Yu",
+            "Lihua Xie",
+            "Lei Guo"
+        ],
+        "published": "2024-07-18",
+        "summary": "High-precision control for nonlinear systems is impeded by the low-fidelity\ndynamical model and external disturbance. Especially, the intricate coupling\nbetween internal uncertainty and external disturbance is usually difficult to\nbe modeled explicitly. Here we show an effective and convergent algorithm\nenabling accurate estimation of the coupled disturbance via combining control\nand learning philosophies. Specifically, by resorting to Chebyshev series\nexpansion, the coupled disturbance is firstly decomposed into an unknown\nparameter matrix and two known structures depending on system state and\nexternal disturbance respectively. A Regularized Least Squares (RLS) algorithm\nis subsequently formalized to learn the parameter matrix by using historical\ntime-series data. Finally, a higher-order disturbance observer (HODO) is\ndeveloped to achieve a high-precision estimation of the coupled disturbance by\nutilizing the learned portion. The efficiency of the proposed algorithm is\nevaluated through extensive simulations. We believe this work can offer a new\noption to merge learning schemes into the control framework for addressing\nexisting intractable control problems.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Solving the Model Unavailable MARE using Q-Learning Algorithm",
+        "authors": [
+            "Fei Yan",
+            "Jie Gao",
+            "Tao Feng",
+            "Jianxing Liu"
+        ],
+        "published": "2024-07-18",
+        "summary": "In this paper, the discrete-time modified algebraic Riccati equation (MARE)\nis solved when the system model is completely unavailable. To achieve this,\nfirstly a brand new iterative method based on the standard discrete-time\nalgebraic Riccati equation (DARE) and its input weighting matrix is proposed to\nsolve the MARE. For the single-input case, the iteration can be initialized by\nan arbitrary positive input weighting if and only if the MARE has a stabilizing\nsolution; nevertheless a pre-given input weighting matrix of a sufficiently\nlarge magnitude is used to perform the iteration for the multi-input case when\nthe characteristic parameter belongs to a specified subset. Benefit from the\ndeveloped specific iteration structure, the Q-learning (QL) algorithm can be\nemployed to subtly solve the MARE where only the system input/output data is\nused thus the system model is not required. Finally, a numerical simulation\nexample is given to verify the effectiveness of the theoretical results and the\nalgorithm.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Geometric Data Fusion for Collaborative Attitude Estimation",
+        "authors": [
+            "Yixiao Ge",
+            "Behzad Zamani",
+            "Pieter van Goor",
+            "Jochen Trumpf",
+            "Robert Mahony"
+        ],
+        "published": "2024-07-18",
+        "summary": "In this paper, we consider the collaborative attitude estimation problem for\na multi-agent system. The agents are equipped with sensors that provide\ndirectional measurements and relative attitude measurements. We present a\nbottom-up approach where each agent runs an extended Kalman filter (EKF)\nlocally using directional measurements and augments this with relative attitude\nmeasurements provided by neighbouring agents. The covariance estimates of the\nrelative attitude measurements are geometrically corrected to compensate for\nrelative attitude between the agent that makes the measurement and the agent\nthat uses the measurement before being fused with the local estimate using the\nconvex combination ellipsoid (CCE) method to avoid data incest. Simulations are\nundertaken to numerically evaluate the performance of the proposed algorithm.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "A Master-Follower Teleoperation System for Robotic Catheterization: Design, Characterization, and Tracking Control",
+        "authors": [
+            "Ali A. Nazari",
+            "Jeremy Catania",
+            "Soroush Sadeghian",
+            "Amir Jalali",
+            "Houman Masnavi",
+            "Farrokh Janabi-Sharifi",
+            "Kourosh Zareinia"
+        ],
+        "published": "2024-07-18",
+        "summary": "Minimally invasive robotic surgery has gained significant attention over the\npast two decades. Telerobotic systems, combined with robot-mediated minimally\ninvasive techniques, have enabled surgeons and clinicians to mitigate radiation\nexposure for medical staff and extend medical services to remote and\nhard-to-reach areas. To enhance these services, teleoperated robotic surgery\nsystems incorporating master and follower devices should offer transparency,\nenabling surgeons and clinicians to remotely experience a force interaction\nsimilar to the one the follower device experiences with patients' bodies. This\npaper presents the design and development of a three-degree-of-freedom\nmaster-follower teleoperated system for robotic catheterization. To resemble\nmanual intervention by clinicians, the follower device features a\ngrip-insert-release mechanism to eliminate catheter buckling and torsion during\noperation. The bidirectionally navigable ablation catheter is statically\ncharacterized for force-interactive medical interventions. The system's\nperformance is evaluated through approaching and open-loop path tracking over\ntypical circular, infinity-like, and spiral paths. Path tracking errors are\npresented as mean Euclidean error (MEE) and mean absolute error (MAE). The MEE\nranges from 0.64 cm (infinity-like path) to 1.53 cm (spiral path). The MAE also\nranges from 0.81 cm (infinity-like path) to 1.92 cm (spiral path). The results\nindicate that while the system's precision and accuracy with an open-loop\ncontroller meet the design targets, closed-loop controllers are necessary to\naddress the catheter's hysteresis and dead zone, and system nonlinearities.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Trajectory Planning Using Tire Thermodynamics for Automated Drifting",
+        "authors": [
+            "Takao Kobayashi",
+            "Trey P. Weber",
+            "J. Christian Gerdes"
+        ],
+        "published": "2024-07-17",
+        "summary": "Automated vehicles need to estimate tire-road friction information, as it\nplays a key role in safe trajectory planning and vehicle dynamics control.\nNotably, friction is not solely dependent on road surface conditions, but also\nvaries significantly depending on the tire temperature. However, tire\nparameters such as the friction coefficient have been conventionally treated as\nconstant values in automated vehicle motion planning. This paper develops a\nsimple thermodynamic model that captures tire friction temperature variation.\nTo verify the model, it is implemented into trajectory planning for automated\ndrifting - a challenging application that requires leveraging an unstable,\ndrifting equilibrium at the friction limits. The proposed method which captures\nthe hidden tire dynamics provides a dynamically feasible trajectory, leading to\nmore precise tracking during experiments with an LQR (Linear Quadratic\nRegulator) controller.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Effects of dynamic power electronic load models on power systems analysis using ZIP-E loads",
+        "authors": [
+            "Gabriel E. Colon-Reyes",
+            "Reid Dye",
+            "Claire Tomlin",
+            "Duncan Callaway"
+        ],
+        "published": "2024-07-17",
+        "summary": "Power grids are seeing more devices connected at the load level in the form\nof power electronics: e.g., data centers, electric vehicle chargers, and\nbattery storage facilities. Therefore it is necessary to perform power system\nanalyses with load models that capture these loads' behavior, which has\nhistorically not been done. To this end, we propose ZIP-E loads, a composite\nload model that has a ZIP load with a dynamic power electronic, or E, load\nmodel. We perform small signal and transient analysis of the IEEE WSCC 9 Bus\ntest case with ZIP and ZIP-E load models. For small signals, we conclude that\nZIP loads destabalize networks significantly faster than corresponding ZIP-E\nloads. In stable cases, transient results showed significantly larger\noscillations for ZIP loads. Further, we find that a higher network loading\ncondition is correlated with a higher sensitivity to load model choice. These\nresults suggests that the constant power portion of the ZIP load has a large\ndestabilizing effect and can generally overestimate instability, and that\nattention should be drawn to load model choice if operating near a stability\nboundary.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Distilling Tiny and Ultra-fast Deep Neural Networks for Autonomous Navigation on Nano-UAVs",
+        "authors": [
+            "Lorenzo Lamberti",
+            "Lorenzo Bellone",
+            "Luka Macan",
+            "Enrico Natalizio",
+            "Francesco Conti",
+            "Daniele Palossi",
+            "Luca Benini"
+        ],
+        "published": "2024-07-17",
+        "summary": "Nano-sized unmanned aerial vehicles (UAVs) are ideal candidates for flying\nInternet-of-Things smart sensors to collect information in narrow spaces. This\nrequires ultra-fast navigation under very tight memory/computation constraints.\nThe PULP-Dronet convolutional neural network (CNN) enables autonomous\nnavigation running aboard a nano-UAV at 19 frame/s, at the cost of a large\nmemory footprint of 320 kB -- and with drone control in complex scenarios\nhindered by the disjoint training of collision avoidance and steering\ncapabilities. In this work, we distill a novel family of CNNs with better\ncapabilities than PULP-Dronet, but memory footprint reduced by up to 168x (down\nto 2.9 kB), achieving an inference rate of up to 139 frame/s; we collect a new\nopen-source unified collision/steering 66 k images dataset for more robust\nnavigation; and we perform a thorough in-field analysis of both PULP-Dronet and\nour tiny CNNs running on a commercially available nano-UAV. Our tiniest CNN,\ncalled Tiny-PULP-Dronet v3, navigates with a 100% success rate a challenging\nand never-seen-before path, composed of a narrow obstacle-populated corridor\nand a 180{\\deg} turn, at a maximum target speed of 0.5 m/s. In the same\nscenario, the SoA PULP-Dronet consistently fails despite having 168x more\nparameters.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Optimal Control for Clutched-Elastic Robots: A Contact-Implicit Approach",
+        "authors": [
+            "Dennis Ossadnik",
+            "Vasilije Rakčević",
+            "Mehmet C. Yildirim",
+            "Edmundo Pozo Fortunić",
+            "Hugo T. M. Kussaba",
+            "Abdalla Swikir",
+            "Sami Haddadin"
+        ],
+        "published": "2024-07-17",
+        "summary": "Intrinsically elastic robots surpass their rigid counterparts in a range of\ndifferent characteristics. By temporarily storing potential energy and\nsubsequently converting it to kinetic energy, elastic robots are capable of\nhighly dynamic motions even with limited motor power. However, the\ntime-dependency of this energy storage and release mechanism remains one of the\nmajor challenges in controlling elastic robots. A possible remedy is the\nintroduction of locking elements (i.e. clutches and brakes) in the drive train.\nThis gives rise to a new class of robots, so-called clutched-elastic robots\n(CER), with which it is possible to precisely control the energy-transfer\ntiming. A prevalent challenge in the realm of CERs is the automatic discovery\nof clutch sequences. Due to complexity, many methods still rely on pre-defined\nmodes. In this paper, we introduce a novel contact-implicit scheme designed to\noptimize both control input and clutch sequence simultaneously. A penalty in\nthe objective function ensures the prevention of unnecessary clutch\ntransitions. We empirically demonstrate the effectiveness of our proposed\nmethod on a double pendulum equipped with two of our newly proposed\nclutch-based Bi-Stiffness Actuators (BSA).",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Shackling Uncertainty using Mixed Criticality in Monte-Carlo Tree Search",
+        "authors": [
+            "Franco Cordeiro",
+            "Samuel Tardieu",
+            "Laurent Pautet"
+        ],
+        "published": "2024-07-17",
+        "summary": "In the world of embedded systems, optimizing actions with the uncertain costs\nof multiple resources is a complex challenge. Existing methods include plan\nbuilding based on Monte Carlo Tree Search (MCTS), an approach that thrives in\nmultiple online planning scenarios. However, these methods often overlook\nuncertainty in worst-case cost estimations. A system can fail to operate before\nachieving a critical objective when actual costs exceed optimistic worst-case\nestimates. Conversely, a system based on pessimistic worst-case estimates would\nlead to resource over-provisioning even for less critical objectives. To solve\nsimilar issues, the Mixed Criticality (MC) approach has been developed in the\nreal-time systems community. In this paper, we propose to extend the MCTS\nheuristic in three directions.\n  Firstly, we reformulate the concept of MC to account for uncertain worst-case\ncosts. High-criticality tasks must be executed regardless of their uncertain\ncosts. Low-criticality tasks are either executed in low-criticality mode\nutilizing resources up-to their optimistic worst-case estimates, or executed in\nhigh-criticality mode by degrading them, or discarded when resources are\nscarce.\n  Secondly, although the MC approach was originally developed for real-time\nsystems, focusing primarily on worst-case execution time as the only uncertain\nresource, our approach extends the concept of resources to deal with several\nresources at once, such as the time and energy required to perform an action.\n  Finally, we propose an extension of MCTS with MC concepts, which we refer to\nas $(MC)^2TS$, to efficiently adjust resource allocation to uncertain costs\naccording to the criticality of actions. We demonstrate our approach in an\nactive perception scenario. Our evaluation shows $(MC)^2TS$ outperforms the\ntraditional MCTS regardless of whether the worst case estimates are optimistic\nor pessimistic.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "A Survey on Universal Approximation Theorems",
+        "authors": [
+            "Midhun T Augustine"
+        ],
+        "published": "2024-07-17",
+        "summary": "This paper discusses various theorems on the approximation capabilities of\nneural networks (NNs), which are known as universal approximation theorems\n(UATs). The paper gives a systematic overview of UATs starting from the\npreliminary results on function approximation, such as Taylor's theorem,\nFourier's theorem, Weierstrass approximation theorem, Kolmogorov - Arnold\nrepresentation theorem, etc. Theoretical and numerical aspects of UATs are\ncovered from both arbitrary width and depth.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Record 202.3 Tb/s Transmission over Field-Deployed Fibre using 15.6 THz S+C+L-Bands",
+        "authors": [
+            "Jiaqian Yang",
+            "Eric Sillekens",
+            "Benjamin J. Puttnam",
+            "Ronit Sohanpal",
+            "Mindaugas Jarmolovičius",
+            "Romulo Aparecido",
+            "Henrique Buglia",
+            "Ruben S. Luis",
+            "Ralf Stolte",
+            "Polina Bayvel",
+            "Robert I. Killey"
+        ],
+        "published": "2024-07-17",
+        "summary": "Ultra-wideband, field-deployed metropolitan fibre transmission is\nexperimentally demonstrated, measuring a record 202.3 Tb/s GMI and 189.5 Tb/s\nafter decoding with 20.9 dBm launch power and lumped amplification only. An\nexperimentally-optimised 5 dB pre-tilt over the 15.6 THz optical bandwidth was\napplied to overcome ISRS.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Experimental validation of the closed-form GN model accounting for distributed Raman amplification in an S+C+L-band hybrid amplified long-haul transmission system",
+        "authors": [
+            "Jiaqian Yang",
+            "Henrique Buglia",
+            "Eric Sillekens",
+            "Mingming Tan",
+            "Pratim Hazarika",
+            "Dini Pratiwi",
+            "Ronit Sohanpal",
+            "Mindaugas Jarmolovičius",
+            "Romulo Aparecido",
+            "Ralf Stolte",
+            "Wladek Forysiak",
+            "Polina Bayvel",
+            "Robert I. Killey"
+        ],
+        "published": "2024-07-17",
+        "summary": "The accuracy of a recently-developed closed-form GN nonlinear interference\nmodel is evaluated in experimental 1065 km S+C+L band WDM transmission with\nbackward Raman pumping. The model accurately estimates the nonlinear\ninterference and ASE with total SNR error of less than 0.6 dB.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Energy-Aware UAV-Enabled Target Tracking: Online Optimization with Location Constraints",
+        "authors": [
+            "Yifan Jiang",
+            "Qingqing Wu",
+            "Wen Chen",
+            "Hongxun Hui"
+        ],
+        "published": "2024-07-17",
+        "summary": "For unmanned aerial vehicle (UAV) trajectory design, the total propulsion\nenergy consumption and initial-final location constraints are practical factors\nto consider. However, unlike traditional offline designs, these two constraints\nare non-trivial to concurrently satisfy in online UAV trajectory designs for\nreal-time target tracking, due to the undetermined information. To address this\nissue, we propose a novel online UAV trajectory optimization approach for the\nweighted sum-predicted posterior Cram\\'er-Rao bound (PCRB) minimization, which\nguarantees the feasibility of satisfying the two mentioned constraints.\nSpecifically, our approach designs the UAV trajectory by solving two\nsubproblems: the candidate trajectory optimization problem and the energy-aware\nbackup trajectory optimization problem. Then, an efficient solution to the\ncandidate trajectory optimization problem is proposed based on Dinkelbach's\ntransform and the Lasserre hierarchy, which achieves the global optimal\nsolution under a given sufficient condition. The energy-aware backup trajectory\noptimization problem is solved by the successive convex approximation method.\nNumerical results show that our proposed UAV trajectory optimization approach\nsignificantly outperforms the benchmark regarding sensing performance and\nenergy utilization flexibility.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "AlphaPEM: an open-source dynamic 1D physics-based PEM fuel cell model for embedded applications",
+        "authors": [
+            "Raphaël Gass",
+            "Zhongliang Li",
+            "Samir Jemeï",
+            "Rachid Outbib",
+            "Daniel Hissel"
+        ],
+        "published": "2024-07-17",
+        "summary": "The urgency of the energy transition requires improving the performance and\nlongevity of hydrogen technologies. AlphaPEM is a dynamic one-dimensional (1D)\nphysics-based PEM fuel cell system simulator, programmed in Python and\nexperimentally validated. It offers a good balance between accuracy and\nexecution speed. The modular architecture allows for addition of new features,\nand it has a user-friendly graphical interface. An automatic calibration method\nis proposed to match the model to the studied machine. The software provides\ninformation on the internal states of the system in response to any current\ndensity and can produce polarization and EIS curves. AlphaPEM facilitates the\nuse of a model in embedded conditions, allowing real-time modification of the\nfuel cell's operating conditions.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Information Compression in Dynamic Games",
+        "authors": [
+            "Dengwang Tang",
+            "Vijay Subramanian",
+            "Demosthenis Teneketzis"
+        ],
+        "published": "2024-07-17",
+        "summary": "One of the reasons why stochastic dynamic games with an underlying dynamic\nsystem are challenging is since strategic players have access to enormous\namount of information which leads to the use of extremely complex strategies at\nequilibrium. One approach to resolve this challenge is to simplify players'\nstrategies by identifying appropriate compression of information maps so that\nthe players can make decisions solely based on the compressed version of\ninformation, called the information state. For finite dynamic games with\nasymmetric information, inspired by the notion of information state for\nsingle-agent control problems, we propose two notions of information states,\nnamely mutually sufficient information (MSI) and unilaterally sufficient\ninformation (USI). Both these information states are obtained with information\ncompression maps independent of the strategy profile. We show that Bayes-Nash\nEquilibria (BNE) and Sequential Equilibria (SE) exist when all players use\nMSI-based strategies. We prove that when all players employ USI-based\nstrategies the resulting sets of BNE and SE payoff profiles are the same as the\nsets of BNE and SE payoff profiles resulting when all players use full\ninformation-based strategies. We prove that when all players use USI-based\nstrategies the resulting set of weak Perfect Bayesian Equilibrium (wPBE) payoff\nprofiles can be a proper subset of all wPBE payoff profiles. We identify MSI\nand USI in specific models of dynamic games in the literature. We end by\npresenting an open problem: Do there exist strategy-dependent information\ncompression maps that guarantee the existence of at least one equilibrium or\nmaintain all equilibria that exist under perfect recall? We show, by a\ncounterexample, that a well-known strategy-dependent information compression\nmap used in the literature does not possess any of the properties of MSI or\nUSI.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Probabilistic Reachability of Stochastic Control Systems: A Contraction-Based Approach",
+        "authors": [
+            "Saber Jafarpour",
+            "Yongxin Chen"
+        ],
+        "published": "2024-07-17",
+        "summary": "In this paper, we propose a framework for studying the probabilistic\nreachability of stochastic control systems. Given a stochastic system, we\nintroduce a separation strategy for reachability analysis that decouples the\neffect of deterministic input/disturbance and stochastic uncertainty. A\nremarkable feature of this separation strategy is its ability to leverage any\ndeterministic reachability framework to capture the effect of deterministic\ninput/disturbance. Furthermore, this separation strategy encodes the impact of\nstochastic uncertainty on reachability analysis by measuring the distance\nbetween the trajectories of the stochastic system and its associated\ndeterministic system. Using contraction theory, we provide probabilistic bounds\non this trajectory distance and estimate the propagation of stochastic\nuncertainties through the system. By combining this probabilistic bound on\ntrajectory distance with two computationally efficient deterministic\nreachability methods, we provide estimates for probabilistic reachable sets of\nthe stochastic system. We demonstrate the efficacy of our framework through\nnumerical experiments on a feedback-stabilized inverted pendulum.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "CLUE: Safe Model-Based RL HVAC Control Using Epistemic Uncertainty Estimation",
+        "authors": [
+            "Xianzhong Ding",
+            "Zhiyu An",
+            "Arya Rathee",
+            "Wan Du"
+        ],
+        "published": "2024-07-16",
+        "summary": "Model-Based Reinforcement Learning (MBRL) has been widely studied for\nHeating, Ventilation, and Air Conditioning (HVAC) control in buildings. One of\nthe critical challenges is the large amount of data required to effectively\ntrain neural networks for modeling building dynamics. This paper presents CLUE,\nan MBRL system for HVAC control in buildings. CLUE optimizes HVAC operations by\nintegrating a Gaussian Process (GP) model to model building dynamics with\nuncertainty awareness. CLUE utilizes GP to predict state transitions as\nGaussian distributions, effectively capturing prediction uncertainty and\nenhancing decision-making under sparse data conditions. Our approach employs a\nmeta-kernel learning technique to efficiently set GP kernel hyperparameters\nusing domain knowledge from diverse buildings. This drastically reduces the\ndata requirements typically associated with GP models in HVAC applications.\nAdditionally, CLUE incorporates these uncertainty estimates into a Model\nPredictive Path Integral (MPPI) algorithm, enabling the selection of safe,\nenergy-efficient control actions. This uncertainty-aware control strategy\nevaluates and selects action trajectories based on their predicted impact on\nenergy consumption and human comfort, optimizing operations even under\nuncertain conditions. Extensive simulations in a five-zone office building\ndemonstrate that CLUE reduces the required training data from hundreds of days\nto just seven while maintaining robust control performance. It reduces comfort\nviolations by an average of 12.07% compared to existing MBRL methods, without\ncompromising on energy efficiency.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Pointwise-Sparse Actuator Scheduling for Linear Systems with Controllability Guarantee",
+        "authors": [
+            "Luca Ballotta",
+            "Geethu Joseph",
+            "Irawati Rahul Thete"
+        ],
+        "published": "2024-07-16",
+        "summary": "In this paper, we address optimal scheduling of control inputs given a hard\nconstraint on the number of input channels active at any time. For a sparsely\ncontrollable system, we characterize the sparse actuator schedules that make\nthe system controllable, and then devise a greedy selection algorithm that\nguarantees controllability while heuristically providing low control effort. We\nfurther show how to enhance our greedy algorithm via Markov chain Monte\nCarlo-based optimization.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Pareto local search for a multi-objective demand response problem in residential areas with heat pumps and electric vehicles",
+        "authors": [
+            "Thomas Dengiz",
+            "Andrea Raith",
+            "Max Kleinebrahm",
+            "Jonathan Vogl",
+            "Wolf Fichtner"
+        ],
+        "published": "2024-07-16",
+        "summary": "In future energy systems characterized by significant shares of fluctuating\nrenewable energy sources, there is a need for a fundamental change in\nelectricity consumption. The energy system requires the ability to adapt to the\nintermittent electricity generation of renewable energy sources. This can be\nachieved by integrating flexible electrical loads, such as electric heating\ndevices and electric vehicles, in combination with efficient control methods.\nIn this paper, we introduce the Pareto local search method PALSS with heuristic\nsearch operations to solve the multi-objective optimization problem of a\nresidential area with different types of flexible loads. PALSS shifts the\nflexible electricity load with the objective of minimizing the electricity cost\nand peak load while maintaining the inhabitants' comfort in favorable ranges.\nFurther, we include reinforcement learning into the heuristic search operations\nin the approach RELAPALSS and use the dichotomous method for obtaining all\nPareto-optimal solutions of the multi-objective optimization problem with\nconflicting goals. The methods are evaluated in simulations with different\nconfigurations of the residential area. The results show that PALSS and\nRELAPALSS strongly outperform the two multi-objective evolutionary algorithms\nNSGA-II and SPEA-II from the literature and the conventional control approach.\nThe inclusion of reinforcement learning in RELAPALSS leads to additional\nimprovements. Our study reveals the need for multi-objective optimization\nmethods to utilize renewable energy sources in residential areas.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Reachset-Conformant System Identification",
+        "authors": [
+            "Laura Lützow",
+            "Matthias Althoff"
+        ],
+        "published": "2024-07-16",
+        "summary": "Formal verification techniques play a pivotal role in ensuring the safety of\ncomplex cyber-physical systems. To transfer model-based verification results to\nthe real world, we require that the measurements of the target system lie in\nthe set of reachable outputs of the corresponding model, a property we refer to\nas reachset conformance. This paper is on automatically identifying those\nreachset-conformant models. While state-of-the-art reachset-conformant\nidentification methods focus on linear state-space models, we generalize these\nmethods to nonlinear state-space models and linear and nonlinear input-output\nmodels. Furthermore, our identification framework adapts to different levels of\nprior knowledge on the system dynamics. In particular, we identify the set of\nmodel uncertainties for white-box models, the parameters and the set of model\nuncertainties for gray-box models, and entire reachset-conformant black-box\nmodels from data. For the black-box identification, we propose a new genetic\nprogramming variant, which we call conformant genetic programming. The\nrobustness and efficacy of our framework are demonstrated in extensive\nnumerical experiments using simulated and real-world data.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Statistical Reachability Analysis of Stochastic Cyber-Physical Systems under Distribution Shift",
+        "authors": [
+            "Navid Hashemi",
+            "Lars Lindemann",
+            "Jyotirmoy V. Deshmukh"
+        ],
+        "published": "2024-07-16",
+        "summary": "Reachability analysis is a popular method to give safety guarantees for\nstochastic cyber-physical systems (SCPSs) that takes in a symbolic description\nof the system dynamics and uses set-propagation methods to compute an\noverapproximation of the set of reachable states over a bounded time horizon.\nIn this paper, we investigate the problem of performing reachability analysis\nfor an SCPS that does not have a symbolic description of the dynamics, but\ninstead is described using a digital twin model that can be simulated to\ngenerate system trajectories. An important challenge is that the simulator\nimplicitly models a probability distribution over the set of trajectories of\nthe SCPS; however, it is typical to have a sim2real gap, i.e., the actual\ndistribution of the trajectories in a deployment setting may be shifted from\nthe distribution assumed by the simulator. We thus propose a statistical\nreachability analysis technique that, given a user-provided threshold\n$1-\\epsilon$, provides a set that guarantees that any reachable state during\ndeployment lies in this set with probability not smaller than this threshold.\nOur method is based on three main steps: (1) learning a deterministic surrogate\nmodel from sampled trajectories, (2) conducting reachability analysis over the\nsurrogate model, and (3) employing {\\em robust conformal inference} using an\nadditional set of sampled trajectories to quantify the surrogate model's\ndistribution shift with respect to the deployed SCPS. To counter conservatism\nin reachable sets, we propose a novel method to train surrogate models that\nminimizes a quantile loss term (instead of the usual mean squared loss), and a\nnew method that provides tighter guarantees using conformal inference using a\nnormalized surrogate error. We demonstrate the effectiveness of our technique\non various case studies.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Federated Learning Forecasting for Strengthening Grid Reliability and Enabling Markets for Resilience",
+        "authors": [
+            "Lucas Pereira",
+            "Vineet Jagadeesan Nair",
+            "Bruno Dias",
+            "Hugo Morais",
+            "Anuradha Annaswamy"
+        ],
+        "published": "2024-07-16",
+        "summary": "We propose a comprehensive approach to increase the reliability and\nresilience of future power grids rich in distributed energy resources. Our\ndistributed scheme combines federated learning-based attack detection with a\nlocal electricity market-based attack mitigation method. We validate the scheme\nby applying it to a real-world distribution grid rich in solar PV. Simulation\nresults demonstrate that the approach is feasible and can successfully mitigate\nthe grid impacts of cyber-physical attacks.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Imitation learning with artificial neural networks for demand response with a heuristic control approach for heat pumps",
+        "authors": [
+            "Thomas Dengiz",
+            "Max Kleinebrahm"
+        ],
+        "published": "2024-07-16",
+        "summary": "The flexibility of electrical heating devices can help address the issues\narising from the growing presence of unpredictable renewable energy sources in\nthe energy system. In particular, heat pumps offer an effective solution by\nemploying smart control methods that adjust the heat pump's power output in\nreaction to demand response signals. This paper combines imitation learning\nbased on an artificial neural network with an intelligent control approach for\nheat pumps. We train the model using the output data of an optimization problem\nto determine the optimal operation schedule of a heat pump. The objective is to\nminimize the electricity cost with a time-variable electricity tariff while\nkeeping the building temperature within acceptable boundaries. We evaluate our\ndeveloped novel method, PSC-ANN, on various multi-family buildings with\ndiffering insulation levels that utilize an underfloor heating system as\nthermal storage. The results show that PSC-ANN outperforms a positively\nevaluated intelligent control approach from the literature and a conventional\ncontrol approach. Further, our experiments reveal that a trained imitation\nlearning model for a specific building is also applicable to other similar\nbuildings without the need to train it again with new data. Our developed\napproach also reduces the execution time compared to optimally solving the\ncorresponding optimization problem. PSC-ANN can be integrated into multiple\nbuildings, enabling them to better utilize renewable energy sources by\nadjusting their electricity consumption in response to volatile external\nsignals.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Finite State Machines-Based Path-Following Collaborative Computing Strategy for Emergency UAV Swarms",
+        "authors": [
+            "Jialin Hu",
+            "Zhiyuan Ren",
+            "Wenchi Cheng"
+        ],
+        "published": "2024-07-16",
+        "summary": "Offloading services to UAV swarms for delay-sensitive tasks in Emergency UAV\nNetworks (EUN) can greatly enhance rescue efficiency. Most task-offloading\nstrategies assumed that UAVs were location-fixed and capable of handling all\ntasks. However, in complex disaster environments, UAV locations often change\ndynamically, and the heterogeneity of on-board resources presents a significant\nchallenge in optimizing task scheduling in EUN to minimize latency. To address\nthese problems, a Finite state machines-based Path-following Collaborative\ncomputation strategy (FPC) for emergency UAV swarms is proposed. First, an\nExtended Finite State Machine Space-time Graph (EFSMSG) model is constructed to\naccurately characterize on-board resources and state transitions while\nshielding the EUN dynamic characteristic. Based on the EFSMSG, a mathematical\nmodel is formulated for the FPC strategy to minimize task processing delay\nwhile facilitating computation during transmission. Finally, the Constraint\nSelection Adaptive Binary Particle Swarm Optimization (CSABPSO) algorithm is\nproposed for the solution. Simulation results demonstrate that the proposed FPC\nstrategy effectively reduces task processing delay, meeting the requirements of\ndelay-sensitive tasks in emergency situations.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Distributed Prescribed-Time Convex Optimization: Cascade Design and Time-Varying Gain Approach",
+        "authors": [
+            "Gewei Zuo",
+            "Lijun Zhu",
+            "Yujuan Wang",
+            "Zhiyong Chen"
+        ],
+        "published": "2024-07-16",
+        "summary": "In this paper, we address the distributed prescribed-time convex optimization\n(DPTCO) problem for a class of nonlinear multi-agent systems (MASs) under\nundirected connected graph. A cascade design framework is proposed such that\nthe DPTCO implementation is divided into two parts: distributed optimal\ntrajectory generator design and local reference trajectory tracking controller\ndesign. The DPTCO problem is then transformed into the prescribed-time\nstabilization problem of a cascaded system. Changing Lyapunov function method\nand time-varying state transformation method together with the sufficient\nconditions are proposed to prove the prescribed-time stabilization of the\ncascaded system as well as the uniform boundedness of internal signals in the\nclosed-loop systems. The proposed framework is then utilized to solve robust\nDPTCO problem for a class of chain-integrator MASs with external disturbances\nby constructing a novel variables and exploiting the property of time-varying\ngains. The proposed framework is further utilized to solve the adaptive DPTCO\nproblem for a class of strict-feedback MASs with parameter uncertainty, in\nwhich backstepping method with prescribed-time dynamic filter is adopted. The\ndescending power state transformation is introduced to compensate the growth of\nincreasing rate induced by the derivative of time-varying gains in recursive\nsteps and the high-order derivative of local reference trajectory is not\nrequired. Finally, theoretical results are verified by two numerical examples.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Prescribed-time Cooperative Output Regulation of Linear Heterogeneous Multi-agent Systems",
+        "authors": [
+            "Gewei Zuo",
+            "Lijun Zhu",
+            "Yujuan Wang",
+            "Zhiyong Chen"
+        ],
+        "published": "2024-07-16",
+        "summary": "A finite-time protocol for a multi-agent systems (MASs) can guarantee the\nconvergence of every agent in a finite time interval in contrast to the\nasymptotic convergence, but the settling time depends on the initial condition\nand design parameters and is inconsistent across the agents. In this paper, we\nstudy the prescribed-time cooperative output regulation (PTCOR) problem for a\nclass of linear heterogeneous MASs under a directed communication graph, where\nthe settling time of every agent can be specified a priori and thus consistent.\nAs a special case of PTCOR, the necessary and sufficient condition for\nprescribed-time output regulation of an individual system is first discussed.\nThen, the PTCOR problem is converted into two cascaded subsystem, where the\nfirst one composed of distributed estimate errors and local estimate errors and\nthe second one is for\n  local tracking errors.\n  The criterion for prescribed-time stabilization of the cascaded system is\nproposed and is found to be different from that of traditional asymptotic\nstabilization of a cascaded system. Under the criterion and sufficient\ncondition, the general PTCOR problem is studied in two scenarios including\nstate feedback control and measurement output feedback control. In particular,\na distributed prescribed-time observer for each subsystem is explicitly\nconstructed to estimate the exosystem's state. Based on the observer, a\ndistributed controller is proposed to achieve convergence of the regulated\noutput to zero within a prescribed-time.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Reconfigurable Intelligent Surface for Sensing, Communication, and Computation: Perspectives, Challenges, and Opportunities",
+        "authors": [
+            "Bin Li",
+            "Wancheng Xie",
+            "Zesong Fei"
+        ],
+        "published": "2024-07-16",
+        "summary": "Forthcoming 6G networks have two predominant features of wide coverage and\nsufficient computation capability. To support the promising applications,\nIntegrated Sensing, Communication, and Computation (ISCC) has been considered\nas a vital enabler by completing the computation of raw data to achieve\naccurate environmental sensing. To help the ISCC networks better support the\ncomprehensive services of radar detection, data transmission and edge\ncomputing, Reconfigurable Intelligent Surface (RIS) can be employed to boost\nthe transmission rate and the wireless coverage by smartly tuning the\nelectromagnetic characteristics of the environment. In this article, we propose\nan RIS-assisted ISCC framework and exploit the RIS benefits for improving radar\nsensing, communication and computing functionalities via cross-layer design,\nwhile discussing the key challenges. Then, two generic application scenarios\nare presented, i.e., unmanned aerial vehicles and Internet of vehicles.\nFinally, numerical results demonstrate a superiority of RIS-assisted ISCC,\nfollowed by a range of future research directions.",
+        "journal_ref": "vol. 7, no. 4, pp. 36-42, Jul. 2024"
+    },
+    {
+        "title": "Adaptive Event-triggered Control with Sampled Transmitted Output and Controller Dynamics",
+        "authors": [
+            "Gewei Zuo",
+            "Lijun Zhu"
+        ],
+        "published": "2024-07-16",
+        "summary": "The event-triggered control with intermittent output can reduce the\ncommunication burden between the controller and plant side over the network. It\nhas been exploited for adaptive output feedback control of uncertain nonlinear\nsystems in the literature, however the controller must partially reside at the\nplant side where the computation capacity is required. In this paper, all\ncontroller components are moved to the controller side and their dynamics use\nsampled states rather than continuous one with the benefit of directly\nestimating next triggering instance of some conditions and avoiding constantly\nchecking event condition at the controller side. However, these bring two major\nchallenges. First, the virtual input designed in the dynamic filtering\ntechnique for the stabilization is no longer differentiable. Second, the plant\noutput is sampled to transmit at plant side and sampled again at controller\nside to construct the controller, and the two asynchronous samplings make the\nanalysis more involving. This paper solves these two issues by introducing a\nnew state observer to simplify the adaptive law, a set of continuous companion\nvariables for stability analysis and a new lemma quantifying the error bound\nbetween actual output signal and sampled transmitted output.\n  It is theoretically guaranteed that all internal signals in the closed-loop\nsystem are semiglobally bounded and the output is practically stabilized to the\norigin. Finally, the numerical simulation illustrates the effectiveness of\nproposed scheme.",
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Scenario Convex Programs for Dexterous Manipulation under Modeling Uncertainties",
+        "authors": [
+            "Berk Altiner",
+            "Adnane Saoud",
+            "Alex Caldas",
+            "Maria Makarov"
+        ],
+        "published": "2024-07-16",
+        "summary": "This paper proposes a new framework to design a controller for the dexterous\nmanipulation of an object by a multi-fingered hand. To achieve a robust\nmanipulation and wide range of operations, the uncertainties on the location of\nthe contact point and multiple operating points are taken into account in the\ncontrol design by sampling the state space. The proposed control strategy is\nbased on a robust pole placement using LMIs. Moreover, to handle uncertainties\nand different operating points, we recast our problem as a robust convex\nprogram (RCP). We then consider the original RCP as a scenario convex program\n(SCP) and solve the SCP by sampling the uncertain grasp map parameter and\noperating points in the state space. For a required probabilistic level of\nconfidence, we quantify the feasibility of the SCP solution based on the number\nof sampling points. The control strategy is tested in simulation in a case\nstudy with contact location error and different initial grasps.",
+        "journal_ref": "N/A"
+    }
+]

@@ -1,5 +1,6 @@
 import arxiv
 from datetime import datetime
+import json
 
 # 날짜 범위 설정
 start_date = datetime(2024, 7, 16)
@@ -21,11 +22,25 @@ search = arxiv.Search(
 # 결과 가져오기
 results = client.results(search)
 
-# 결과 출력
+# 결과를 저장할 리스트
+papers = []
+
+# 결과를 JSON 형태로 저장
 for result in results:
-    print(f"Title: {result.title}")
-    print(f"Authors: {', '.join([author.name for author in result.authors])}")
-    print(f"Published: {result.published}")
-    print(f"Summary: {result.summary}")
-    print(f"Journal Reference: {result.journal_ref if result.journal_ref else 'N/A'}")
-    print("-" * 80)
+    paper_info = {
+        "title": result.title,
+        "authors": [author.name for author in result.authors],
+        "published": result.published.strftime("%Y-%m-%d"),
+        "summary": result.summary,
+        "journal_ref": result.journal_ref if result.journal_ref else 'N/A'
+    }
+    papers.append(paper_info)
+
+# 파일 이름 생성
+file_name = f"arxiv_papers_{start_date.strftime('%Y%m%d')}_to_{end_date.strftime('%Y%m%d')}.json"
+
+# JSON 파일로 저장
+with open(file_name, 'w', encoding='utf-8') as f:
+    json.dump(papers, f, indent=4, ensure_ascii=False)
+
+print(f"Results saved to {file_name}")
