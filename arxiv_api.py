@@ -26,9 +26,13 @@ results = client.results(search)
 papers = []
 papers_with_journal = []
 
+# 논문 ID 초기화
+paper_id = 1
+
 # 결과를 JSON 형태로 저장
 for result in results:
     paper_info = {
+        "id": paper_id,
         "title": result.title,
         "authors": [author.name for author in result.authors],
         "published": result.published.strftime("%Y-%m-%d"),
@@ -39,7 +43,8 @@ for result in results:
 
     if result.journal_ref:
         papers_with_journal.append(paper_info)
-        # print(paper_info)
+
+    paper_id += 1
 
 # 파일 이름 생성
 file_name_all = f"arxiv_papers_{start_date.strftime('%Y%m%d')}_to_{end_date.strftime('%Y%m%d')}.json"

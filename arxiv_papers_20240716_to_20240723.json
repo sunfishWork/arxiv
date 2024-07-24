@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "title": "Online Reduced-Order Data-Enabled Predictive Control",
         "authors": [
             "Amin Vahidi-Moghaddam",
@@ -13,6 +14,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 2,
         "title": "Efficient Replay Memory Architectures in Multi-Agent Reinforcement Learning for Traffic Congestion Control",
         "authors": [
             "Mukul Chodhary",
@@ -24,6 +26,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 3,
         "title": "An RF-Domain Leakage Cancellation Scheme for FMCW Radars",
         "authors": [
             "Yikuan Chen",
@@ -34,6 +37,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 4,
         "title": "Diffusion Model Based Resource Allocation Strategy in Ultra-Reliable Wireless Networked Control Systems",
         "authors": [
             "Amirhassan Babazadeh Darabi",
@@ -44,6 +48,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 5,
         "title": "How to Shrink Confidence Sets for Many Equivalent Discrete Distributions?",
         "authors": [
             "Odalric-Ambrym Maillard",
@@ -54,6 +59,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 6,
         "title": "Vehicle-to-Everything: Looking into the Future of Flexibility Services",
         "authors": [
             "Omid Homaee",
@@ -68,6 +74,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 7,
         "title": "Experimenting with Adaptive Bitrate Algorithms for Virtual Reality Streaming over Wi-Fi",
         "authors": [
             "Ferran Maura",
@@ -79,6 +86,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 8,
         "title": "A Methodology for Power Dispatch Based on Traction Station Clusters in the Flexible Traction Power Supply System",
         "authors": [
             "Ruofan Li",
@@ -91,6 +99,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 9,
         "title": "Cooperative Salvo Guidance over Leader-Follower Network with Free-Will Arbitrary Time Convergence",
         "authors": [
             "Rajib Shekhar Pal",
@@ -102,6 +111,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 10,
         "title": "Should we use model-free or model-based control? A case study of battery management systems",
         "authors": [
             "Mohamad Fares El Hajj Chehade",
@@ -114,6 +124,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 11,
         "title": "Weyl Calculus and Exactly Solvable Schrödinger Bridges with Quadratic State Cost",
         "authors": [
             "Alexis M. H. Teter",
@@ -125,6 +136,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 12,
         "title": "Variation Bayesian Interference for Multiple Extended Targets or Unresolved Group Targets Tracking",
         "authors": [
             "Yuanhao Cheng",
@@ -138,6 +150,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 13,
         "title": "More-than-Moore Microacoustics: A Scalable Fabrication Process for Suspended Lamb Wave Resonators",
         "authors": [
             "Marco Liffredo",
@@ -151,6 +164,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 14,
         "title": "Measurements of the Safety Function Response Time on a Private 5G and IO-Link Wireless Testbed",
         "authors": [
             "Henry Beuster",
@@ -163,6 +177,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 15,
         "title": "Reinforcement Learning Optimizes Power Dispatch in Decentralized Power Grid",
         "authors": [
             "Yongsun Lee",
@@ -180,6 +195,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 16,
         "title": "An Interface Method for Co-simulation of EMT Model and Shifted Frequency EMT Model Based on Rotational Invariance Techniques",
         "authors": [
             "Shilin Gao",
@@ -194,6 +210,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 17,
         "title": "UAV Active Perception and Motion Control for Improving Navigation Using Low-Cost Sensors",
         "authors": [
             "Konstantinos Gounis",
@@ -205,6 +222,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 18,
         "title": "The statistical spread of transmission outages on a fast protection time scale based on utility data",
         "authors": [
             "Ian Dobson",
@@ -216,6 +234,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 19,
         "title": "Efficient Sampling for Data-Driven Frequency Stability Constraint via Forward-Mode Automatic Differentiation",
         "authors": [
             "Wangkun Xu",
@@ -229,6 +248,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 20,
         "title": "Structured Input-Output Modeling and Robust Stability Analysis of Compressible Flows",
         "authors": [
             "Diganta Bhattacharjee",
@@ -241,6 +261,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 21,
         "title": "Enhancing Microgrid Performance Prediction with Attention-based Deep Learning Models",
         "authors": [
             "Vinod Kumar Maddineni",
@@ -252,6 +273,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 22,
         "title": "A Distributionally Robust Optimization Framework for Stochastic Assessment of Power System Flexibility in Economic Dispatch",
         "authors": [
             "Xinyi Zhao",
@@ -265,6 +287,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 23,
         "title": "A Holistic Optimization Framework for Energy Efficient UAV-assisted Fog Computing: Attitude Control, Trajectory Planning and Task Assignment",
         "authors": [
             "Shuaijun Liu",
@@ -279,6 +302,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 24,
         "title": "Inferring Ingrained Remote Information in AC Power Flows Using Neuromorphic Modality Regime",
         "authors": [
             "Xiaoguang Diao",
@@ -290,6 +314,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 25,
         "title": "QoS Aware Mixed-Criticality Task Scheduling in Vehicular Edge Cloud System",
         "authors": [
             "Suvarthi Sarkar",
@@ -302,6 +327,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 26,
         "title": "Phase Re-service in Reinforcement Learning Traffic Signal Control",
         "authors": [
             "Zhiyao Zhang",
@@ -317,6 +343,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 27,
         "title": "Efficient Design of a Pixelated Rectenna for WPT Applications",
         "authors": [
             "Rasool Keshavarz",
@@ -329,6 +356,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 28,
         "title": "Multidirectional Pixelated Cubic Antenna with Enhanced Isolation for Vehicular Applications",
         "authors": [
             "Md. Amanath Ullah",
@@ -342,6 +370,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 29,
         "title": "Autonomous Nonlinear Passive Transmit-Receive Switch for Compact IoT Devices: A Three-Port Agile Network",
         "authors": [
             "Rasool Keshavarz",
@@ -353,6 +382,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 30,
         "title": "Metasurface Energy Harvesters: State-of-the-Art Designs and Their Potential for Energy Sustainable Reconfigurable Intelligent Surfaces",
         "authors": [
             "Alireza Ghaneizadeh",
@@ -365,6 +395,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 31,
         "title": "Adaptive Uncertainty Quantification for Scenario-based Control Using Meta-learning of Bayesian Neural Networks",
         "authors": [
             "Yajie Bao",
@@ -375,6 +406,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 32,
         "title": "TTT: A Temporal Refinement Heuristic for Tenuously Tractable Discrete Time Reachability Problems",
         "authors": [
             "Chelsea Sidrane",
@@ -385,6 +417,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 33,
         "title": "Adaptive State Observers of Linear Time-varying Descriptor Systems: A Parameter Estimation-Based Approach",
         "authors": [
             "Romeo Ortega",
@@ -397,6 +430,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 34,
         "title": "Equivariant Symmetries for Aided Inertial Navigation",
         "authors": [
             "Alessandro Fornasier"
@@ -406,6 +440,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 35,
         "title": "An Optimal Control Framework for Airborne Wind Energy Systems with a Flexible Tether",
         "authors": [
             "Omid Heydarnia",
@@ -418,6 +453,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 36,
         "title": "Stochastic Model Predictive Control with Optimal Linear Feedback for Mobile Robots in Dynamic Environments",
         "authors": [
             "Yunfan Gao",
@@ -430,6 +466,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 37,
         "title": "A trustworthy blockchain-based energy trading scheme for V2G operations in distributed power grids via integrated scheduling and trading framework",
         "authors": [
             "Yunwang Chen",
@@ -442,6 +479,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 38,
         "title": "Online learning of Koopman operator using streaming data from different dynamical regimes",
         "authors": [
             "Kartik Loya",
@@ -452,6 +490,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 39,
         "title": "Optimization-Based Outlier Accommodation for Tightly Coupled RTK-Aided Inertial Navigation Systems in Urban Environments",
         "authors": [
             "Wang Hu",
@@ -464,6 +503,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 40,
         "title": "Privacy-preserving gradient-based fair federated learning",
         "authors": [
             "Janis Adamek",
@@ -474,6 +514,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 41,
         "title": "Real-time Estimation of Bound Water Concentration during Lyophilization with Temperature-based State Observers",
         "authors": [
             "Prakitr Srisuma",
@@ -485,6 +526,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 42,
         "title": "Neural Network Tire Force Modeling for Automated Drifting",
         "authors": [
             "Nicholas Drake Broadbent",
@@ -497,6 +539,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 43,
         "title": "Model Predictive Path Integral Methods with Reach-Avoid Tasks and Control Barrier Functions",
         "authors": [
             "Hardik Parwana",
@@ -511,6 +554,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 44,
         "title": "Conformal Wide-Angle Scanning Leaky-Wave Antenna for V-Band On-Body Applications",
         "authors": [
             "Pratik Vadher",
@@ -527,6 +571,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 45,
         "title": "Managing Risk using Rolling Forecasts in Energy-Limited and Stochastic Energy Systems",
         "authors": [
             "Thomas Mortimer",
@@ -537,6 +582,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 46,
         "title": "Decentralised Governance for Autonomous Cyber-Physical Systems",
         "authors": [
             "Kelsie Nabben",
@@ -548,6 +594,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 47,
         "title": "Convergence result for the gradient-push algorithm and its application to boost up the Push-DIging algorithm",
         "authors": [
             "Hyogi Choi",
@@ -559,6 +606,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 48,
         "title": "Scalar Field Mapping with Adaptive High-Intensity Region Avoidance",
         "authors": [
             "Muzaffar Qureshi",
@@ -571,6 +619,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 49,
         "title": "EnergyDiff: Universal Time-Series Energy Data Generation using Diffusion Models",
         "authors": [
             "Nan Lin",
@@ -582,6 +631,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 50,
         "title": "The Construction of a Soft Gripper Based on Magnetorheological Elastomer with Permanent Magnet",
         "authors": [
             "Jakub Bernat",
@@ -595,6 +645,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 51,
         "title": "Exploring Robot Trajectory Planning -- A Comparative Analysis of Algorithms And Software Implementations in Dynamic Environments",
         "authors": [
             "Arunabh Bora"
@@ -604,6 +655,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 52,
         "title": "Deep Reinforcement Learning for Multi-Objective Optimization: Enhancing Wind Turbine Energy Generation while Mitigating Noise Emissions",
         "authors": [
             "Martín de Frutos",
@@ -616,6 +668,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 53,
         "title": "Deterministic Trajectory Optimization through Probabilistic Optimal Control",
         "authors": [
             "Mohammad Mahmoudi Filabadi",
@@ -627,6 +680,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 54,
         "title": "Evaluating the Impact of Data Availability on Machine Learning-augmented MPC for a Building Energy Management System",
         "authors": [
             "Jens Engel",
@@ -639,6 +693,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 55,
         "title": "Predictive control for nonlinear stochastic systems: Closed-loop guarantees with unbounded noise",
         "authors": [
             "Johannes Köhler",
@@ -649,6 +704,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 56,
         "title": "Disturbance Observer for Estimating Coupled Disturbances",
         "authors": [
             "Jindou Jia",
@@ -663,6 +719,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 57,
         "title": "Solving the Model Unavailable MARE using Q-Learning Algorithm",
         "authors": [
             "Fei Yan",
@@ -675,6 +732,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 58,
         "title": "Geometric Data Fusion for Collaborative Attitude Estimation",
         "authors": [
             "Yixiao Ge",
@@ -688,6 +746,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 59,
         "title": "A Master-Follower Teleoperation System for Robotic Catheterization: Design, Characterization, and Tracking Control",
         "authors": [
             "Ali A. Nazari",
@@ -703,6 +762,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 60,
         "title": "Trajectory Planning Using Tire Thermodynamics for Automated Drifting",
         "authors": [
             "Takao Kobayashi",
@@ -714,6 +774,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 61,
         "title": "Effects of dynamic power electronic load models on power systems analysis using ZIP-E loads",
         "authors": [
             "Gabriel E. Colon-Reyes",
@@ -726,6 +787,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 62,
         "title": "Distilling Tiny and Ultra-fast Deep Neural Networks for Autonomous Navigation on Nano-UAVs",
         "authors": [
             "Lorenzo Lamberti",
@@ -741,6 +803,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 63,
         "title": "Optimal Control for Clutched-Elastic Robots: A Contact-Implicit Approach",
         "authors": [
             "Dennis Ossadnik",
@@ -756,6 +819,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 64,
         "title": "Shackling Uncertainty using Mixed Criticality in Monte-Carlo Tree Search",
         "authors": [
             "Franco Cordeiro",
@@ -767,6 +831,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 65,
         "title": "A Survey on Universal Approximation Theorems",
         "authors": [
             "Midhun T Augustine"
@@ -776,6 +841,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 66,
         "title": "Record 202.3 Tb/s Transmission over Field-Deployed Fibre using 15.6 THz S+C+L-Bands",
         "authors": [
             "Jiaqian Yang",
@@ -795,6 +861,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 67,
         "title": "Experimental validation of the closed-form GN model accounting for distributed Raman amplification in an S+C+L-band hybrid amplified long-haul transmission system",
         "authors": [
             "Jiaqian Yang",
@@ -816,6 +883,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 68,
         "title": "Energy-Aware UAV-Enabled Target Tracking: Online Optimization with Location Constraints",
         "authors": [
             "Yifan Jiang",
@@ -828,6 +896,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 69,
         "title": "AlphaPEM: an open-source dynamic 1D physics-based PEM fuel cell model for embedded applications",
         "authors": [
             "Raphaël Gass",
@@ -841,6 +910,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 70,
         "title": "Information Compression in Dynamic Games",
         "authors": [
             "Dengwang Tang",
@@ -852,6 +922,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 71,
         "title": "Probabilistic Reachability of Stochastic Control Systems: A Contraction-Based Approach",
         "authors": [
             "Saber Jafarpour",
@@ -862,6 +933,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 72,
         "title": "CLUE: Safe Model-Based RL HVAC Control Using Epistemic Uncertainty Estimation",
         "authors": [
             "Xianzhong Ding",
@@ -874,6 +946,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 73,
         "title": "Pointwise-Sparse Actuator Scheduling for Linear Systems with Controllability Guarantee",
         "authors": [
             "Luca Ballotta",
@@ -885,6 +958,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 74,
         "title": "Pareto local search for a multi-objective demand response problem in residential areas with heat pumps and electric vehicles",
         "authors": [
             "Thomas Dengiz",
@@ -898,6 +972,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 75,
         "title": "Reachset-Conformant System Identification",
         "authors": [
             "Laura Lützow",
@@ -908,6 +983,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 76,
         "title": "Statistical Reachability Analysis of Stochastic Cyber-Physical Systems under Distribution Shift",
         "authors": [
             "Navid Hashemi",
@@ -919,6 +995,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 77,
         "title": "Federated Learning Forecasting for Strengthening Grid Reliability and Enabling Markets for Resilience",
         "authors": [
             "Lucas Pereira",
@@ -932,6 +1009,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 78,
         "title": "Imitation learning with artificial neural networks for demand response with a heuristic control approach for heat pumps",
         "authors": [
             "Thomas Dengiz",
@@ -942,6 +1020,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 79,
         "title": "Finite State Machines-Based Path-Following Collaborative Computing Strategy for Emergency UAV Swarms",
         "authors": [
             "Jialin Hu",
@@ -953,6 +1032,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 80,
         "title": "Distributed Prescribed-Time Convex Optimization: Cascade Design and Time-Varying Gain Approach",
         "authors": [
             "Gewei Zuo",
@@ -965,6 +1045,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 81,
         "title": "Prescribed-time Cooperative Output Regulation of Linear Heterogeneous Multi-agent Systems",
         "authors": [
             "Gewei Zuo",
@@ -977,6 +1058,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 82,
         "title": "Reconfigurable Intelligent Surface for Sensing, Communication, and Computation: Perspectives, Challenges, and Opportunities",
         "authors": [
             "Bin Li",
@@ -988,6 +1070,7 @@
         "journal_ref": "vol. 7, no. 4, pp. 36-42, Jul. 2024"
     },
     {
+        "id": 83,
         "title": "Adaptive Event-triggered Control with Sampled Transmitted Output and Controller Dynamics",
         "authors": [
             "Gewei Zuo",
@@ -998,6 +1081,7 @@
         "journal_ref": "N/A"
     },
     {
+        "id": 84,
         "title": "Scenario Convex Programs for Dexterous Manipulation under Modeling Uncertainties",
         "authors": [
             "Berk Altiner",
