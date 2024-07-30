@@ -1,0 +1,62 @@
+[
+    {
+        "id": 49,
+        "title": "Multiple Access Integrated Adaptive Finite Blocklength for Ultra-Low Delay in 6G Wireless Networks",
+        "authors": [
+            "Yixin Zhang",
+            "Wenchi Cheng",
+            "Wei Zhang"
+        ],
+        "published": "2024-07-17",
+        "summary": "Facing the dramatic increase of real-time applications and time-sensitive\nservices, large-scale ultra-low delay requirements are put forward for the\nsixth generation (6G) wireless networks. To support massive ultra-reliable and\nlow-latency communications (mURLLC), in this paper we propose an adaptive\nfinite blocklength framework to reduce the over-the-air delay for short packet\ntransmissions with multiple-access and delay-bounded demands. In particular, we\nfirst give the specified over-the-air delay model. Then, we reveal the tradeoff\nrelationship among queuing delay, transmission delay, and the number of\nretransmissions along with the change of finite blocklength, as well as\nformulate the adaptive blocklength framework. Based on the adaptive blocklength\nframework and associated with grant-free (GF) access protocol, we formulate the\naverage over-the-air delay minimization problem, where the blocklength can be\nadaptively changed in terms of transmission time interval (TTI) design and\nbandwidth allocation to achieve the optimal tradeoff and obtain its minimum\nover-the-air delay. We develop the cooperative multi-agent deep Q-network\n(M-DQN) scheme with a grouping mechanism to efficiently solve the average\nover-the-air delay minimization problem. Numerical results validate our\nproposed adaptive blocklength scheme outperforms corresponding schemes in\nlong-term evolution (LTE) and the fifth generation (5G) new radio (NR).",
+        "journal_ref": "IEEE Transactions on Wireless Communications ( Volume: 23, Issue:\n  3, March 2024)"
+    },
+    {
+        "id": 50,
+        "title": "Adaptive Finite Blocklength for Low Access Delay in 6G Wireless Networks",
+        "authors": [
+            "Yixin Zhang",
+            "Wenchi Cheng",
+            "Wei Zhang"
+        ],
+        "published": "2024-07-17",
+        "summary": "As the number of real-time applications with ultra-low delay requirements\nquickly grows, massive ultra-reliable and low-latency communication (mURLLC)\nhas been proposed to provide a wide range of delay-sensitive services for the\nsixth generation (6G) wireless networks. However, it is difficult to meet the\nstringent delay demand of massive connectivity with existing grant-based (GB)\nrandom access and fixed frame structure in long-term evolution (LTE) and the\nfifth generation (5G) new radio (NR) systems. To solve this problem, in this\npaper we propose the new grant-free (GF) based adaptive blocklength scheme for\nshort packet transmission to reduce the access delay. We develop the adaptive\nblocklength framework where the blocklength can be adaptively changed according\nto the real-time load, to revise the traditional non-flexible frame structure\nwhich impacts the delay performance. Taking the features of mURLLC into\nconsideration, we analyze the GF random access procedure, packet arrival\nbehavior, packet collision, and packet transmission error in the finite\nblocklength (FB) regime. On this basis, we derive the closed-form expression of\nsuccessful access and transmission probability and give the GF-based status\nupdate model. Then, we propose the access delay minimization problem that\njointly considers queuing delay and transmission delay to reduce the overall\naccess delay. With the alternating optimization algorithm, we obtain the\noptimal blocklength of each packet, thus forming the corresponding adaptive\nblocklength scheme for mURLLC. Simulation results verify the correctness of\ntheoretical results and show that our proposed adaptive blocklength scheme can\nsignificantly reduce the access delay compared with that of LTE and 5G NR\nsystems.",
+        "journal_ref": "GLOBECOM 2022 - 2022 IEEE Global Communications Conference"
+    },
+    {
+        "id": 59,
+        "title": "Performance Analysis and Blocklength Minimization of Uplink RSMA for Short Packet Transmissions in URLLC",
+        "authors": [
+            "Yixin Zhang",
+            "Wenchi Cheng",
+            "Jingqing Wang",
+            "Wei Zhang"
+        ],
+        "published": "2024-07-17",
+        "summary": "Rate splitting multiple access (RSMA) is one of the most promising techniques\nfor ultra-reliable and low-latency communications (URLLC) with stringent\nrequirements on delay and reliability of multiple access. To fully explore the\ndelay performance enhancement brought by uplink RSMA to URLLC, in this paper,\nwe evaluate the performance of two-user uplink RSMA and propose the\ncorresponding blocklength minimization problem. We analyze the impact of finite\nblocklength (FBL) code on the achievable rate region and the effective\nthroughput of uplink RSMA. On this basis, we propose the problem of minimizing\nthe blocklength for uplink RSMA with power allocation under constrained\nreliability and effective throughput. Then, we present an alternating\noptimization method to solve this non-convex problem. Simulation results show\nthat different from the infinite blocklength (IBL) regime, the achievable rate\nregion of the uplink RSMA is not always larger than that of uplink\nnon-orthogonal multiple access (NOMA) in the FBL regime. But with the help of\nour proposed blocklength minimization scheme, uplink RSMA can achieve the same\nachievable rate with a smaller blocklength compared to uplink NOMA, frequency\ndivision multiple access (FDMA), and time division multiple access (TDMA)\nwithout the need for time sharing in the FBL regime, showing the potential of\nuplink RSMA to achieve low delay for URLLC.",
+        "journal_ref": "GLOBECOM 2023 - 2023 IEEE Global Communications Conference"
+    },
+    {
+        "id": 61,
+        "title": "Dumb RIS-Assisted Random Beamforming for Energy Efficiency Enhancement of Wireless Communications",
+        "authors": [
+            "Yixin Zhang",
+            "Wenchi Cheng",
+            "Wei Zhang"
+        ],
+        "published": "2024-07-17",
+        "summary": "Energy efficiency (EE) is one of the most important metrics for the beyond\nfifth generation (B5G) and the future sixth generation (6G) wireless networks.\nReconfigurable intelligent surface (RIS) has been widely focused on EE\nenhancement for wireless networks because it is power-saving, programmable, and\neasy to be deployed. However, RIS is generally passive and thus difficult to\nobtain corresponding full channel state information (CSI), which severely\nimpacts the EE enhancement of RIS-assisted wireless communications. To solve\nthis problem, in this paper we propose the new single-active-antenna combined\nRIS transmitter structure, which can replace traditional multiple antennas to\nreduce hardware cost and power consumption. Based on the single-active-antenna\ncombined RIS structure, we develop the Dumb RIS-Assisted Random Beamforming\n(Darb)-based Joint RIS-Elements and Transmit-power optimizAtion (Jeta) scheme,\nwhere dumb RIS randomly changes its phase shift according to isotropic\ndistribution only depending on the CSI feedback from users to RIS-assisted\ntransmitter. Then, we jointly design the number of RIS elements and optimize\nthe transmit power to maximize the EE of RIS-assisted wireless communications.\nSimulation results show that compared with the traditional multi-antenna\nsystem, our developed Darb-based-Jeta scheme can significantly increase the EE\nwithout the full CSI.",
+        "journal_ref": "ICC 2022 - IEEE International Conference on Communications"
+    },
+    {
+        "id": 66,
+        "title": "Trajectory and Power Optimization for Multi-UAV Enabled Emergency Wireless Communications Networks",
+        "authors": [
+            "Yixin Zhang",
+            "Wenchi Cheng"
+        ],
+        "published": "2024-07-16",
+        "summary": "Recently, unmanned aerial vehicle (UAV) has attracted much attention due to\nits flexible deployment and controllable mobility. As the general communication\nnetwork cannot meet the emergency requirements, in this paper we study the\nmulti-UAV enabled wireless emergency communication system. Our goal is to\nmaximize the capacity with jointly optimizing trajectory and allocating power.\nTo tackle this non-convex optimization problem, we first decompose it into two\nsub-problems to optimize the trajectory and power allocation, respectively.\nThen, we propose the successive convex approximation technique and the block\ncoordinate update algorithm to solve the two subproblems. The approximate\noptimal solution can be obtained after continuous iterations. Simulation\nresults show that the capacity can be greatly increased using our proposed\njoint trajectory optimization and power allocation.",
+        "journal_ref": "2019 IEEE International Conference on Communications Workshops\n  (ICC Workshops)"
+    }
+]

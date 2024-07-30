@@ -1,0 +1,910 @@
+[
+    {
+        "id": 1,
+        "title": "HIERVAR: A Hierarchical Feature Selection Method for Time Series Analysis",
+        "authors": [
+            "Alireza Keshavarzian",
+            "Shahrokh Valaee"
+        ],
+        "published": "2024-07-22",
+        "summary": "Time series classification stands as a pivotal and intricate challenge across\nvarious domains, including finance, healthcare, and industrial systems. In\ncontemporary research, there has been a notable upsurge in exploring feature\nextraction through random sampling. Unlike deep convolutional networks, these\nmethods sidestep elaborate training procedures, yet they often necessitate\ngenerating a surplus of features to comprehensively encapsulate time series\nnuances. Consequently, some features may lack relevance to labels or exhibit\nmulti-collinearity with others. In this paper, we propose a novel hierarchical\nfeature selection method aided by ANOVA variance analysis to address this\nchallenge. Through meticulous experimentation, we demonstrate that our method\nsubstantially reduces features by over 94% while preserving accuracy -- a\nsignificant advancement in the field of time series analysis and feature\nselection.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 2,
+        "title": "An Exponential Mixing Condition for Quantum Channels",
+        "authors": [
+            "Abdessatar Souissi",
+            "Abdessatar Barhoumi"
+        ],
+        "published": "2024-07-22",
+        "summary": "Quantum channels, pivotal in information processing, describe transformations\nwithin quantum systems and enable secure communication and error correction.\nErgodic and mixing properties elucidate their behavior. In this paper, we\nestablish a sufficient condition for mixing based on a quantum Markov-Dobrushin\ninequality. We prove that if the Markov-Dobrushin constant of a quantum channel\nexceeds zero, it exhibits exponential mixing behavior. We explore limitations\nof some quantum channels, demonstrating that unistochastic channels are not\nmixing. Additionally, we analyze ergodicity of a class of mixed-unitary\nchannels associated with finite groups of unitary operators. Finally, we apply\nour results to the qubit depolarizing channel.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 3,
+        "title": "Data Processing Inequality for The Quantum Guesswork",
+        "authors": [
+            "Ilyass Mejdoub",
+            "Julien Béguinot",
+            "Olivier Rioul"
+        ],
+        "published": "2024-07-22",
+        "summary": "Non-orthogonal quantum states pose a fundamental challenge in quantum\ninformation processing, as they cannot be distinguished with absolute\ncertainty. Conventionally, the focus has been on minimizing error probability\nin quantum state discrimination tasks. However, another criterion known as\nquantum guesswork has emerged as a crucial measure in assessing the\ndistinguishability of non-orthogonal quantum states, when we are allowed to\nquery a sequence of states. In this paper, we generalize well known properties\nin the classical setting that are relevant for the guessing problem.\nSpecifically, we establish the pre and post Data Processing Inequalities. We\nalso derive a more refined lower bound on quantum guesswork.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 4,
+        "title": "Unextendible entanglement of quantum channels",
+        "authors": [
+            "Vishal Singh",
+            "Mark M. Wilde"
+        ],
+        "published": "2024-07-22",
+        "summary": "Quantum communication relies on the existence of high quality quantum\nchannels to exchange information. In practice, however, all communication links\nare affected by noise from the environment. Here we investigate the ability of\nquantum channels to perform quantum communication tasks by restricting the\nparticipants to use only local operations and one-way classical communication\n(one-way LOCC) along with the available quantum channel. In particular, a\nchannel can be used to distill a highly entangled state between two parties,\nwhich further enables quantum or private communication. In this work, we invoke\nthe framework of superchannels to study the distillation of a resourceful\nquantum state, such as a maximally entangled state or a private state, using\nmultiple instances of a point-to-point quantum channel. We use the idea of\n$k$-extendibility to obtain a semidefinite relaxation of the set of one-way\nLOCC superchannels and define a class of entanglement measures for quantum\nchannels that decrease monotonically under such superchannels; therefore these\nmeasures, dubbed collectively the ``unextendible entanglement of a channel'',\nyield upper bounds on several communication-theoretic quantities of interest in\nthe regimes of resource distillation and zero error. We then generalize the\nformalism of $k$-extendibility to bipartite superchannels, thus obtaining\nfunctions that are monotone under two-extendible superchannels. This allows us\nto analyze probabilistic distillation of ebits or secret key bits from a\nbipartite state when using a resourceful quantum channel. Moreover, we propose\nsemidefinite programs to evaluate several of these quantities, providing a\ncomputationally feasible method of comparison between quantum channels for\nresource distillation.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 5,
+        "title": "Diffusion Model Based Resource Allocation Strategy in Ultra-Reliable Wireless Networked Control Systems",
+        "authors": [
+            "Amirhassan Babazadeh Darabi",
+            "Sinem Coleri"
+        ],
+        "published": "2024-07-22",
+        "summary": "Diffusion models are vastly used in generative AI, leveraging their\ncapability to capture complex data distributions. However, their potential\nremains largely unexplored in the field of resource allocation in wireless\nnetworks. This paper introduces a novel diffusion model-based resource\nallocation strategy for Wireless Networked Control Systems (WNCSs) with the\nobjective of minimizing total power consumption through the optimization of the\nsampling period in the control system, and blocklength and packet error\nprobability in the finite blocklength regime of the communication system. The\nproblem is first reduced to the optimization of blocklength only based on the\nderivation of the optimality conditions. Then, the optimization theory solution\ncollects a dataset of channel gains and corresponding optimal blocklengths.\nFinally, the Denoising Diffusion Probabilistic Model (DDPM) uses this collected\ndataset to train the resource allocation algorithm that generates optimal\nblocklength values conditioned on the channel state information (CSI). Via\nextensive simulations, the proposed approach is shown to outperform previously\nproposed Deep Reinforcement Learning (DRL) based approaches with close to\noptimal performance regarding total power consumption. Moreover, an improvement\nof up to eighteen-fold in the reduction of critical constraint violations is\nobserved, further underscoring the accuracy of the solution.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 6,
+        "title": "Reconfigurable Intelligent Surface Empowered Full Duplex Systems: Opportunities and Challenges",
+        "authors": [
+            "Chong Huang",
+            "Yun Wen",
+            "Long Zhang",
+            "Gaojie Chen",
+            "Zhen Gao",
+            "Pei Xiao"
+        ],
+        "published": "2024-07-22",
+        "summary": "Reconfigurable intelligent surfaces (RISs) have emerged as a promising\ntechnology in wireless communications. Simultaneously transmitting and\nreflecting RIS (STAR-RISs) in particular have garnered significant attention\ndue to their dual capabilities of simultaneous transmission and reflection,\nunderscoring their potential applications in critical scenarios within the\nforthcoming sixth-generation (6G) technology landscape. Moreover, full-duplex\n(FD) systems have emerged as a breakthrough research direction in wireless\ntransmission technology due to their high spectral efficiency. This paper\nexplores the application potential of STAR-RIS in FD systems for future\nwireless communications, presenting an innovative technology that provides\nrobust self-interference cancellation (SIC) capabilities for FD systems. We\nutilize the refraction functionality of STAR-RIS enhances the transmission\ncapacity of FD systems, while its reflection functionality is used to eliminate\nself interference within the FD system. We delve into the applications of two\ndifferent types of STAR-RIS in FD systems and compare their performance through\nsimulations. Furthermore, we discuss the performance differences of STAR-RIS\nempowered FD systems under various configurations in a case study, and\ndemonstrate the superiority of the proposed deep learning-based optimization\nalgorithm. Finally, we discuss possible future research directions for STAR-RIS\nempowered FD systems.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 7,
+        "title": "Broad and Spectral-Efficient Beamforming for the Uni-polarized Reconfigurable Intelligent Surfaces",
+        "authors": [
+            "Mohammad Javad-Kalbasi",
+            "Mohammed Saif",
+            "Shahrokh Valaee"
+        ],
+        "published": "2024-07-22",
+        "summary": "A reconfigurable intelligent surface (RIS) is composed of low-cost elements\nthat manipulate the propagation environment from a transmitter by intelligently\napplying phase shifts to incoming signals before they are reflected. This paper\nexplores a uni-polarized RIS with linear shape aimed at transmitting a common\nsignal to multiple user equipments (UEs) spread across a wide angular region.\nTo achieve uniform coverage, the uni-polarized RIS is designed to emit a broad\nand spectral-efficient beam featuring a spatially flat-like array factor,\ndiverging from the conventional narrow beam approach. To achieve this\nobjective, we start by deriving probabilistic lower and upper bounds for the\naverage spectral efficiency (SE) delivered to the UEs. Leveraging the insights\nfrom the lower bound, we focus on optimizing the minimum value of the power\ndomain array factor (PDAF) across a range of azimuth angles from\n\\(-\\frac{\\pi}{2}\\) to \\(\\frac{\\pi}{2}\\). We employ the continuous genetic\nalgorithm (CGA) for this optimization task, aiming to improve the SE delivered\nto the UEs while also creating a wide beam. Extensive simulation experiments\nare carried out to assess the performance of the proposed code, focusing on key\nmetrics such as the minimum and average values of the PDAF and the SE delivered\nto the UEs. Our findings demonstrate that the proposed code enhances the\nminimum SE delivered to the UEs while maintaining the desired attribute of a\nbroad beam. This performance is notably superior to that of established codes,\nincluding the Barker, Frank, and Chu codes.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 8,
+        "title": "Enhanced Achievable DoF Bounds for Cache-Aided MIMO Communication Systems",
+        "authors": [
+            "Mohammad NaseriTehrani",
+            "MohammadJavad Salehi",
+            "Antti Tölli"
+        ],
+        "published": "2024-07-22",
+        "summary": "Integrating coded caching (CC) into multiple-input multiple-output (MIMO)\ncommunications may significantly enhance the achievable degrees of freedom\n(DoF) of the wireless networks. In this paper, we consider a cache-aided MIMO\nconfiguration with a CC gain $t$, where a server with $L$ Tx antennas\ncommunicates with $K$ users, each with $G$ Rx antennas. In the proposed\ncontent-aware MIMO strategy, we carefully adjust the number of users $\\Omega$\nand the number of parallel streams decoded by each user $\\beta$ served in each\ntransmission to maximize the DoF. As a result, we achieve a DoF of\n${\\max_{\\beta, \\Omega }}{\\Omega \\beta}$, where ${\\beta \\le\n\\mathrm{min}\\big(G,\\frac{L \\binom{\\Omega-1}{t}}{1 + (\\Omega -\nt-1)\\binom{\\Omega-1}{t}}\\big)}$. To prove the achievability of the proposed DoF\nbound, we provide a novel transmission strategy based on the simultaneous\nunicasting of multiple data streams. In this strategy, the missing data packets\nare scheduled such that the number of parallel streams per transmission is\nmaximized while the decodability of all useful terms by each target user is\nguaranteed. Numerical simulations validate the findings, confirming the\nenhanced DoF and improved performance of the proposed design.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 9,
+        "title": "The syzygy distinguisher",
+        "authors": [
+            "Hugues Randriambololona"
+        ],
+        "published": "2024-07-22",
+        "summary": "We present a new distinguisher for alternant and Goppa codes, whose\ncomplexity is subexponential in the error-correcting capability, hence better\nthan that of generic decoding algorithms. Moreover it does not suffer from the\nstrong regime limitations of the previous distinguishers or structure recovery\nalgorithms: in particular, it applies to the codes used in the Classic McEliece\ncandidate for postquantum cryptography standardization. The invariants that\nallow us to distinguish are graded Betti numbers of the homogeneous coordinate\nring of a shortening of the dual code.\n  Since its introduction in 1978, this is the first time an analysis of the\nMcEliece cryptosystem breaks the exponential barrier.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 10,
+        "title": "Self-Sustainable Metasurface-Assisted mmWave Indoor Communication System",
+        "authors": [
+            "Zhenyu Li",
+            "Ozan Alp Topal",
+            "Özlem Tuğfe Demir",
+            "Emil Björnson",
+            "Cicek Cavdar"
+        ],
+        "published": "2024-07-22",
+        "summary": "In the design of a metasurface-assisted system for indoor environments, it is\nessential to take into account not only the performance gains and coverage\nextension provided by the metasurface but also the operating costs brought by\nits reconfigurability, such as powering and cabling. These costs can present\nchallenges, particularly in indoor dense spaces (IDSs). A self-sustainable\nmetasurface (SSM), which retains reconfigurability unlike a static metasurface\n(SMS), achieves a lower operating cost than a reconfigurable intelligent\nsurface (RIS) by being self-sustainable through power harvesting. In this\npaper, in order to find a better trade-off between metasurface gain, coverage,\nand operating cost, the design and performance of an SSM-assisted indoor mmWave\ncommunication system are investigated. We first simplify the design of the\nSSM-assisted system by considering the use of SSMs in a preset-based manner and\nthe formation of coverage groups by associating SSMs with the closest user\nequipments (UEs). We propose a two-stage iterative algorithm to maximize the\nminimum data rate in the system by jointly deciding the association between the\nUEs and the SSMs, the phase-shifts of the SSMs, and allocating time resources\nfor each UE. The non-convexities that exist in the proposed optimization\nproblem are tackled using the feasible point pursuit successive convex\napproximation method and the concave-convex procedure. To understand the best\nscenario for using SSM, the resulting performance is compared with that\nachieved with RIS and SMS. Our numerical results indicate that SSMs are best\nutilized in a small environment where self-sustainability is easier to achieve\nwhen the budget for operating costs is tight.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 11,
+        "title": "Hybrid STAR-RIS Enabled Integrated Sensing and Communication",
+        "authors": [
+            "Zehra Yigit",
+            "Ertugrul Basar"
+        ],
+        "published": "2024-07-22",
+        "summary": "Integrated sensing and communication (ISAC) is recognized as one of the key\nenabling technologies for sixth-generation (6G) wireless communication\nnetworks, facilitating diverse emerging applications and services in an energy\nand cost-efficient manner. This paper proposes a multi-user multi-target ISAC\nsystem to enable full-space coverage for communication and sensing tasks. The\nproposed system employs a hybrid simultaneous transmission and reflection\nreconfigurable intelligent surface (STAR-RIS) comprising active transmissive\nand passive reflective elements. In the proposed scheme, the passive reflective\nelements support communication and sensing links for nearby communication users\nand sensing targets, while low-power active transmissive elements are deployed\nto improve sensing performance and overcome high path attenuation due to\nmulti-hop transmission for remote targets. Moreover, to optimize the\ntransmissive/reflective coefficients of the hybrid STAR-RIS, a semi-definite\nrelaxation (SDR)-based algorithm is proposed. Furthermore, to evaluate sensing\nperformance, signal-to-interference-noise ratio (SINR) and Cramer-Rao bound\n(CRB) metrics have been derived and investigated via conducting extensive\ncomputer simulations.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 12,
+        "title": "A New Theoretical Perspective on Data Heterogeneity in Federated Optimization",
+        "authors": [
+            "Jiayi Wang",
+            "Shiqiang Wang",
+            "Rong-Rong Chen",
+            "Mingyue Ji"
+        ],
+        "published": "2024-07-22",
+        "summary": "In federated learning (FL), data heterogeneity is the main reason that\nexisting theoretical analyses are pessimistic about the convergence rate. In\nparticular, for many FL algorithms, the convergence rate grows dramatically\nwhen the number of local updates becomes large, especially when the product of\nthe gradient divergence and local Lipschitz constant is large. However,\nempirical studies can show that more local updates can improve the convergence\nrate even when these two parameters are large, which is inconsistent with the\ntheoretical findings. This paper aims to bridge this gap between theoretical\nunderstanding and practical performance by providing a theoretical analysis\nfrom a new perspective on data heterogeneity. In particular, we propose a new\nand weaker assumption compared to the local Lipschitz gradient assumption,\nnamed the heterogeneity-driven pseudo-Lipschitz assumption. We show that this\nand the gradient divergence assumptions can jointly characterize the effect of\ndata heterogeneity. By deriving a convergence upper bound for FedAvg and its\nextensions, we show that, compared to the existing works, local Lipschitz\nconstant is replaced by the much smaller heterogeneity-driven pseudo-Lipschitz\nconstant and the corresponding convergence upper bound can be significantly\nreduced for the same number of local updates, although its order stays the\nsame. In addition, when the local objective function is quadratic, more\ninsights on the impact of data heterogeneity can be obtained using the\nheterogeneity-driven pseudo-Lipschitz constant. For example, we can identify a\nregion where FedAvg can outperform mini-batch SGD even when the gradient\ndivergence can be arbitrarily large. Our findings are validated using\nexperiments.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 13,
+        "title": "Fundamental Limits of Prompt Compression: A Rate-Distortion Framework for Black-Box Language Models",
+        "authors": [
+            "Adway Girish",
+            "Alliot Nagle",
+            "Marco Bondaschi",
+            "Michael Gastpar",
+            "Ashok Vardhan Makkuva",
+            "Hyeji Kim"
+        ],
+        "published": "2024-07-22",
+        "summary": "We formalize the problem of prompt compression for large language models\n(LLMs) and present a framework to unify token-level prompt compression methods\nwhich create hard prompts for black-box models. We derive the distortion-rate\nfunction for this setup as a linear program, and provide an efficient algorithm\nto compute this fundamental limit via the dual of the linear program. Using the\ndistortion-rate function as the baseline, we study the performance of existing\ncompression schemes on a synthetic dataset consisting of prompts generated from\na Markov chain, natural language queries, and their respective answers. Our\nempirical analysis demonstrates the criticality of query-aware prompt\ncompression, where the compressor has knowledge of the downstream task/query\nfor the black-box LLM. We show that there is a large gap between the\nperformance of current prompt compression methods and the optimal strategy, and\npropose a query-aware, variable-rate adaptation of a prior work to close the\ngap. We extend our experiments to a small natural language dataset to further\nconfirm our findings on our synthetic dataset.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 14,
+        "title": "PyJama: Differentiable Jamming and Anti-Jamming with NVIDIA Sionna",
+        "authors": [
+            "Fabian Ulbricht",
+            "Gian Marti",
+            "Reinhard Wiesmayr",
+            "Christoph Studer"
+        ],
+        "published": "2024-07-22",
+        "summary": "Despite extensive research on jamming attacks on wireless communication\nsystems, the potential of machine learning for amplifying the threat of such\nattacks, or our ability to mitigate them, remains largely untapped. A key\nobstacle to such research has been the absence of a suitable framework. To\nresolve this obstacle, we release PyJama, a fully-differentiable open-source\nlibrary that adds jamming and anti-jamming functionality to NVIDIA Sionna. We\ndemonstrate the utility of PyJama (i) for realistic MIMO simulations by showing\nexamples that involve forward error correction, OFDM waveforms in time and\nfrequency, realistic channel models, and mobility; and (ii) for learning to\njam. Specifically, we use stochastic gradient descent to optimize jamming power\nallocation over an OFDM resource grid. The learned strategies are non-trivial,\nintelligible, and effective.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 15,
+        "title": "Integrated Access and Backhaul (IAB) in Low Altitude Platforms",
+        "authors": [
+            "Reza Ghasemi Alavicheh",
+            "S. Mohammad Razavizadeh",
+            "Halim Yanikomeroglu"
+        ],
+        "published": "2024-07-22",
+        "summary": "In this paper, we explore the problem of utilizing Integrated Access and\nBackhaul (IAB) technology in Non-Terrestrial Networks (NTN), with a particular\nfocus on aerial access networks. We consider an Uncrewed Aerial Vehicle\n(UAV)-based wireless network comprised of two layers of UAVs: (a) a lower layer\nconsisting a number of flying users and a UAV Base Station (BS) that provides\ncoverage for terrestrial users and, (b) an upper layer designated to provide\nboth wireless access for flying users and backhaul connectivity for UAV BS. By\nadopting IAB technology, the backhaul and access links collaboratively share\ntheir resources, enabling aerial backhauling and the utilization of the same\ninfrastructure and frequency resources for access links. A sum-rate\nmaximization problem is formulated by considering aerial backhaul constraints\nto optimally allocate the frequency spectrum between aerial and terrestrial\nnetworks. We decompose the resulting non-convex optimization problem into two\nsub-problems of beamforming and spectrum allocation and then propose efficient\nsolutions for each. Numerical results in different scenarios yield insightful\nfindings about the effectiveness of using the IAB technique in aerial networks.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 16,
+        "title": "Movable Antenna-Enhanced Wireless Communications: General Architectures and Implementation Methods",
+        "authors": [
+            "Boyu Ning",
+            "Songjie Yang",
+            "Yafei Wu",
+            "Peilan Wang",
+            "Weidong Mei",
+            "Chau Yuen",
+            "Emil Björnson"
+        ],
+        "published": "2024-07-22",
+        "summary": "Movable antennas (MAs), traditionally explored in antenna design, have\nrecently garnered significant attention in wireless communications due to their\nability to dynamically adjust the antenna positions to changes in the\npropagation environment. However, previous research has primarily focused on\ncharacterizing the performance limits of various MA-assisted wireless\ncommunication systems, with less emphasis on their practical implementation. To\naddress this gap, in this article, we propose several general MA architectures\nthat extend existing designs by varying several key aspects to cater to\ndifferent application scenarios and tradeoffs between cost and performance.\nAdditionally, we draw from fields such as antenna design and mechanical control\nto provide an overview of candidate implementation methods for the proposed MA\narchitectures, utilizing either direct mechanical or equivalent electronic\ncontrol. Simulation results are finally presented to support our discussion.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 17,
+        "title": "Channel Shaping Using Beyond Diagonal Reconfigurable Intelligent Surface: Analysis, Optimization, and Enhanced Flexibility",
+        "authors": [
+            "Yang Zhao",
+            "Hongyu Li",
+            "Massimo Franceschetti",
+            "Bruno Clerckx"
+        ],
+        "published": "2024-07-21",
+        "summary": "This paper investigates the capability of a passive Reconfigurable\nIntelligent Surface (RIS) to redistribute the singular values of point-to-point\nMultiple-Input Multiple-Output (MIMO) channels for achieving power and rate\ngains. We depart from the conventional Diagonal (D)-RIS with diagonal phase\nshift matrix and adopt a Beyond Diagonal (BD) architecture that offers greater\nwave manipulation flexibility through element-wise connections. Specifically,\nwe first provide shaping insights by characterizing the channel singular value\nregions attainable by D-RIS and BD-RIS via a novel geodesic optimization.\nAnalytical singular value bounds are then derived to explore their shaping\nlimits in typical deployment scenarios. As a side product, we tackle\nBD-RIS-aided MIMO rate maximization problem by a local-optimal Alternating\nOptimization (AO) and a shaping-inspired low-complexity approach. Results show\nthat compared to D-RIS, BD-RIS significantly improves the dynamic range of all\nchannel singular values, the trade-off in manipulating them, and thus the\nchannel power and achievable rate. Those observations become more pronounced\nwhen the number of RIS elements and MIMO dimensions increase. Of particular\ninterest, BD-RIS is shown to activate multi-stream transmission at lower\ntransmit power than D-RIS, hence achieving the asymptotic Degrees of Freedom\n(DoF) at low Signal-to-Noise Ratio (SNR) thanks to its higher flexibility of\nshaping the distribution of channel singular values.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 18,
+        "title": "Lifted Hamming, Simplex and Reed-Muller Codes and Their Designs",
+        "authors": [
+            "Cunsheng Ding",
+            "Zhonghua Sun",
+            "Qianqian Yan"
+        ],
+        "published": "2024-07-21",
+        "summary": "A generator matrix of a linear code $\\C$ over $\\gf(q)$ is also a matrix of\nthe same rank $k$ over any extension field $\\gf(q^\\ell)$ and generates a linear\ncode of the same length, same dimension and same minimum distance over\n$\\gf(q^\\ell)$, denoted by $\\C(q|q^\\ell)$ and called a lifted code of $\\C$.\nAlthough $\\C$ and their lifted codes $\\C(q|q^\\ell)$ have the same parameters,\nthey have different weight distributions and different applications. Few\nresults about lifted linear codes are known in the literature. This paper\nproves some fundamental theory for lifted linear codes, settles the weight\ndistributions of the lifted Hamming codes and lifted Simplex codes as well as\nthe lifted Reed-Muller codes of certain orders, and investigates the\n$2$-designs and $3$-designs supported by these lifted codes. Infinite families\nof $2$-designs and $3$-designs are obtained. In addition, an infinite family of\ntwo-weight projective codes and two infinite families of three-weight\nprojective codes are presented.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 19,
+        "title": "Stacked Intelligent Metasurfaces for Task-Oriented Semantic Communications",
+        "authors": [
+            "Guojun Huang",
+            "Jiancheng An",
+            "Zhaohui Yang",
+            "Lu Gan",
+            "Mehdi Bennis",
+            "Mérouane Debbah"
+        ],
+        "published": "2024-07-21",
+        "summary": "Semantic communication leveraging advanced deep learning (DL) technologies\nenhances the efficiency, reliability, and security of information transmission.\nEmerging stacked intelligent metasurface (SIM) having a diffractive neural\nnetwork (DNN) architecture allows performing complex calculations at the speed\nof light. In this letter, we introduce an innovative SIM-aided semantic\ncommunication system for image recognition tasks. In the considered model, a\nSIM is positioned in front of the transmitting antenna. In contrast to\nconventional communication systems transmitting the modulated signals carrying\nthe image information or compressed semantic information, the carrier\nelectromagnetic (EM) wave is directly transmitted from the source in the\nproposed system. The input layer of the SIM is utilized for source encoding,\nwhile the remaining multi-layer architecture constitutes a DNN for semantic\nencoding. Specifically, the semantic encoder aims to transform the signals\npassing through the input layer of the SIM into a unique beam towards a\nreceiving antenna corresponding to the image class. Remarkably, both the source\nand semantic encoding occur naturally as the EM waves propagate through the\nSIM. At the receiver, the image is recognized by probing the received signal\nmagnitude across the receiving array. To this end, we develop an efficient\nalgorithm to train the transmission coefficients of SIM's meta-atoms to learn\nthe semantic representation of the image. Extensive numerical results verify\nthe effectiveness of utilizing the SIM-based DNN for image recognition\ntask-oriented semantic communications, achieving more than 90% recognition\naccuracy.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 20,
+        "title": "Rate Splitting Multiple Access: Optimal Beamforming Structure and Efficient Optimization Algorithms",
+        "authors": [
+            "Tianyu Fang",
+            "Yijie Mao"
+        ],
+        "published": "2024-07-20",
+        "summary": "Joint optimization for common rate allocation and beamforming design have\nbeen widely studied in rate splitting multiple access (RSMA) empowered\nmultiuser multi-antenna transmission networks. Due to the highly coupled\noptimization variables and non-convexity of the joint optimization problems,\nemerging algorithms such as weighted minimum mean square error (WMMSE) and\nsuccessive convex approximation (SCA) have been applied to RSMA which typically\napproximate the original problem with a sequence of disciplined convex\nsubproblems and solve each subproblem by an optimization toolbox. While these\napproaches are capable of finding a viable solution, they are unable to offer a\ncomprehensive understanding of the solution structure and are burdened by high\ncomputational complexity. In this work, for the first time, we identify the\noptimal beamforming structure and common rate allocation for the weighted\nsum-rate (WSR) maximization problem of RSMA. We then propose a computationally\nefficient optimization algorithm that jointly optimizes the beamforming and\ncommon rate allocation without relying on any toolbox. Specifically, we first\napproximate the original WSR maximization problem with a sequence of convex\nsubproblems based on fractional programming (FP). Numerical results show that\nthe proposed algorithm achieves the same performance but takes only 0.5\\% or\nless simulation time compared with the state-of-the-art WMMSE, SCA, and FP\nalgorithms. Experimental results show that the proposed two methods have\nsimilar mean square error (MSE) performance compared with traditional method\nusing CVX optimization tool, however, computational complexities are greatly\nreduced. The proposed algorithms pave the way for the practical and efficient\noptimization algorithm design for RSMA and its applications in 6G.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 21,
+        "title": "Unified Far-Field and Near-Field in Holographic MIMO: A Wavenumber-Domain Perspective",
+        "authors": [
+            "Yuanbin Chen",
+            "Xufeng Guo",
+            "Gui Zhou",
+            "Shi Jin",
+            "Derrick Wing Kwan Ng",
+            "Zhaocheng Wang"
+        ],
+        "published": "2024-07-20",
+        "summary": "This article conceives a unified representation for near-field and far-field\nholographic multiple-input multiple-output (HMIMO) channels, addressing a\npractical design dilemma: \"Why does the angular-domain representation no longer\nfunction effectively?\" To answer this question, we pivot from the angular\ndomain to the wavenumber domain and present a succinct overview of its\nunderlying philosophy. In re-examining the Fourier plane-wave series expansion\nthat recasts spherical propagation waves into a series of plane waves\nrepresented by Fourier harmonics, we characterize the HMIMO channel employing\nthese Fourier harmonics having different wavenumbers. This approach, referred\nto as the wavenumebr-domain representation, facilitates a unified view across\nthe far-field and the near-field. Furthermore, the limitations of the DFT basis\nare demonstrated when identifying the sparsity inherent to the HMIMO channel,\nmotivating the development of a wavenumber-domain basis as an alternative. We\nthen present some preliminary applications of the proposed wavenumber-domain\nbasis in signal processing across both the far-field and near-field, along with\nseveral prospects for future HMIMO system designs based on the wavenumber\ndomain.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 22,
+        "title": "Data Augmentation in Graph Neural Networks: The Role of Generated Synthetic Graphs",
+        "authors": [
+            "Sumeyye Bas",
+            "Kiymet Kaya",
+            "Resul Tugay",
+            "Sule Gunduz Oguducu"
+        ],
+        "published": "2024-07-20",
+        "summary": "Graphs are crucial for representing interrelated data and aiding predictive\nmodeling by capturing complex relationships. Achieving high-quality graph\nrepresentation is important for identifying linked patterns, leading to\nimprovements in Graph Neural Networks (GNNs) to better capture data structures.\nHowever, challenges such as data scarcity, high collection costs, and ethical\nconcerns limit progress. As a result, generative models and data augmentation\nhave become more and more popular. This study explores using generated graphs\nfor data augmentation, comparing the performance of combining generated graphs\nwith real graphs, and examining the effect of different quantities of generated\ngraphs on graph classification tasks. The experiments show that balancing\nscalability and quality requires different generators based on graph size. Our\nresults introduce a new approach to graph data augmentation, ensuring\nconsistent labels and enhancing classification performance.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 23,
+        "title": "More on the sum-freedom of the multiplicative inverse function",
+        "authors": [
+            "Claude Carlet",
+            "Xiang-dong Hou"
+        ],
+        "published": "2024-07-19",
+        "summary": "In two papers entitled ``Two generalizations of almost perfect nonlinearity\"\nand ``On the vector subspaces of $\\mathbb F_{2^n}$ over which the\nmultiplicative inverse function sums to zero\", the first author has introduced\nand studied the notion of sum-freedom of vectorial functions, which expresses\nthat a function sums to nonzero values over all affine subspaces of $\\Bbb\nF_{2^n}$ of a given dimension $k\\geq 2$, and he then focused on the $k$th order\nsum-freedom of the multiplicative inverse function $x\\in \\Bbb F_{2^n}\\mapsto\nx^{2^n-2}$. Some general results were given for this function (in particular,\nthe case of affine spaces that do not contain 0 was solved positively), and the\ncases of $k\\in \\{3,n-3\\}$ and of $k$ not co-prime with $n$ were solved as well\n(negatively); but the cases of those linear subspaces of dimension $k\\in [\\![\n4;n-4]\\!]$, co-prime with $n$, were left open. The present paper is a\ncontinuation of the previous work. After studying, from two different angles,\nthe particular case of those linear subspaces that are stable under the\nFrobenius automorphism, we deduce from the second approach that, for $k$ small\nenough (approximately, $3\\le k\\leq n/10$), the multiplicative inverse function\nis not $k$th order sum-free. Finally, we extend a result previously obtained in\nthe second paper mentioned above, and we deduce in particular that, for any\neven $n$ and every $2\\leq k\\leq n-2$, the multiplicative inverse function is\nnot $k$th order sum-free.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 24,
+        "title": "Extending the Limit Theorem of Barmpalias and Lewis-Pye to all reals",
+        "authors": [
+            "Ivan Titov"
+        ],
+        "published": "2024-07-19",
+        "summary": "By a celebrated result of Ku\\v{c}era and Slaman\n(DOI:10.1137/S0097539799357441), the Martin-L\\\"of random left-c.e. reals form\nthe highest left-c.e. Solovay degree. Barmpalias and Lewis-Pye\n(arXiv:1604.00216) strengthened this result by showing that, for all left-c.e.\nreals $\\alpha$ and $\\beta$ such that $\\beta$ is Martin-L\\\"of random and all\nleft-c.e. approximations $a_0,a_1,\\dots$ and $b_0,b_1,\\dots$ of $\\alpha$ and\n$\\beta$, respectively, the limit \\begin{equation*}\n  \\lim\\limits_{n\\to\\infty}\\frac{\\alpha - a_n}{\\beta - b_n} \\end{equation*}\nexists and does not depend on the choice of the left-c.e. approximations to\n$\\alpha$ and $\\beta$.\n  Here we give an equivalent formulation of the result of Barmpalias and\nLewis-Pye in terms of nondecreasing translation functions and generalize their\nresult to the set of all (i.e., not necessarily left-c.e.) reals.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 25,
+        "title": "On the Impact of PRB Load Uncertainty Forecasting for Sustainable Open RAN",
+        "authors": [
+            "Vaishnavi Kasuluru",
+            "Luis Blanco",
+            "Cristian J. Vaca-Rubio",
+            "Engin Zeydan"
+        ],
+        "published": "2024-07-19",
+        "summary": "The transition to sustainable Open Radio Access Network (O-RAN) architectures\nbrings new challenges for resource management, especially in predicting the\nutilization of Physical Resource Block (PRB)s. In this paper, we propose a\nnovel approach to characterize the PRB load using probabilistic forecasting\ntechniques. First, we provide background information on the O-RAN architecture\nand components and emphasize the importance of energy/power consumption models\nfor sustainable implementations. The problem statement highlights the need for\naccurate PRB load prediction to optimize resource allocation and power\nefficiency. We then investigate probabilistic forecasting techniques, including\nSimple-Feed-Forward (SFF), DeepAR, and Transformers, and discuss their\nlikelihood model assumptions. The simulation results show that DeepAR\nestimators predict the PRBs with less uncertainty and effectively capture the\ntemporal dependencies in the dataset compared to SFF- and Transformer-based\nmodels, leading to power savings. Different percentile selections can also\nincrease power savings, but at the cost of over-/under provisioning. At the\nsame time, the performance of the Long-Short Term Memory (LSTM) is shown to be\ninferior to the probabilistic estimators with respect to all error metrics.\nFinally, we outline the importance of probabilistic, prediction-based\ncharacterization for sustainable O-RAN implementations and highlight avenues\nfor future research.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 26,
+        "title": "Enhancing Cloud-Native Resource Allocation with Probabilistic Forecasting Techniques in O-RAN",
+        "authors": [
+            "Vaishnavi Kasuluru",
+            "Luis Blanco",
+            "Engin Zeydan",
+            "Albert Bel",
+            "Angelos Antonopoulos"
+        ],
+        "published": "2024-07-19",
+        "summary": "The need for intelligent and efficient resource provisioning for the\nproductive management of resources in real-world scenarios is growing with the\nevolution of telecommunications towards the 6G era. Technologies such as Open\nRadio Access Network (O-RAN) can help to build interoperable solutions for the\nmanagement of complex systems. Probabilistic forecasting, in contrast to\ndeterministic single-point estimators, can offer a different approach to\nresource allocation by quantifying the uncertainty of the generated\npredictions. This paper examines the cloud-native aspects of O-RAN together\nwith the radio App (rApp) deployment options. The integration of probabilistic\nforecasting techniques as a rApp in O-RAN is also emphasized, along with case\nstudies of real-world applications. Through a comparative analysis of\nforecasting models using the error metric, we show the advantages of Deep\nAutoregressive Recurrent network (DeepAR) over other deterministic\nprobabilistic estimators. Furthermore, the simplicity of Simple-Feed-Forward\n(SFF) leads to a fast runtime but does not capture the temporal dependencies of\nthe input data. Finally, we present some aspects related to the practical\napplicability of cloud-native O-RAN with probabilistic forecasting.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 27,
+        "title": "On the use of Probabilistic Forecasting for Network Analysis in Open RAN",
+        "authors": [
+            "Vaishnavi Kasuluru",
+            "Luis Blanco",
+            "Engin Zeydan"
+        ],
+        "published": "2024-07-19",
+        "summary": "Unlike other single-point Artificial Intelligence (AI)-based prediction\ntechniques, such as Long-Short Term Memory (LSTM), probabilistic forecasting\ntechniques (e.g., DeepAR and Transformer) provide a range of possible outcomes\nand associated probabilities that enable decision makers to make more informed\nand robust decisions. At the same time, the architecture of Open RAN has\nemerged as a revolutionary approach for mobile networks, aiming at openness,\ninteroperability and innovation in the ecosystem of RAN. In this paper, we\npropose the use of probabilistic forecasting techniques as a radio App (rApp)\nwithin the Open RAN architecture. We investigate and compare different\nprobabilistic and single-point forecasting methods and algorithms to estimate\nthe utilization and resource demands of Physical Resource Blocks (PRBs) of\ncellular base stations. Through our evaluations, we demonstrate the numerical\nadvantages of probabilistic forecasting techniques over traditional\nsingle-point forecasting methods and show that they are capable of providing\nmore accurate and reliable estimates. In particular, DeepAR clearly outperforms\nsingle-point forecasting techniques such as LSTM and Seasonal-Naive (SN)\nbaselines and other probabilistic forecasting techniques such as\nSimple-Feed-Forward (SFF) and Transformer neural networks.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 28,
+        "title": "MDS Generalized Convertible Code",
+        "authors": [
+            "Songping Ge",
+            "Han Cai",
+            "Xiaohu Tang"
+        ],
+        "published": "2024-07-19",
+        "summary": "In this paper, we consider the convertible codes with the maximum distance\nseparable (MDS) property, which can adjust the code rate according to the\nfailure rates of devices. We first extend the notion of convertible codes to\nallow initial and final codes with different parameters. Then, we investigate\nthe relationship between these parameters and thus establish new lower bounds\non the access cost in the merge and split regimes. To gain a deeper\nunderstanding of access-optimal MDS convertible codes in the merge regime, we\ncharacterize them from the perspective of parity check matrices. Consequently,\nwe present a necessary and sufficient condition for the access-optimal MDS\nconvertible code in the merge regime. Finally, as an application of our\ncharacterization, we construct MDS convertible codes in the merge regime with\noptimal access cost based on the extended generalized Reed-Solomon codes.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 29,
+        "title": "Domain Adaptation for Industrial Time-series Forecasting via Counterfactual Inference",
+        "authors": [
+            "Chao Min",
+            "Guoquan Wen",
+            "Jiangru Yuan",
+            "Jun Yi",
+            "Xing Guo"
+        ],
+        "published": "2024-07-19",
+        "summary": "Industrial time-series, as a structural data responds to production process\ninformation, can be utilized to perform data-driven decision-making for\neffective monitoring of industrial production process. However, there are some\nchallenges for time-series forecasting in industry, e.g., predicting few-shot\ncaused by data shortage, and decision-confusing caused by unknown treatment\npolicy. To cope with the problems, we propose a novel causal domain adaptation\nframework, Causal Domain Adaptation (CDA) forecaster to improve the performance\non the interested domain with limited data (target). Firstly, we analyze the\ncausality existing along with treatments, and thus ensure the shared causality\nover time. Subsequently, we propose an answer-based attention mechanism to\nachieve domain-invariant representation by the shared causality in both\ndomains. Then, a novel domain-adaptation is built to model treatments and\noutcomes jointly training on source and target domain. The main insights are\nthat our designed answer-based attention mechanism allows the target domain to\nleverage the existed causality in source time-series even with different\ntreatments, and our forecaster can predict the counterfactual outcome of\nindustrial time-series, meaning a guidance in production process. Compared with\ncommonly baselines, our method on real-world and synthetic oilfield datasets\ndemonstrates the effectiveness in across-domain prediction and the practicality\nin guiding production process",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 30,
+        "title": "A Mirror Descent-Based Algorithm for Corruption-Tolerant Distributed Gradient Descent",
+        "authors": [
+            "Shuche Wang",
+            "Vincent Y. F. Tan"
+        ],
+        "published": "2024-07-19",
+        "summary": "Distributed gradient descent algorithms have come to the fore in modern\nmachine learning, especially in parallelizing the handling of large datasets\nthat are distributed across several workers. However, scant attention has been\npaid to analyzing the behavior of distributed gradient descent algorithms in\nthe presence of adversarial corruptions instead of random noise. In this paper,\nwe formulate a novel problem in which adversarial corruptions are present in a\ndistributed learning system. We show how to use ideas from (lazy) mirror\ndescent to design a corruption-tolerant distributed optimization algorithm.\nExtensive convergence analysis for (strongly) convex loss functions is provided\nfor different choices of the stepsize. We carefully optimize the stepsize\nschedule to accelerate the convergence of the algorithm, while at the same time\namortizing the effect of the corruption over time. Experiments based on linear\nregression, support vector classification, and softmax classification on the\nMNIST dataset corroborate our theoretical findings.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 31,
+        "title": "Integrated Push-and-Pull Update Model for Goal-Oriented Effective Communication",
+        "authors": [
+            "Pouya Agheli",
+            "Nikolaos Pappas",
+            "Petar Popovski",
+            "Marios Kountouris"
+        ],
+        "published": "2024-07-19",
+        "summary": "This paper studies decision-making for goal-oriented effective communication.\nWe consider an end-to-end status update system where a sensing agent (SA)\nobserves a source, generates and transmits updates to an actuation agent (AA),\nwhile the AA takes actions to accomplish a goal at the endpoint. We integrate\nthe push- and pull-based update communication models to obtain a push-and-pull\nmodel, which allows the transmission controller at the SA to decide to push an\nupdate to the AA and the query controller at the AA to pull updates by raising\nqueries at specific time instances. To gauge effectiveness, we utilize a grade\nof effectiveness (GoE) metric incorporating updates' freshness, usefulness, and\ntimeliness of actions as qualitative attributes. We then derive effect-aware\npolicies to maximize the expected discounted sum of updates' effectiveness\nsubject to induced costs. The effect-aware policy at the SA considers the\npotential effectiveness of communicated updates at the endpoint, while at the\nAA, it accounts for the probabilistic evolution of the source and importance of\ngenerated updates. Our results show the proposed push-and-pull model\noutperforms models solely based on push- or pull-based updates both in terms of\nefficiency and effectiveness. Additionally, using effect-aware policies at both\nagents enhances effectiveness compared to periodic and/or probabilistic\neffect-agnostic policies at either or both agents.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 32,
+        "title": "A Purely Entropic Approach to the Rainbow Triangle Problem",
+        "authors": [
+            "Ting-Wei Chao",
+            "Hung-Hsun Hans Yu"
+        ],
+        "published": "2024-07-19",
+        "summary": "In this short note, we present a purely entropic proof that in a\n$3$-edge-colored simple graph with $R$ red edges, $G$ green edges, and $B$ blue\nedges, the number of rainbow triangles is at most $\\sqrt{2RGB}$.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 33,
+        "title": "Fundamental Scaling Laws of Covert Communication in the Presence of Block Fading",
+        "authors": [
+            "Amir Reza Ramtin",
+            "Dennis Goeckel",
+            "Don Towsley"
+        ],
+        "published": "2024-07-18",
+        "summary": "Covert communication is the undetected transmission of sensitive information\nover a communication channel. In wireless communication systems, channel\nimpairments such as signal fading present challenges in the effective\nimplementation and analysis of covert communication systems. This paper\ngeneralizes early work in the covert communication field by considering\nasymptotic results for the number of bits that can be covertly transmitted in\n$n$ channel uses on a block fading channel. Critical to the investigation is\ncharacterizing the performance of optimal detectors at the adversary. Matching\nachievable and converse results are presented.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 34,
+        "title": "Optimal high-precision shadow estimation",
+        "authors": [
+            "Sitan Chen",
+            "Jerry Li",
+            "Allen Liu"
+        ],
+        "published": "2024-07-18",
+        "summary": "We give the first tight sample complexity bounds for shadow tomography and\nclassical shadows in the regime where the target error is below some\nsufficiently small inverse polynomial in the dimension of the Hilbert space.\nFormally we give a protocol that, given any $m\\in\\mathbb{N}$ and $\\epsilon \\le\nO(d^{-12})$, measures $O(\\log(m)/\\epsilon^2)$ copies of an unknown mixed state\n$\\rho\\in\\mathbb{C}^{d\\times d}$ and outputs a classical description of $\\rho$\nwhich can then be used to estimate any collection of $m$ observables to within\nadditive accuracy $\\epsilon$. Previously, even for the simpler task of shadow\ntomography -- where the $m$ observables are known in advance -- the best known\nrates either scaled benignly but suboptimally in all of $m, d, \\epsilon$, or\nscaled optimally in $\\epsilon, m$ but had additional polynomial factors in $d$\nfor general observables. Intriguingly, we also show via dimensionality\nreduction, that we can rescale $\\epsilon$ and $d$ to reduce to the regime where\n$\\epsilon \\le O(d^{-1/2})$. Our algorithm draws upon representation-theoretic\ntools recently developed in the context of full state tomography.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 35,
+        "title": "Barycentric bounds on the error exponents of quantum hypothesis exclusion",
+        "authors": [
+            "Kaiyuan Ji",
+            "Hemant K. Mishra",
+            "Milán Mosonyi",
+            "Mark M. Wilde"
+        ],
+        "published": "2024-07-18",
+        "summary": "Quantum state exclusion is an operational task that has significance in\nstudying foundational questions related to interpreting quantum theory. In such\na task, one is given a system whose state is randomly selected from a finite\nset, and the goal is to identify a state from the set that is not the true\nstate of the system. An error, i.e., an unsuccessful exclusion, occurs if and\nonly if the state identified is the true state. In this paper, we study the\noptimal error probability of quantum state exclusion and its error exponent --\nthe rate at which the error probability decays asymptotically -- from an\ninformation-theoretic perspective. Our main finding is a single-letter upper\nbound on the error exponent of state exclusion given by the multivariate\nlog-Euclidean Chernoff divergence, and we prove that this improves upon the\nbest previously known upper bound. We also extend our analysis to the more\ncomplicated task of quantum channel exclusion, and we establish a single-letter\nand efficiently computable upper bound on its error exponent, even assuming the\nuse of adaptive strategies. We derive both upper bounds, for state and channel\nexclusion, based on one-shot analysis and formulate them as a type of\nmultivariate divergence measure called a barycentric Chernoff divergence.\nMoreover, our result on channel exclusion has implications in two important\nspecial cases. First, for the special case of two hypotheses, our upper bound\nprovides the first known efficiently computable upper bound on the error\nexponent of symmetric binary channel discrimination. Second, for the special\ncase of classical channels, we show that our upper bound is achievable by a\nnonadaptive strategy, thus solving the exact error exponent of classical\nchannel exclusion and generalising a similar result on symmetric binary\nclassical channel discrimination.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 36,
+        "title": "Non-Asymptotic Uncertainty Quantification in High-Dimensional Learning",
+        "authors": [
+            "Frederik Hoppe",
+            "Claudio Mayrink Verdun",
+            "Hannah Laus",
+            "Felix Krahmer",
+            "Holger Rauhut"
+        ],
+        "published": "2024-07-18",
+        "summary": "Uncertainty quantification (UQ) is a crucial but challenging task in many\nhigh-dimensional regression or learning problems to increase the confidence of\na given predictor. We develop a new data-driven approach for UQ in regression\nthat applies both to classical regression approaches such as the LASSO as well\nas to neural networks. One of the most notable UQ techniques is the debiased\nLASSO, which modifies the LASSO to allow for the construction of asymptotic\nconfidence intervals by decomposing the estimation error into a Gaussian and an\nasymptotically vanishing bias component. However, in real-world problems with\nfinite-dimensional data, the bias term is often too significant to be\nneglected, resulting in overly narrow confidence intervals. Our work rigorously\naddresses this issue and derives a data-driven adjustment that corrects the\nconfidence intervals for a large class of predictors by estimating the means\nand variances of the bias terms from training data, exploiting high-dimensional\nconcentration phenomena. This gives rise to non-asymptotic confidence\nintervals, which can help avoid overestimating uncertainty in critical\napplications such as MRI diagnosis. Importantly, our analysis extends beyond\nsparse regression to data-driven predictors like neural networks, enhancing the\nreliability of model-based deep learning. Our findings bridge the gap between\nestablished theory and the practical applicability of such debiased methods.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 37,
+        "title": "High-Dimensional Confidence Regions in Sparse MRI",
+        "authors": [
+            "Frederik Hoppe",
+            "Felix Krahmer",
+            "Claudio Mayrink Verdun",
+            "Marion Menzel",
+            "Holger Rauhut"
+        ],
+        "published": "2024-07-18",
+        "summary": "One of the most promising solutions for uncertainty quantification in\nhigh-dimensional statistics is the debiased LASSO that relies on unconstrained\n$\\ell_1$-minimization. The initial works focused on real Gaussian designs as a\ntoy model for this problem. However, in medical imaging applications, such as\ncompressive sensing for MRI, the measurement system is represented by a\n(subsampled) complex Fourier matrix. The purpose of this work is to extend the\nmethod to the MRI case in order to construct confidence intervals for each\npixel of an MR image. We show that a sufficient amount of data is $n \\gtrsim\n\\max\\{ s_0\\log^2 s_0\\log p, s_0 \\log^2 p \\}$.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 38,
+        "title": "With or Without Replacement? Improving Confidence in Fourier Imaging",
+        "authors": [
+            "Frederik Hoppe",
+            "Claudio Mayrink Verdun",
+            "Felix Krahmer",
+            "Marion I. Menzel",
+            "Holger Rauhut"
+        ],
+        "published": "2024-07-18",
+        "summary": "Over the last few years, debiased estimators have been proposed in order to\nestablish rigorous confidence intervals for high-dimensional problems in\nmachine learning and data science. The core argument is that the error of these\nestimators with respect to the ground truth can be expressed as a Gaussian\nvariable plus a remainder term that vanishes as long as the dimension of the\nproblem is sufficiently high. Thus, uncertainty quantification (UQ) can be\nperformed exploiting the Gaussian model. Empirically, however, the remainder\nterm cannot be neglected in many realistic situations of moderately-sized\ndimensions, in particular in certain structured measurement scenarios such as\nMagnetic Resonance Imaging (MRI). This, in turn, can downgrade the advantage of\nthe UQ methods as compared to non-UQ approaches such as the standard LASSO. In\nthis paper, we present a method to improve the debiased estimator by sampling\nwithout replacement. Our approach leverages recent results of ours on the\nstructure of the random nature of certain sampling schemes showing how a\ntransition between sampling with and without replacement can lead to a weighted\nreconstruction scheme with improved performance for the standard LASSO. In this\npaper, we illustrate how this reweighted sampling idea can also improve the\ndebiased estimator and, consequently, provide a better method for UQ in Fourier\nimaging.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 39,
+        "title": "Performance Analysis and Low-Complexity Beamforming Design for Near-Field Physical Layer Security",
+        "authors": [
+            "Yunpu Zhang",
+            "Yuan Fang",
+            "Xianghao Yu",
+            "Changsheng You",
+            "Ying-Jun Angela Zhang"
+        ],
+        "published": "2024-07-18",
+        "summary": "Extremely large-scale arrays (XL-arrays) have emerged as a key enabler in\nachieving the unprecedented performance requirements of future wireless\nnetworks, leading to a significant increase in the range of the near-field\nregion. This transition necessitates the spherical wavefront model for\ncharacterizing the wireless propagation rather than the far-field planar\ncounterpart, thereby introducing extra degrees of freedom (DoFs) to wireless\nsystem design. In this paper, we explore the beam focusing-based physical layer\nsecurity (PLS) in the near field, where multiple legitimate users and one\neavesdropper are situated in the near-field region of the XL-array base station\n(BS). First, we consider a special case with one legitimate user and one\neavesdropper to shed useful insights into near-field PLS. In particular, it is\nshown that 1) Artificial noise (AN) is crucial to near-field security\nprovisioning, transforming an insecure system to a secure one; 2) AN can yield\nnumerous security gains, which considerably enhances PLS in the near field as\ncompared to the case without AN taken into account. Next, for the general case\nwith multiple legitimate users, we propose an efficient low-complexity approach\nto design the beamforming with AN to guarantee near-field secure transmission.\nSpecifically, the low-complexity approach is conceived starting by introducing\nthe concept of interference domain to capture the inter-user interference\nlevel, followed by a three-step identification framework for designing the\nbeamforming. Finally, numerical results reveal that 1) the PLS enhancement in\nthe near field is pronounced thanks to the additional spatial DoFs; 2) the\nproposed approach can achieve close performance to that of the\ncomputationally-extensive conventional approach yet with a significantly lower\ncomputational complexity.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 40,
+        "title": "An Algorithm for Computing the Capacity of Symmetrized KL Information for Discrete Channels",
+        "authors": [
+            "Haobo Chen",
+            "Gholamali Aminian",
+            "Yuheng Bu"
+        ],
+        "published": "2024-07-18",
+        "summary": "Symmetrized Kullback-Leibler (KL) information (\\(I_{\\mathrm{SKL}}\\)), which\nsymmetrizes the traditional mutual information by integrating Lautum\ninformation, has been shown as a critical quantity in\ncommunication~\\cite{aminian2015capacity} and learning\ntheory~\\cite{aminian2023information}. This paper considers the problem of\ncomputing the capacity in terms of \\(I_{\\mathrm{SKL}}\\) for a fixed discrete\nchannel. Such a maximization problem is reformulated into a discrete quadratic\noptimization with a simplex constraint. One major challenge here is the\nnon-concavity of Lautum information, which complicates the optimization\nproblem. Our method involves symmetrizing the KL divergence matrix and applying\niterative updates to ensure a non-decreasing update while maintaining a valid\nprobability distribution. We validate our algorithm on Binary symmetric\nChannels and Binomial Channels, demonstrating its consistency with theoretical\nvalues. Additionally, we explore its application in machine learning through\nthe Gibbs channel, showcasing the effectiveness of our algorithm in finding the\nworst-case data distributions.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 41,
+        "title": "The Language of Infographics: Toward Understanding Conceptual Metaphor Use in Scientific Storytelling",
+        "authors": [
+            "Hana Pokojná",
+            "Tobias Isenberg",
+            "Stefan Bruckner",
+            "Barbora Kozlíková",
+            "Laura Garrison"
+        ],
+        "published": "2024-07-18",
+        "summary": "We apply an approach from cognitive linguistics by mapping Conceptual\nMetaphor Theory (CMT) to the visualization domain to address patterns of visual\nconceptual metaphors that are often used in science infographics. Metaphors\nplay an essential part in visual communication and are frequently employed to\nexplain complex concepts. However, their use is often based on intuition,\nrather than following a formal process. At present, we lack tools and language\nfor understanding and describing metaphor use in visualization to the extent\nwhere taxonomy and grammar could guide the creation of visual components, e.g.,\ninfographics. Our classification of the visual conceptual mappings within\nscientific representations is based on the breakdown of visual components in\nexisting scientific infographics. We demonstrate the development of this\nmapping through a detailed analysis of data collected from four domains\n(biomedicine, climate, space, and anthropology) that represent a diverse range\nof visual conceptual metaphors used in the visual communication of science.\nThis work allows us to identify patterns of visual conceptual metaphor use\nwithin the domains, resolve ambiguities about why specific conceptual metaphors\nare used, and develop a better overall understanding of visual metaphor use in\nscientific infographics. Our analysis shows that ontological and orientational\nconceptual metaphors are the most widely applied to translate complex\nscientific concepts. To support our findings we developed a visual exploratory\ntool based on the collected database that places the individual infographics on\na spatio-temporal scale and illustrates the breakdown of visual conceptual\nmetaphors.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 42,
+        "title": "Group Movable Antenna With Flexible Sparsity: Joint Array Position and Sparsity Optimization",
+        "authors": [
+            "Haiquan Lu",
+            "Yong Zeng",
+            "Shi Jin",
+            "Rui Zhang"
+        ],
+        "published": "2024-07-18",
+        "summary": "Movable antenna (MA) is a promising technology to exploit the spatial\nvariation of wireless channel for performance enhancement, by dynamically\nvarying the antenna position within a certain region. However, for\nmulti-antenna communication systems, moving each antenna independently not only\nrequires prohibitive complexity to find the optimal antenna positions, but also\nincurs sophisticated movement control in practice. To address this issue, this\nletter proposes a new MA architecture termed group MA (GMA), enabling the group\nmovement of all elements collectively in a continuous manner, and\nsimultaneously achieving flexible array architecture by antenna selection (AS).\nIn this letter, we focus on the uniform sparse array based GMA, where equally\nspaced antenna elements are selected to achieve desired array sparsity. The\narray position and sparsity level are jointly optimized to maximize the sum\nrate of the multi-user communication system. Numerical results verify the\nnecessity to optimize the position and sparsity of GMA, and considerable\nperformance gain is achieved as compared to the conventional fixed-position\nantenna (FPA).",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 43,
+        "title": "Interleaved Block-Sparse Transform",
+        "authors": [
+            "Lei Liu",
+            "Ming Wang",
+            "Shufeng Li",
+            "Yuhao Chi",
+            "Ning Wei",
+            "ZhaoYang Zhang"
+        ],
+        "published": "2024-07-18",
+        "summary": "Low-complexity Bayes-optimal memory approximate message passing (MAMP) is an\nefficient signal estimation algorithm in compressed sensing and multicarrier\nmodulation. However, achieving replica Bayes optimality with MAMP necessitates\na large-scale right-unitarily invariant transformation, which is prohibitive in\npractical systems due to its high computational complexity and hardware costs.\nTo solve this difficulty, this letter proposes a low-complexity interleaved\nblock-sparse (IBS) transform, which consists of interleaved multiple\nlow-dimensional transform matrices, aimed at reducing the hardware\nimplementation scale while mitigating performance loss. Furthermore, an IBS\ncross-domain memory approximate message passing (IBS-CD-MAMP) estimator is\ndeveloped, comprising a memory linear estimator in the IBS transform domain and\na non-linear estimator in the source domain. Numerical results show that the\nIBS-CD-MAMP offers a reduced implementation scale and lower complexity with\nexcellent performance in IBS-based compressed sensing and interleave frequency\ndivision multiplexing systems.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 44,
+        "title": "Adaptive Foundation Models for Online Decisions: HyperAgent with Fast Incremental Uncertainty Estimation",
+        "authors": [
+            "Yingru Li",
+            "Jiawei Xu",
+            "Zhi-Quan Luo"
+        ],
+        "published": "2024-07-18",
+        "summary": "Foundation models often struggle with uncertainty when faced with new\nsituations in online decision-making, necessitating scalable and efficient\nexploration to resolve this uncertainty. We introduce GPT-HyperAgent, an\naugmentation of GPT with HyperAgent for uncertainty-aware, scalable exploration\nin contextual bandits, a fundamental online decision problem involving natural\nlanguage input. We prove that HyperAgent achieves fast incremental uncertainty\nestimation with $\\tilde{O}(\\log T)$ per-step computational complexity over $T$\nperiods under the linear realizable assumption. Our analysis demonstrates that\nHyperAgent's regret order matches that of exact Thompson sampling in linear\ncontextual bandits, closing a significant theoretical gap in scalable\nexploration. Empirical results in real-world contextual bandit tasks, such as\nautomated content moderation with human feedback, validate the practical\neffectiveness of GPT-HyperAgent for safety-critical decisions. Our code is\nopen-sourced at \\url{https://github.com/szrlee/GPT-HyperAgent/}.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 45,
+        "title": "Gaussian Channel Simulation with Rotated Dithered Quantization",
+        "authors": [
+            "Szymon Kobus",
+            "Lucas Theis",
+            "Deniz Gündüz"
+        ],
+        "published": "2024-07-17",
+        "summary": "Channel simulation involves generating a sample $Y$ from the conditional\ndistribution $P_{Y|X}$, where $X$ is a remote realization sampled from $P_X$.\nThis paper introduces a novel approach to approximate Gaussian channel\nsimulation using dithered quantization. Our method concurrently simulates $n$\nchannels, reducing the upper bound on the excess information by half compared\nto one-dimensional methods. When used with higher-dimensional lattices, our\napproach achieves up to six times reduction on the upper bound. Furthermore, we\ndemonstrate that the KL divergence between the distributions of the simulated\nand Gaussian channels decreases with the number of dimensions at a rate of\n$O(n^{-1})$.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 46,
+        "title": "Finite de Finetti bounds in relative entropy",
+        "authors": [
+            "Lampros Gavalakis",
+            "Oliver Johnson",
+            "Ioannis Kontoyiannis"
+        ],
+        "published": "2024-07-17",
+        "summary": "We review old and recent finite de Finetti theorems in total variation\ndistance and in relative entropy, and we highlight their connections with\nbounds on the difference between sampling with and without replacement. We also\nestablish two new finite de Finetti theorems for exchangeable random vectors\ntaking values in arbitrary spaces. These bounds are tight, and they are\nindependent of the size and the dimension of the underlying space.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 47,
+        "title": "A polynomial-time classical algorithm for noisy quantum circuits",
+        "authors": [
+            "Thomas Schuster",
+            "Chao Yin",
+            "Xun Gao",
+            "Norman Y. Yao"
+        ],
+        "published": "2024-07-17",
+        "summary": "We provide a polynomial-time classical algorithm for noisy quantum circuits.\nThe algorithm computes the expectation value of any observable for any circuit,\nwith a small average error over input states drawn from an ensemble (e.g. the\ncomputational basis). Our approach is based upon the intuition that noise\nexponentially damps non-local correlations relative to local correlations. This\nenables one to classically simulate a noisy quantum circuit by only keeping\ntrack of the dynamics of local quantum information. Our algorithm also enables\nsampling from the output distribution of a circuit in quasi-polynomial time, so\nlong as the distribution anti-concentrates. A number of practical implications\nare discussed, including a fundamental limit on the efficacy of noise\nmitigation strategies: any quantum circuit for which error mitigation is\nefficient must be classically simulable.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 48,
+        "title": "Tutorial on Quantum Error Correction for 2024 Quantum Information Knowledge (QuIK) Workshop",
+        "authors": [
+            "Priya J. Nadkarni",
+            "Narayanan Rengaswamy",
+            "Bane Vasić"
+        ],
+        "published": "2024-07-17",
+        "summary": "We provide a brief review of the fundamentals of quantum computation and\nquantum error correction for the participants of the first Quantum Information\nKnowledge (QuIK) workshop at the 2024 IEEE International Symposium on\nInformation Theory (ISIT 2024). While this is not a comprehensive review, we\nprovide many references for the reader to delve deeper into the concepts and\nresearch directions.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 49,
+        "title": "Multiple Access Integrated Adaptive Finite Blocklength for Ultra-Low Delay in 6G Wireless Networks",
+        "authors": [
+            "Yixin Zhang",
+            "Wenchi Cheng",
+            "Wei Zhang"
+        ],
+        "published": "2024-07-17",
+        "summary": "Facing the dramatic increase of real-time applications and time-sensitive\nservices, large-scale ultra-low delay requirements are put forward for the\nsixth generation (6G) wireless networks. To support massive ultra-reliable and\nlow-latency communications (mURLLC), in this paper we propose an adaptive\nfinite blocklength framework to reduce the over-the-air delay for short packet\ntransmissions with multiple-access and delay-bounded demands. In particular, we\nfirst give the specified over-the-air delay model. Then, we reveal the tradeoff\nrelationship among queuing delay, transmission delay, and the number of\nretransmissions along with the change of finite blocklength, as well as\nformulate the adaptive blocklength framework. Based on the adaptive blocklength\nframework and associated with grant-free (GF) access protocol, we formulate the\naverage over-the-air delay minimization problem, where the blocklength can be\nadaptively changed in terms of transmission time interval (TTI) design and\nbandwidth allocation to achieve the optimal tradeoff and obtain its minimum\nover-the-air delay. We develop the cooperative multi-agent deep Q-network\n(M-DQN) scheme with a grouping mechanism to efficiently solve the average\nover-the-air delay minimization problem. Numerical results validate our\nproposed adaptive blocklength scheme outperforms corresponding schemes in\nlong-term evolution (LTE) and the fifth generation (5G) new radio (NR).",
+        "journal_ref": "IEEE Transactions on Wireless Communications ( Volume: 23, Issue:\n  3, March 2024)"
+    },
+    {
+        "id": 50,
+        "title": "Adaptive Finite Blocklength for Low Access Delay in 6G Wireless Networks",
+        "authors": [
+            "Yixin Zhang",
+            "Wenchi Cheng",
+            "Wei Zhang"
+        ],
+        "published": "2024-07-17",
+        "summary": "As the number of real-time applications with ultra-low delay requirements\nquickly grows, massive ultra-reliable and low-latency communication (mURLLC)\nhas been proposed to provide a wide range of delay-sensitive services for the\nsixth generation (6G) wireless networks. However, it is difficult to meet the\nstringent delay demand of massive connectivity with existing grant-based (GB)\nrandom access and fixed frame structure in long-term evolution (LTE) and the\nfifth generation (5G) new radio (NR) systems. To solve this problem, in this\npaper we propose the new grant-free (GF) based adaptive blocklength scheme for\nshort packet transmission to reduce the access delay. We develop the adaptive\nblocklength framework where the blocklength can be adaptively changed according\nto the real-time load, to revise the traditional non-flexible frame structure\nwhich impacts the delay performance. Taking the features of mURLLC into\nconsideration, we analyze the GF random access procedure, packet arrival\nbehavior, packet collision, and packet transmission error in the finite\nblocklength (FB) regime. On this basis, we derive the closed-form expression of\nsuccessful access and transmission probability and give the GF-based status\nupdate model. Then, we propose the access delay minimization problem that\njointly considers queuing delay and transmission delay to reduce the overall\naccess delay. With the alternating optimization algorithm, we obtain the\noptimal blocklength of each packet, thus forming the corresponding adaptive\nblocklength scheme for mURLLC. Simulation results verify the correctness of\ntheoretical results and show that our proposed adaptive blocklength scheme can\nsignificantly reduce the access delay compared with that of LTE and 5G NR\nsystems.",
+        "journal_ref": "GLOBECOM 2022 - 2022 IEEE Global Communications Conference"
+    },
+    {
+        "id": 51,
+        "title": "Blind Beamforming for Coverage Enhancement with Intelligent Reflecting Surface",
+        "authors": [
+            "Fan Xu",
+            "Jiawei Yao",
+            "Wenhai Lai",
+            "Kaiming Shen",
+            "Xin Li",
+            "Xin Chen",
+            "Zhi-Quan Luo"
+        ],
+        "published": "2024-07-17",
+        "summary": "Conventional policy for configuring an intelligent reflecting surface (IRS)\ntypically requires channel state information (CSI), thus incurring substantial\noverhead costs and facing incompatibility with the current network protocols.\nThis paper proposes a blind beamforming strategy in the absence of CSI, aiming\nto boost the minimum signal-to-noise ratio (SNR) among all the receiver\npositions, namely the coverage enhancement. Although some existing works\nalready consider the IRS-assisted coverage enhancement without CSI, they assume\ncertain position-channel models through which the channels can be recovered\nfrom the geographic locations. In contrast, our approach solely relies on the\nreceived signal power data, not assuming any position-channel model. We examine\nthe achievability and converse of the proposed blind beamforming method. If the\nIRS has $N$ reflective elements and there are $U$ receiver positions, then our\nmethod guarantees the minimum SNR of $\\Omega(N^2/U)$ -- which is fairly close\nto the upper bound $O(N+N^2\\sqrt{\\ln (NU)}/\\sqrt[4]{U})$. Aside from the\nsimulation results, we justify the practical use of blind beamforming in a\nfield test at 2.6 GHz. According to the real-world experiment, the proposed\nblind beamforming method boosts the minimum SNR across seven random positions\nin a conference room by 18.22 dB, while the position-based method yields a\nboost of 12.08 dB.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 52,
+        "title": "The revised boomerang connectivity tables and their connection to the Difference Distribution Table",
+        "authors": [
+            "K. Garg",
+            "S. U. Hasan",
+            "C. Riera",
+            "P. Stanica"
+        ],
+        "published": "2024-07-17",
+        "summary": "It is well-known that functions over finite fields play a crucial role in\ndesigning substitution boxes (S-boxes) in modern block ciphers. In order to\nanalyze the security of an S-box, recently, three new tables have been\nintroduced: the Extended Boomerang Connectivity Table (EBCT), the Lower\nBoomerang Connectivity Table (LBCT), and the Upper Boomerang Connectivity Table\n(UBCT). In fact, these tables offer improved methods over the usual Boomerang\nConnectivity Table (BCT) for analyzing the security of S-boxes against\nboomerang-style attacks. Here, we put in context these new EBCT, LBCT, and UBCT\nconcepts by connecting them to the DDT for a differentially $\\delta$-uniform\nfunction and also determine the EBCT, LBCT, and UBCT entries of three classes\nof differentially $4$-uniform power permutations, namely, Gold, Kasami and\nBracken-Leander. We also determine the Double Boomerang Connectivity Table\n(DBCT) entries of the Gold function. As byproducts of our approach, we obtain\nsome previously published results quite easily.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 53,
+        "title": "Exact Graph Matching in Correlated Gaussian-Attributed Erdős-Rényi Model",
+        "authors": [
+            "Joonhyuk Yang",
+            "Hye Won Chung"
+        ],
+        "published": "2024-07-17",
+        "summary": "Graph matching problem aims to identify node correspondence between two or\nmore correlated graphs. Previous studies have primarily focused on models where\nonly edge information is provided. However, in many social networks, not only\nthe relationships between users, represented by edges, but also their personal\ninformation, represented by features, are present. In this paper, we address\nthe challenge of identifying node correspondence in correlated graphs, where\nadditional node features exist, as in many real-world settings. We propose a\ntwo-step procedure, where we initially match a subset of nodes only using edge\ninformation, and then match the remaining nodes using node features. We derive\ninformation-theoretic limits for exact graph matching on this model. Our\napproach provides a comprehensive solution to the real-world graph matching\nproblem by providing systematic ways to utilize both edge and node information\nfor exact matching of the graphs.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 54,
+        "title": "Cell-Free Massive MIMO Surveillance of Multiple Untrusted Communication Links",
+        "authors": [
+            "Zahra Mobini",
+            "Hien Quoc Ngo",
+            "Michail Matthaiou",
+            "Lajos Hanzo"
+        ],
+        "published": "2024-07-17",
+        "summary": "A cell-free massive multiple-input multiple-output (CF-mMIMO) system is\nconsidered for enhancing the monitoring performance of wireless surveillance,\nwhere a large number of distributed multi-antenna aided legitimate monitoring\nnodes (MNs) proactively monitor multiple distributed untrusted communication\nlinks. We consider two types of MNs whose task is to either observe the\nuntrusted transmitters or jam the untrusted receivers. We first analyze the\nperformance of CF-mMIMO surveillance relying on both maximum ratio (MR) and\npartial zero-forcing (PZF) combining schemes and derive closed-form expressions\nfor the monitoring success probability (MSP) of the MNs. We then propose a\njoint optimization technique that designs the MN mode assignment, power\ncontrol, and MN-weighting coefficient control to enhance the MSP based on the\nlong-term statistical channel state information knowledge. This challenging\nproblem is effectively transformed into tractable forms and efficient\nalgorithms are proposed for solving them. Numerical results show that our\nproposed CF-mMIMO surveillance system considerably improves the monitoring\nperformance with respect to a full-duplex co-located massive MIMO proactive\nmonitoring system. More particularly, when the untrusted pairs are distributed\nover a wide area and use the MR combining, the proposed solution provides\nnearly a thirty-fold improvement in the minimum MSP over the co-located massive\nMIMO baseline, and forty-fold improvement, when the PZF combining is employed.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 55,
+        "title": "Phase-Shift and Transmit Power Optimization for RIS-Aided Massive MIMO SWIPT IoT Networks",
+        "authors": [
+            "Mohammadali Mohammadi",
+            "Hien Quoc Ngo",
+            "Michail Matthaiou"
+        ],
+        "published": "2024-07-17",
+        "summary": "We investigate reconfigurable intelligent surface (RIS)-assisted simultaneous\nwireless information and power transfer (SWIPT) Internet of Things (IoT)\nnetworks, where energy-limited IoT devices are overlaid with cellular\ninformation users (IUs). IoT devices are wirelessly powered by a RIS-assisted\nmassive multiple-input multiple-output (MIMO) base station (BS), which is\nsimultaneously serving a group of IUs. By leveraging a two-timescale\ntransmission scheme, precoding at the BS is developed based on the\ninstantaneous channel state information (CSI), while the passive beamforming at\nthe RIS is adapted to the slowly-changing statistical CSI. We derive\nclosed-form expressions for the achievable spectral efficiency of the IUs and\naverage harvested energy at the IoT devices, taking the channel estimation\nerrors and pilot contamination into account. Then, a non-convex max-min\nfairness optimization problem is formulated subject to the power budget at the\nBS and individual quality of service requirements of IUs, where the transmit\npower levels at the BS and passive RIS reflection coefficients are jointly\noptimized. Our simulation results show that the average harvested energy at the\nIoT devices can be improved by $132\\%$ with the proposed resource allocation\nalgorithm. Interestingly, IoT devices benefit from the pilot contamination,\nleading to a potential doubling of the harvested energy in certain network\nconfigurations.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 56,
+        "title": "Energy-Aware UAV-Enabled Target Tracking: Online Optimization with Location Constraints",
+        "authors": [
+            "Yifan Jiang",
+            "Qingqing Wu",
+            "Wen Chen",
+            "Hongxun Hui"
+        ],
+        "published": "2024-07-17",
+        "summary": "For unmanned aerial vehicle (UAV) trajectory design, the total propulsion\nenergy consumption and initial-final location constraints are practical factors\nto consider. However, unlike traditional offline designs, these two constraints\nare non-trivial to concurrently satisfy in online UAV trajectory designs for\nreal-time target tracking, due to the undetermined information. To address this\nissue, we propose a novel online UAV trajectory optimization approach for the\nweighted sum-predicted posterior Cram\\'er-Rao bound (PCRB) minimization, which\nguarantees the feasibility of satisfying the two mentioned constraints.\nSpecifically, our approach designs the UAV trajectory by solving two\nsubproblems: the candidate trajectory optimization problem and the energy-aware\nbackup trajectory optimization problem. Then, an efficient solution to the\ncandidate trajectory optimization problem is proposed based on Dinkelbach's\ntransform and the Lasserre hierarchy, which achieves the global optimal\nsolution under a given sufficient condition. The energy-aware backup trajectory\noptimization problem is solved by the successive convex approximation method.\nNumerical results show that our proposed UAV trajectory optimization approach\nsignificantly outperforms the benchmark regarding sensing performance and\nenergy utilization flexibility.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 57,
+        "title": "Reliability Function of Classical-Quantum Channels",
+        "authors": [
+            "Ke Li",
+            "Dong Yang"
+        ],
+        "published": "2024-07-17",
+        "summary": "Reliability function, defined as the optimal error exponent describing the\nexponential decay of decoding error probability when the communicating rate is\nbelow the capacity of the channel, is one of the fundamental problems in\ninformation theory. In this work, we determine the reliability function for a\ngeneral cq channel. The main contribution is a lower bound for the error\nexponent which is characterised by the Renyi divergence in Petz's form. It\nturns out that the lower bound matches the upper bound given by Dalai (IEEE\nTransactions on Information Theory 46, 2256 (2000)) when the rate is not very\nlow. Thus the reliability function is obtained by combining these two bounds in\na proper range of communicating rate. The approach to derive the lower bound\nmakes use of tricks on types and an observation by Renes (arXiv: 2207.08899)\nthat channel code can be constructed from data compression scheme for uniform\ndistribution relative to side information, whose solution to the error exponent\nproblem is in turn determined by its dual problem -- privacy amplification, for\nwhich the exact error exponent is known.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 58,
+        "title": "Hybrid Near-Far Field Channel Estimation for Holographic MIMO Communications",
+        "authors": [
+            "Shaohua Yue",
+            "Shuhao Zeng",
+            "Liang Liu",
+            "Yonina C. Eldar",
+            "Boya Di"
+        ],
+        "published": "2024-07-17",
+        "summary": "Holographic MIMO communications, enabled by large-scale antenna arrays with\nquasi-continuous apertures, is a potential technology for spectrum efficiency\nimprovement. However, the increased antenna aperture size extends the range of\nthe Fresnel region, leading to a hybrid near-far field communication mode. The\nusers and scatterers randomly lie in near-field and far-field zones, and thus,\nconventional far-field-only and near-field-only channel estimation methods may\nnot work. To tackle this challenge, we demonstrate the existence of the power\ndiffusion (PD) effect, which leads to a mismatch between the hybrid-field\nchannel and existing channel estimation methods. Specifically, in far-field and\nnear-field transform domains, the power gain of one channel path may diffuse to\nother positions, thus generating fake paths. This renders the conventional\ntechniques unable to detect those real paths. We propose a PD-aware orthogonal\nmatching pursuit algorithm to eliminate the influence of the PD effect by\nidentifying the PD range within which paths diffuse to other positions. PD-OMP\nfits a general case without prior knowledge of near-field and far-field path\nnumbers and the user's location. The computational complexity of PD-OMP and the\nCramer-Rao Lower Bound for the sparse-signal-recovery-based channel estimation\nare also derived. Simulation results show that PD-OMP outperforms\nstate-of-the-art hybrid-field channel estimation methods.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 59,
+        "title": "Performance Analysis and Blocklength Minimization of Uplink RSMA for Short Packet Transmissions in URLLC",
+        "authors": [
+            "Yixin Zhang",
+            "Wenchi Cheng",
+            "Jingqing Wang",
+            "Wei Zhang"
+        ],
+        "published": "2024-07-17",
+        "summary": "Rate splitting multiple access (RSMA) is one of the most promising techniques\nfor ultra-reliable and low-latency communications (URLLC) with stringent\nrequirements on delay and reliability of multiple access. To fully explore the\ndelay performance enhancement brought by uplink RSMA to URLLC, in this paper,\nwe evaluate the performance of two-user uplink RSMA and propose the\ncorresponding blocklength minimization problem. We analyze the impact of finite\nblocklength (FBL) code on the achievable rate region and the effective\nthroughput of uplink RSMA. On this basis, we propose the problem of minimizing\nthe blocklength for uplink RSMA with power allocation under constrained\nreliability and effective throughput. Then, we present an alternating\noptimization method to solve this non-convex problem. Simulation results show\nthat different from the infinite blocklength (IBL) regime, the achievable rate\nregion of the uplink RSMA is not always larger than that of uplink\nnon-orthogonal multiple access (NOMA) in the FBL regime. But with the help of\nour proposed blocklength minimization scheme, uplink RSMA can achieve the same\nachievable rate with a smaller blocklength compared to uplink NOMA, frequency\ndivision multiple access (FDMA), and time division multiple access (TDMA)\nwithout the need for time sharing in the FBL regime, showing the potential of\nuplink RSMA to achieve low delay for URLLC.",
+        "journal_ref": "GLOBECOM 2023 - 2023 IEEE Global Communications Conference"
+    },
+    {
+        "id": 60,
+        "title": "Beamforming Design for Secure MC-NOMA Empowered ISAC Systems with an Active Eve",
+        "authors": [
+            "Zhongqing Wu",
+            "Xuehua Li",
+            "Yuanxin Cai",
+            "Weijie Yuan"
+        ],
+        "published": "2024-07-17",
+        "summary": "As the integrated sensing and communication(ISAC) technology emerges as a\npromising component of sixth generation (6G), the study of its physical layer\nsecurity has become a key concern for researchers. Specifically, in this work,\nwe focus on the security issues over a multi-carrier (MC)-non-orthogonal\nmultiple access (NOMA) assisted ISAC system, considering imperfect channel\nstate information (CSI) of an active Eve and graded confidentiality demands for\nusers. To this end, the subcarrier allocation, the information, and artificial\nnoise beamforming are designed to maximize the minimum communication rate,\nwhile ensuring diverse confidentiality and sensing performance demands. An\neffective security strategy is devised via the Lagrangian dual transformation\nand successive convex approximation methods. Simulations confirm the validity\nand robustness of the proposed scheme in terms of the security performance.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 61,
+        "title": "Dumb RIS-Assisted Random Beamforming for Energy Efficiency Enhancement of Wireless Communications",
+        "authors": [
+            "Yixin Zhang",
+            "Wenchi Cheng",
+            "Wei Zhang"
+        ],
+        "published": "2024-07-17",
+        "summary": "Energy efficiency (EE) is one of the most important metrics for the beyond\nfifth generation (B5G) and the future sixth generation (6G) wireless networks.\nReconfigurable intelligent surface (RIS) has been widely focused on EE\nenhancement for wireless networks because it is power-saving, programmable, and\neasy to be deployed. However, RIS is generally passive and thus difficult to\nobtain corresponding full channel state information (CSI), which severely\nimpacts the EE enhancement of RIS-assisted wireless communications. To solve\nthis problem, in this paper we propose the new single-active-antenna combined\nRIS transmitter structure, which can replace traditional multiple antennas to\nreduce hardware cost and power consumption. Based on the single-active-antenna\ncombined RIS structure, we develop the Dumb RIS-Assisted Random Beamforming\n(Darb)-based Joint RIS-Elements and Transmit-power optimizAtion (Jeta) scheme,\nwhere dumb RIS randomly changes its phase shift according to isotropic\ndistribution only depending on the CSI feedback from users to RIS-assisted\ntransmitter. Then, we jointly design the number of RIS elements and optimize\nthe transmit power to maximize the EE of RIS-assisted wireless communications.\nSimulation results show that compared with the traditional multi-antenna\nsystem, our developed Darb-based-Jeta scheme can significantly increase the EE\nwithout the full CSI.",
+        "journal_ref": "ICC 2022 - IEEE International Conference on Communications"
+    },
+    {
+        "id": 62,
+        "title": "Delay Tradeoff and Adaptive Finite Blocklength Framework for URLLC",
+        "authors": [
+            "Yixin Zhang",
+            "Wenchi Cheng",
+            "Jingqing Wang",
+            "Wei Zhang"
+        ],
+        "published": "2024-07-17",
+        "summary": "With various time-sensitive tasks to be served, ultra-reliable and\nlow-latency communications (URLLC) has become one of the most important\nscenarios for the fifth generation (5G) wireless communications. The end-to-end\ndelay from the sub-millisecond-level to the second-level is first put forward\nfor a wide range of delay-sensitive tasks in the future sixth generation (6G)\ncommunication networks, which imposes a strict requirement on satisfying\nvarious real-time services and applications with different stringent quality of\nservice (QoS) demands. Thus, we need to find out new delay reduction framework\nto satisfy the more stringent delay requirements. In this article, a\nstate-of-the-art overview of end-to-end delay composition and delay analysis\ncombined with access protocols are elaborated. We reveal the tradeoff\nrelationship among transmission delay, queuing delay, and retransmission times\nwith the change of blocklength in the finite blocklength (FBL) regime. Based on\nthe tradeoff and combining the grant-free (GF) random access (RA) scheme, we\npropose the adaptive blocklength framework and investigate several effective\nalgorithms for efficiently reducing the over-the-air delay. Numerical results\nshow that our proposed framework and schemes can significantly reduce the\nover-the-air delay for URLLC.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 63,
+        "title": "Generalization of the Fano and Non-Fano Index Coding Instances",
+        "authors": [
+            "Arman Sharififar",
+            "Parastoo Sadeghi",
+            "Neda Aboutorab"
+        ],
+        "published": "2024-07-16",
+        "summary": "Matroid theory is fundamentally connected with index coding and network\ncoding problems. In fact, the reliance of linear index coding and network\ncoding rates on the characteristic of a field has been demonstrated by using\nthe two well-known matroid instances, namely the Fano and non-Fano matroids.\nThis established the insufficiency of linear coding, one of the fundamental\ntheorems in both index coding and network coding. While the Fano matroid is\nlinearly representable only over fields with characteristic two, the non-Fano\ninstance is linearly representable only over fields with odd characteristic.\nFor fields with arbitrary characteristic $p$, the Fano and non-Fano matroids\nwere extended to new classes of matroid instances whose linear representations\nare dependent on fields with characteristic $p$. However, these matroids have\nnot been well appreciated nor cited in the fields of network coding and index\ncoding. In this paper, we first reintroduce these matroids in a more structured\nway. Then, we provide a completely independent alternative proof with the main\nadvantage of using only matrix manipulation rather than complex concepts in\nnumber theory and matroid theory. In this new proof, it is shown that while the\nclass $p$-Fano matroid instances are linearly representable only over fields\nwith characteristic $p$, the class $p$-non-Fano instances are representable\nover fields with any characteristic other than characteristic $p$. Finally,\nfollowing the properties of the class $p$-Fano and $p$-non-Fano matroid\ninstances, we characterize two new classes of index coding instances,\nrespectively, referred to as the class $p$-Fano and $p$-non-Fano index coding,\neach with a size of $p^2 + 4p + 3$.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 64,
+        "title": "Impossibility of latent inner product recovery via rate distortion",
+        "authors": [
+            "Cheng Mao",
+            "Shenduo Zhang"
+        ],
+        "published": "2024-07-16",
+        "summary": "In this largely expository note, we present an impossibility result for inner\nproduct recovery in a random geometric graph or latent space model using the\nrate-distortion theory. More precisely, suppose that we observe a graph $A$ on\n$n$ vertices with average edge density $p$ generated from Gaussian or spherical\nlatent locations $z_1, \\dots, z_n \\in \\mathbb{R}^d$ associated with the $n$\nvertices. It is of interest to estimate the inner products $\\langle z_i, z_j\n\\rangle$ which represent the geometry of the latent points. We prove that it is\nimpossible to recover the inner products if $d \\gtrsim n h(p)$ where $h(p)$ is\nthe binary entropy function. This matches the condition required for positive\nresults on inner product recovery in the literature. The proof follows the\nwell-established rate-distortion theory with the main technical ingredient\nbeing a lower bound on the rate-distortion function of the Wishart distribution\nwhich is interesting in its own right.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 65,
+        "title": "Shift-invariant functions and almost liftings",
+        "authors": [
+            "Jan Kristian Haugland",
+            "Tron Omland"
+        ],
+        "published": "2024-07-16",
+        "summary": "We investigate shift-invariant vectorial Boolean functions on $n$~bits that\nare lifted from Boolean functions on $k$~bits, for $k\\leq n$. We consider\nvectorial functions that are not necessarily permutations, but are, in some\nsense, almost bijective. In this context, we define an almost lifting as a\nBoolean function for which there is an upper bound on the number of collisions\nof its lifted functions that does not depend on $n$. We show that if a Boolean\nfunction with diameter $k$ is an almost lifting, then the maximum number of\ncollisions of its lifted functions is $2^{k-1}$ for any $n$. Moreover, we\nsearch for functions in the class of almost liftings that have good\ncryptographic properties and for which the non-bijectivity does not cause major\nsecurity weaknesses. These functions generalize the well-known map $\\chi$ used\nin the Keccak hash function.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 66,
+        "title": "Trajectory and Power Optimization for Multi-UAV Enabled Emergency Wireless Communications Networks",
+        "authors": [
+            "Yixin Zhang",
+            "Wenchi Cheng"
+        ],
+        "published": "2024-07-16",
+        "summary": "Recently, unmanned aerial vehicle (UAV) has attracted much attention due to\nits flexible deployment and controllable mobility. As the general communication\nnetwork cannot meet the emergency requirements, in this paper we study the\nmulti-UAV enabled wireless emergency communication system. Our goal is to\nmaximize the capacity with jointly optimizing trajectory and allocating power.\nTo tackle this non-convex optimization problem, we first decompose it into two\nsub-problems to optimize the trajectory and power allocation, respectively.\nThen, we propose the successive convex approximation technique and the block\ncoordinate update algorithm to solve the two subproblems. The approximate\noptimal solution can be obtained after continuous iterations. Simulation\nresults show that the capacity can be greatly increased using our proposed\njoint trajectory optimization and power allocation.",
+        "journal_ref": "2019 IEEE International Conference on Communications Workshops\n  (ICC Workshops)"
+    },
+    {
+        "id": 67,
+        "title": "About the generalized Hamming weights of matrix-product codes",
+        "authors": [
+            "Rodrigo San-José"
+        ],
+        "published": "2024-07-16",
+        "summary": "We derive a general lower bound for the generalized Hamming weights of nested\nmatrix-product codes, with a particular emphasis on the cases with two and\nthree constituent codes. We also provide an upper bound which is reminiscent of\nthe bounds used for the minimum distance of matrix-product codes. When the\nconstituent codes are two Reed-Solomon codes, we obtain an explicit formula for\nthe generalized Hamming weights of the resulting matrix-product code. We also\ndeal with the non-nested case for the case of two constituent codes.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 68,
+        "title": "Scalable and Reliable Over-the-Air Federated Edge Learning",
+        "authors": [
+            "Maximilian Egger",
+            "Christoph Hofmeister",
+            "Cem Kaya",
+            "Rawad Bitar",
+            "Antonia Wachter-Zeh"
+        ],
+        "published": "2024-07-16",
+        "summary": "Federated edge learning (FEEL) has emerged as a core paradigm for large-scale\noptimization. However, FEEL still suffers from a communication bottleneck due\nto the transmission of high-dimensional model updates from the clients to the\nfederator. Over-the-air computation (AirComp) leverages the additive property\nof multiple-access channels by aggregating the clients' updates over the\nchannel to save communication resources. While analog uncoded transmission can\nbenefit from the increased signal-to-noise ratio (SNR) due to the simultaneous\ntransmission of many clients, potential errors may severely harm the learning\nprocess for small SNRs. To alleviate this problem, channel coding approaches\nwere recently proposed for AirComp in FEEL. However, their error-correction\ncapability degrades with an increasing number of clients. We propose a digital\nlattice-based code construction with constant error-correction capabilities in\nthe number of clients, and compare to nested-lattice codes, well-known for\ntheir optimal rate and power efficiency in the point-to-point AWGN channel.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 69,
+        "title": "Self-Duplicating Random Walks for Resilient Decentralized Learning on Graphs",
+        "authors": [
+            "Maximilian Egger",
+            "Ghadir Ayache",
+            "Rawad Bitar",
+            "Antonia Wachter-Zeh",
+            "Salim El Rouayheb"
+        ],
+        "published": "2024-07-16",
+        "summary": "Consider the setting of multiple random walks (RWs) on a graph executing a\ncertain computational task. For instance, in decentralized learning via RWs, a\nmodel is updated at each iteration based on the local data of the visited node\nand then passed to a randomly chosen neighbor. RWs can fail due to node or link\nfailures. The goal is to maintain a desired number of RWs to ensure failure\nresilience. Achieving this is challenging due to the lack of a central entity\nto track which RWs have failed to replace them with new ones by forking\n(duplicating) surviving ones. Without duplications, the number of RWs will\neventually go to zero, causing a catastrophic failure of the system. We propose\na decentralized algorithm called DECAFORK that can maintain the number of RWs\nin the graph around a desired value even in the presence of arbitrary RW\nfailures. Nodes continuously estimate the number of surviving RWs by estimating\ntheir return time distribution and fork the RWs when failures are likely to\nhappen. We present extensive numerical simulations that show the performance of\nDECAFORK regarding fast detection and reaction to failures. We further present\ntheoretical guarantees on the performance of this algorithm.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 70,
+        "title": "Fluid Antenna Grouping Index Modulation Design for MIMO Systems",
+        "authors": [
+            "Xinghao Guo",
+            "Yin Xu",
+            "Dazhi He",
+            "Cixiao Zhang",
+            "Wenjun Zhang",
+            "Yi-yan Wu"
+        ],
+        "published": "2024-07-16",
+        "summary": "Index modulation (IM) significantly enhances the spectral efficiency of fluid\nantennas (FAs) enabled multiple-input multiple-output (MIMO) systems, which is\nnamed FA-IM. However, due to the dense distribution of ports on fluid antennas,\nthe wireless channel exhibits a high spatial correlation, resulting in severe\nperformance degradation in the existing FA-IM scheme. This paper proposes a\nnovel fluid antenna grouping index modulation (FA-GIM) scheme to mitigate the\nspatial correlation of the FA-IM channel, further enhancing system performance.\nBased on the spatial correlation model of two-dimensional (2D) fluid antenna\nsurfaces, this paper specifically adopts a block grouping method where adjacent\nports are allocated to the same group. The numerical results demonstrate that\nthe proposed scheme exhibits superior bit error rate (BER) performance compared\nto the state-of-the-art scheme, enhancing the robustness of FA-assisted MIMO\nsystems.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 71,
+        "title": "Building Resilience in Wireless Communication Systems With a Secret-Key Budget",
+        "authors": [
+            "Karl-Ludwig Besser",
+            "Rafael F. Schaefer",
+            "H. Vincent Poor"
+        ],
+        "published": "2024-07-16",
+        "summary": "Resilience and power consumption are two important performance metrics for\nmany modern communication systems, and it is therefore important to define,\nanalyze, and optimize them. In this work, we consider a wireless communication\nsystem with secret-key generation, in which the secret-key bits are added to\nand used from a pool of available key bits. We propose novel physical layer\nresilience metrics for the survivability of such systems. In addition, we\npropose multiple power allocation schemes and analyze their trade-off between\nresilience and power consumption. In particular, we investigate and compare\nconstant power allocation, an adaptive analytical algorithm, and a\nreinforcement learning-based solution. It is shown how the transmit power can\nbe minimized such that a specified resilience is guaranteed. These results can\nbe used directly by designers of such systems to optimize the system parameters\nfor the desired performance in terms of reliability, security, and resilience.",
+        "journal_ref": "N/A"
+    },
+    {
+        "id": 72,
+        "title": "Optimal Constant-Weight and Mixed-Weight Conflict-Avoiding Codes",
+        "authors": [
+            "Yuan-Hsun Lo",
+            "Tsai-Lien Wong",
+            "Kangkang Xu",
+            "Yijin Zhang"
+        ],
+        "published": "2024-07-16",
+        "summary": "A conflict-avoiding code (CAC) is a deterministic transmission scheme for\nasynchronous multiple access without feedback. When the number of\nsimultaneously active users is less than or equal to $w$, a CAC of length $L$\nwith weight $w$ can provide a hard guarantee that each active user has at least\none successful transmission within every consecutive $L$ slots. In this paper,\nwe generalize some previously known constructions of constant-weight CACs, and\nthen derive several classes of optimal CACs by the help of Kneser's Theorem and\nsome techniques in Additive Combinatorics. Another spotlight of this paper is\nto relax the identical-weight constraint in prior studies to study mixed-weight\nCACs for the first time, for the purpose of increasing the throughput and\nreducing the access delay of some potential users with higher priority. As\napplications of those obtained optimal CACs, we derive some classes of optimal\nmixed-weight CACs.",
+        "journal_ref": "N/A"
+    }
+]
