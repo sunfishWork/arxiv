@@ -3,8 +3,8 @@ from datetime import datetime
 import json
 
 # 날짜 범위 설정
-start_date = datetime(2024, 7, 16)
-end_date = datetime(2024, 7, 23)
+start_date = datetime(2024, 7, 23)
+end_date = datetime(2024, 7, 30)
 
 # 카테고리 및 날짜 범위 설정
 category = "cs.IT OR cs.NI OR eess.SP OR eess.NT OR eess.SY OR math.IT"
